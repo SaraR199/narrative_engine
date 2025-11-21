@@ -38,7 +38,3 @@ Your outline should contain:
 ```
 
 The more detailed your outline, the better the NPE extraction will capture your writing patterns.
-
-## Note
-
-`existing_outline.md` is gitignored by default (it's your personal content). The NPE it generates will also be gitignored in `outputs/`.
