@@ -1,0 +1,28 @@
+{
+  "workflow_name": "Book Design Workflow",
+  "version": "1.0.0",
+  "description": "AI-assisted creative writing workflow executed within Claude Code using Task tool for subagent spawning",
+  "steps": {
+    "1": {
+      "name": "NPE Extraction",
+      "description": "Extract Narrative Physics Engine from existing outline to capture generic writing preferences",
+      "prompt_template": "step1_npe_extraction.md",
+      "agent_type": "general-purpose",
+      "model": "sonnet",
+      "inputs": {
+        "outline": "input/existing_outline.md"
+      },
+      "outputs": {
+        "npe": "outputs/npe.md"
+      },
+      "depends_on": []
+    }
+  },
+  "usage": "Tell Claude Code: 'Run step 1' or 'Run the book design workflow'",
+  "notes": {
+    "orchestration": "Claude Code acts as the orchestrator, spawning subagents via Task tool",
+    "context_minimal": "Each subagent only loads files specified in 'inputs' and 'depends_on'",
+    "adding_steps": "Add new step objects with incremental numbering",
+    "model_options": "sonnet (default, balanced), opus (most capable), haiku (fastest)"
+  }
+}
