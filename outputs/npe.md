@@ -1,7 +1,5 @@
 # Narrative Physics Engine v1.0
 
-*Extracted from existing outline analysis*
-
 ---
 
 ## 1. Plot Mechanics & Causality Rules
@@ -15,7 +13,6 @@
 
 4. Each answer creates at least one new question. Mysteries deepen before they resolve; solving one layer reveals another beneath it.
 
-5. Physical evidence (documents, photographs, objects) provides objective truth that contradicts subjective understanding, creating investigative momentum.
 
 ### Causality Chains
 6. Character decisions in Scene N create the conditions for conflict in Scene N+1. The "EXIT" of each scene explicitly drives forward momentum.
@@ -118,11 +115,10 @@
 3. Characters withhold or reveal information based on clear motivation (protection, manipulation, fear, pride, shame).
 
 ### Dialogue Economy
-4. Dialogue in outline stage exists as action/revelation, not transcribed conversation. The function of dialogue is specified, not the words themselves.
 
-5. Confrontations occur when characters reach a breaking point where silence is more costly than revelation, even if revelation brings consequences.
+4. Confrontations occur when characters reach a breaking point where silence is more costly than revelation, even if revelation brings consequences.
 
-6. Information revealed through dialogue must have been available to the speaking character through their prior experience or knowledge.
+5. Information revealed through dialogue must have been available to the speaking character through their prior experience or knowledge.
 
 ---
 
@@ -158,19 +154,17 @@
 
 3. Information arrives in layers over multiple scenes: hint → partial truth → full truth → revelation that earlier truth was incomplete.
 
-4. Physical evidence (documents, photos, objects) and technology (scans, databases) provide objective data that contradicts glamour, memory, or subjective belief.
-
 ### Information Distribution
-5. Different characters possess different pieces of the puzzle. No single character has complete information until very late in the narrative.
+4. Different characters possess different pieces of the puzzle. No single character has complete information until very late in the narrative.
 
-6. Withheld information creates dramatic irony when readers know what characters don't, building tension around the inevitable collision.
+5. Withheld information creates dramatic irony when readers know what characters don't, building tension around the inevitable collision.
 
-7. Characters must earn knowledge through action: conducting investigation, enduring visions, forcing confrontations, or taking risks.
+6. Characters must earn knowledge through action: conducting investigation, enduring visions, forcing confrontations, or taking risks.
 
 ### Mystery Compound Interest
-8. Solving one mystery reveals another beneath it. Each answer generates 2-3 new questions that drive continued investigation.
+7. Solving one mystery reveals another beneath it. Each answer generates 2-3 new questions that drive continued investigation.
 
-9. The protagonist's core mystery (identity, past, nature) provides sustained engine throughout, with peripheral mysteries (murders, disappearances, betrayals) providing chapter-level momentum.
+8. The protagonist's core mystery (identity, past, nature) provides sustained engine throughout, with peripheral mysteries providing chapter-level momentum.
 
 ---
 
@@ -188,12 +182,12 @@
 
 5. Safe spaces are temporary and conditional. Sanctuaries (home, workspace, relationships) become compromised or violated as threats escalate.
 
-6. Time pressure is implicit in ongoing threats (killer hunting next victim, condition deteriorating, memories fading) rather than artificial countdown clocks.
+6. Time pressure is implicit in ongoing threats rather than artificial countdown clocks.
 
 ### Consequence Physics
 7. Character choices have permanent consequences. Betrayals cannot be easily forgiven, deaths cannot be undone, trust once broken stays fractured.
 
-8. The cost of obtaining information or power (visions causing bleeding, magic causing exhaustion, investigation exposing vulnerability) is consistent and accumulates.
+8. The cost of obtaining information or power is consistent and accumulates.
 
 ---
 
@@ -230,16 +224,7 @@
 ### Betrayal Architecture
 3. Betrayals are set up early through seemingly innocent details, revealed late when emotional investment is maximum.
 
-4. Multiple layers of deception exist. First betrayal revealed (Kyrian's lies) prepares reader for deeper betrayal (Rick as killer) and final betrayal (Carolina as puppet).
-
-### Mystery Mechanics
-5. Identity mystery serves as core engine. Protagonist's missing memories drive investigation that uncovers plot mysteries.
-
-6. Physical evidence contradicts subjective experience, creating doubt and forcing investigation. What character remembers conflicts with what documents prove.
-
-7. Visions and flashbacks are paid for with physical trauma (bleeding, pain, unconsciousness), preventing easy access to complete truth and metering information release.
-
-8. Technology and documentation provide truth that cannot be glamoured or altered, creating objective anchors in a world of subjective manipulation.
+4. Multiple layers of deception exist. First betrayal revealed prepares reader for deeper betrayal.
 
 ---
 
