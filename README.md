@@ -37,11 +37,42 @@ The NPE will be passed to subsequent workflow steps to ensure consistency.
 
 More steps will be added to guide you through the complete book design process, each building on the previous outputs.
 
+## Specialized Creative Writing Agents
+
+This workflow uses **specialized agents** designed for creative writing tasks, similar to how Claude Code has specialized agents for code tasks.
+
+Available agents:
+
+- **npe-extractor** - Analyzes narratives to extract patterns and rules (Step 1)
+- **story-architect** - Designs high-level plot structure, themes, and act breakdowns
+- **character-architect** - Develops psychologically grounded characters with arcs
+- **scene-designer** - Crafts beat-by-beat scene outlines with multiple functions
+
+Each agent has:
+- Focused expertise in its domain
+- Awareness of your NPE constraints
+- Ability to produce concrete, actionable outputs
+- Context-minimal operation (only loads necessary files)
+
+When you run a workflow step, I (Claude Code) will:
+1. Load the agent's system instructions from `.claude/agents/`
+2. Combine them with the step's prompt template
+3. Spawn a Task with the specialized agent context
+4. The agent executes with its specialized knowledge
+
+See `.claude/agents/AGENTS.md` for complete agent documentation.
+
 ## Project Structure
 
 ```
 narrative_engine/
-├── orchestrator.py           # Main workflow controller
+├── .claude/
+│   └── agents/               # Specialized creative writing agents
+│       ├── AGENTS.md        # Agent documentation
+│       ├── npe-extractor.md
+│       ├── story-architect.md
+│       ├── character-architect.md
+│       └── scene-designer.md
 ├── workflow_config.json      # Step definitions and dependencies
 ├── README.md                 # This file
 ├── input/                    # Your input files go here
@@ -138,19 +169,21 @@ This system is designed to be extensible. To add a new step:
 
 2. **Write your prompt** - Be explicit and focused. The subagent will only see this prompt and the files you specify.
 
-3. **Add to `workflow_config.json`**:
+3. **Choose the appropriate specialized agent** - See `.claude/agents/AGENTS.md` for available agents
+
+4. **Add to `workflow_config.json`**:
    ```json
    "2": {
-     "name": "Your Step Name",
-     "description": "What this step does",
-     "prompt_template": "step2_your_step_name.md",
-     "agent_type": "general-purpose",
+     "name": "Story Design",
+     "description": "Design the high-level story structure and themes",
+     "prompt_template": "step2_story_design.md",
+     "agent_type": "story-architect",
      "model": "sonnet",
      "inputs": {
        "npe": "outputs/npe.md"
      },
      "outputs": {
-       "result": "outputs/step2_output.md"
+       "story_structure": "outputs/story_structure.md"
      },
      "depends_on": ["1"]
    }

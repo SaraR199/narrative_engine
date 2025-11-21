@@ -7,7 +7,7 @@
       "name": "NPE Extraction",
       "description": "Extract Narrative Physics Engine from existing outline to capture generic writing preferences",
       "prompt_template": "step1_npe_extraction.md",
-      "agent_type": "general-purpose",
+      "agent_type": "npe-extractor",
       "model": "sonnet",
       "inputs": {
         "outline": "input/existing_outline.md"
