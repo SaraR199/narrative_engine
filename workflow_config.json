@@ -16,9 +16,25 @@
         "npe": "outputs/npe.md"
       },
       "depends_on": []
+    },
+    "2": {
+      "name": "Character Development",
+      "description": "Develop detailed character profiles from character concepts using the Main Character Template",
+      "prompt_template": "step2_character_development.md",
+      "agent_type": "character-architect",
+      "model": "sonnet",
+      "inputs": {
+        "CHARACTER_CONCEPT": "input/character-concept.md",
+        "MAIN_CHARACTER_TEMPLATE": "templates/main_character_template_v1.1.md",
+        "NPE": "outputs/npe.md"
+      },
+      "outputs": {
+        "character_profile": "outputs/character_profile.md"
+      },
+      "depends_on": ["1"]
     }
   },
-  "usage": "Tell Claude Code: 'Run step 1' or 'Run the book design workflow'",
+  "usage": "Tell Claude Code: 'Run step 1', 'Run step 2', or 'Run the book design workflow'",
   "notes": {
     "orchestration": "Claude Code acts as the orchestrator, spawning subagents via Task tool",
     "context_minimal": "Each subagent only loads files specified in 'inputs' and 'depends_on'",
