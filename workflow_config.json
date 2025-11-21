@@ -19,18 +19,20 @@
     },
     "2": {
       "name": "Character Development",
-      "description": "Develop detailed character profiles from character concepts using the Main Character Template",
+      "description": "Develop detailed character profiles from character concepts using the Main Character Template. Supports multiple characters - spawns parallel subagents for each character in input file.",
       "prompt_template": "step2_character_development.md",
       "agent_type": "character-architect",
       "model": "sonnet",
+      "parallel_processing": true,
       "inputs": {
         "CHARACTER_CONCEPT": "input/character-concept.md",
         "MAIN_CHARACTER_TEMPLATE": "templates/main_character_template_v1.1.md",
         "NPE": "outputs/npe.md"
       },
       "outputs": {
-        "character_profile": "outputs/character_profile.md"
+        "character_profiles": "outputs/character_*.md"
       },
+      "output_pattern": "outputs/character_{CharacterName}.md",
       "depends_on": ["1"]
     }
   },
@@ -38,6 +40,7 @@
   "notes": {
     "orchestration": "Claude Code acts as the orchestrator, spawning subagents via Task tool",
     "context_minimal": "Each subagent only loads files specified in 'inputs' and 'depends_on'",
+    "parallel_processing": "Steps with parallel_processing:true will parse input files and spawn multiple subagents in parallel (e.g., Step 2 spawns one agent per character)",
     "adding_steps": "Add new step objects with incremental numbering",
     "model_options": "sonnet (default, balanced), opus (most capable), haiku (fastest)"
   }

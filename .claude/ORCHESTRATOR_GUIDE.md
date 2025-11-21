@@ -164,6 +164,119 @@ User says: **"Run step 2"**
 
 8. **Confirm**: Tell user "Step 2 completed. Character profile saved to outputs/character_profile.md"
 
+## Special Case: Multiple Characters (Step 2)
+
+Step 2 is special because `input/character-concept.md` can contain **multiple characters**, and each character should get its own parallel subagent.
+
+### Character File Format
+
+The character-concept file uses this structure:
+
+```markdown
+# CHARACTER: Sarah Chen
+[concept for Sarah]
+
+---
+
+# CHARACTER: Marcus Reed
+[concept for Marcus]
+
+---
+
+# CHARACTER: Dr. Elena Vasquez
+[concept for Elena]
+
+---
+```
+
+### Parallel Processing
+
+When executing Step 2:
+
+#### 1. Parse Character File
+
+Read `input/character-concept.md` and split it into individual characters:
+
+```python
+# Pseudocode
+characters = []
+sections = character_file.split('# CHARACTER:')
+for section in sections[1:]:  # Skip first empty section
+    lines = section.strip().split('\n')
+    name = lines[0].strip()  # First line is the name
+    concept = '\n'.join(lines[1:]).split('---')[0].strip()  # Content until ---
+    characters.append({'name': name, 'concept': concept})
+```
+
+Example result:
+```python
+[
+  {'name': 'Sarah Chen', 'concept': 'Sarah is the protagonist...'},
+  {'name': 'Marcus Reed', 'concept': 'Marcus is the antagonist...'},
+  {'name': 'Dr. Elena Vasquez', 'concept': 'Elena is Sarah\'s mentor...'}
+]
+```
+
+#### 2. Spawn Parallel Subagents
+
+For each character, spawn a separate character-architect agent **in parallel**:
+
+```python
+# Send a SINGLE message with MULTIPLE Task tool calls
+for character in characters:
+    # Build prompt for this character
+    prompt = load_prompt_template('step2_character_development.md')
+    prompt = prompt.replace('{{CHARACTER_CONCEPT}}', character['concept'])
+    prompt = prompt.replace('{{MAIN_CHARACTER_TEMPLATE}}', template_content)
+    prompt = prompt.replace('{{NPE}}', npe_content)
+
+    # Spawn task (all in same message = parallel execution)
+    Task(
+        subagent_type="character-architect",
+        prompt=prompt,
+        description=f"Develop character profile for {character['name']}",
+        model="sonnet"
+    )
+```
+
+**Critical:** Send all Task tool calls in a **single message** to run them in parallel. Don't wait for one to complete before spawning the next.
+
+#### 3. Save Multiple Outputs
+
+When agents complete, save each character to a separate file:
+
+```
+outputs/character_Sarah_Chen.md
+outputs/character_Marcus_Reed.md
+outputs/character_Dr_Elena_Vasquez.md
+```
+
+Naming pattern: `outputs/character_{Name_With_Underscores}.md`
+
+#### 4. Confirm Completion
+
+```
+"Step 2 completed. Generated 3 character profiles:
+- outputs/character_Sarah_Chen.md
+- outputs/character_Marcus_Reed.md
+- outputs/character_Dr_Elena_Vasquez.md"
+```
+
+### Why Parallel Processing?
+
+- **Efficiency**: All characters develop simultaneously
+- **Consistency**: All use the same NPE and template
+- **Speed**: 3 characters in parallel is 3x faster than sequential
+- **Independence**: Character profiles don't depend on each other
+
+### Implementation Notes
+
+1. Parse the character file carefully - look for `# CHARACTER:` markers
+2. Extract character names for output filenames
+3. Use Claude Code's ability to send multiple Tool calls in one message
+4. Wait for all agents to complete before confirming to user
+5. Handle errors per character (one character failing shouldn't block others)
+
 ## Running All Steps
 
 User says: **"Run the book design workflow"** or **"Run all steps"**
