@@ -10,40 +10,40 @@
 Isla Thorn
 
 **Role in Story:**
-Protagonist and romantic heroine—unwitting heir to the extinct Seer dragon bloodline who becomes entangled with a ruthless dragon mafia alpha; the catalyst who unravels a conspiracy while discovering her own supernatural identity
+Protagonist—unwitting heir to the extinct Seer dragon bloodline who becomes entangled with dragon mafia alpha Draven Obsidian while unraveling a conspiracy and discovering her supernatural identity
 
 **Core Contradiction (X but also Y):**
-Fiercely independent survivor who craves belonging and connection but has learned to protect herself through isolation and emotional distance
+Fiercely independent survivor who craves belonging but protects herself through isolation and emotional distance
 
 **Core Wound (origin included, 1–2 sentences):**
-Isla's mother Elena deliberately raised her in isolation from the supernatural world, dying with all answers about their origins locked away, leaving Isla feeling abandoned without explanation and permanently positioned as an outsider to both the human and supernatural worlds. This abandonment created a deep fear of being valued only for utility (her gift) rather than her intrinsic worth, coupled with the conviction that vulnerability and attachment lead to inevitable loss.
+Isla's mother Elena deliberately raised her isolated from the supernatural world, dying with all answers about their origins locked away. This abandonment left Isla fearing she'll be valued only for her gift rather than herself, convinced that vulnerability and attachment lead to inevitable loss.
 
 **Core Lie (false belief shaped by wound):**
 "If I let people close enough to truly know me, they'll either leave or reduce me to what I can do for them. I'm safest alone."
 
 **External Want (conscious goal):**
-Escape Draven's captivity, return to her independent life in the Shadow Market, and avoid becoming a pawn in dragon politics she never asked to join
+Escape Draven's captivity, return to her independent life in the Shadow Market, and avoid becoming a pawn in dragon politics
 
 **Internal Need (unconscious growth requirement):**
-To stop running from intimacy and her own identity, accept that belonging doesn't require erasing herself, and trust that she can be valued for who she is rather than just what she can do
+Stop running from intimacy and her own identity; accept that belonging doesn't require erasing herself; trust she can be valued for who she is rather than just what she can do
 
 ---
 
 # **2. FLAW SYSTEM (MULTI-EXPRESSION)**
 
 **Primary Flawed Strategy (main maladaptive behavior):**
-Defensive independence through preemptive withdrawal—she deliberately keeps herself peripheral, never staying anywhere long enough to matter, never touching powerful enough artifacts to trigger questions, never allowing relationships to deepen past surface-level transaction. She mistakes isolation for safety and self-sufficiency for strength.
+Defensive independence through preemptive withdrawal—she keeps herself peripheral, never staying anywhere long enough to matter, never touching powerful artifacts that trigger questions, never allowing relationships to deepen past transaction. She mistakes isolation for safety and self-sufficiency for strength.
 
 **Secondary Flawed Strategies (2–3 additional patterns):**
 
-- **Deflection through wit**: When conversations turn emotionally vulnerable or someone gets too close to seeing her real fears, she deploys sharp sarcasm and sardonic humor to redirect attention and re-establish distance. She weaponizes her intelligence to keep people at arm's length.
+- **Deflection through wit**: Deploys sharp sarcasm when conversations turn vulnerable or someone gets too close to her real fears. She weaponizes intelligence to maintain distance.
 
-- **Value reduction**: She unconsciously reduces her own worth to her utility (her gift, her expertise, what she can provide) because it feels safer to be needed for a skill than wanted for herself. If she's just a tool, she can't be emotionally abandoned—only functionally replaced.
+- **Value reduction**: Reduces her worth to utility (her gift, her expertise) because being needed for a skill feels safer than being wanted for herself. If she's just a tool, she can't be emotionally abandoned—only functionally replaced.
 
-- **Hypervigilant observation**: Her psychometry has trained her to catalog details and read beneath surfaces, but she weaponizes this as emotional armor—constantly analyzing others' motivations to spot betrayal before it happens, interpreting every kindness as manipulation, every connection as transaction.
+- **Hypervigilant observation**: Weaponizes psychometry as emotional armor—constantly analyzing others' motivations to spot betrayal before it happens, interpreting every kindness as manipulation, every connection as transaction.
 
 **Shadow Trait (latent trait they avoid expressing):**
-Fierce possessiveness and territorial instinct—as her dragon heritage awakens, she discovers she's capable of the same primal claiming and protective violence she finds terrifying in Draven. She's suppressed this because accepting it means acknowledging she's not fully human and never was, undermining her entire identity.
+Fierce possessiveness and territorial instinct—as her dragon heritage awakens, she discovers she's capable of the same primal claiming and protective violence she finds terrifying in Draven. She suppresses this because accepting it undermines her entire identity as human.
 
 ---
 
@@ -51,15 +51,15 @@ Fierce possessiveness and territorial instinct—as her dragon heritage awakens,
 
 **Top Values (ranked):**
 
-1. **Autonomy** - The right to make her own choices, control her own body and future, and refuse to be owned or defined by others' needs
-2. **Truth** - Even painful truth is better than comfortable lies; she values knowing reality over being protected from it
-3. **Competence** - Taking pride in her expertise and intelligence; proving her worth through skill rather than circumstance of birth
+1. **Autonomy** - The right to make her own choices and refuse to be owned or defined by others' needs
+2. **Truth** - Even painful truth is better than comfortable lies
+3. **Competence** - Proving her worth through skill rather than circumstance of birth
 
 **Hard Boundaries (lines they do not cross):**
-She will not allow her gift to be used to harm innocents; she will not accept being treated as property or possession (triggers immediate defiant resistance); she will not betray a confidence given in good faith, even under pressure; she will not use her abilities on people without consent (objects are fair game, but reading someone's private possessions without permission violates her ethics)
+Won't allow her gift to harm innocents; won't accept being treated as property (triggers immediate defiance); won't betray confidences given in good faith; won't use abilities on people without consent (objects are fair game)
 
 **Temptations (what pressures them to break boundaries):**
-The need to protect someone she's come to care about could push her to violate consent (reading their belongings to uncover danger); the desperate need for answers about her mother and her heritage creates temptation to compromise her autonomy in exchange for information; her growing desire for Draven and the mating bond's pull tempts her to surrender the independence she's built her identity around; the offer of finally belonging somewhere could make her accept being valued for utility rather than self
+Protecting someone she cares about could push her to violate consent; desperate need for answers about her heritage tempts her to compromise autonomy for information; growing desire for Draven and the mating bond tempt her to surrender the independence she's built her identity around; the offer of finally belonging could make her accept being valued for utility over self
 
 ---
 
@@ -67,95 +67,74 @@ The need to protect someone she's come to care about could push her to violate c
 
 ### **Anxiety Palette**
 
-- **Cataloging spiral**: Her mind shifts into hypervigilant observation mode, compulsively cataloging exit routes, weapons within reach, micro-expressions on faces around her—her psychometry instinct weaponized into threat assessment
-
-- **Tactile grounding**: She unconsciously touches objects around her (running fingers along table edges, pressing palms against walls) to anchor herself in physical reality when supernatural elements make her doubt her sanity
-
-- **Verbal precision increase**: Her speech becomes more clipped and exact, as if tighter control of her words can create control over the spiraling situation—she counts things, uses specific numbers, corrects vague statements
-
-- **Throat tightness**: Physical sensation of her voice box constricting, making her swallow repeatedly; sometimes her breath shortens to quick, shallow pulls she has to consciously regulate
-
-- **Gallows humor**: She makes dark, inappropriate jokes that land wrong, using sarcasm as a pressure valve when fear threatens to overwhelm her competent facade
+- **Cataloging spiral**: Hypervigilant observation mode—compulsively cataloging exits, weapons, micro-expressions, psychometry weaponized into threat assessment
+- **Tactile grounding**: Unconsciously touches objects (table edges, walls) to anchor in physical reality when supernatural elements make her doubt her sanity
+- **Verbal precision increase**: Speech becomes clipped and exact, as if tighter word control creates situation control—counts things, uses specific numbers, corrects vagueness
+- **Throat tightness**: Voice box constricts, repeated swallowing, quick shallow breaths requiring conscious regulation
+- **Gallows humor**: Dark, inappropriate jokes that land wrong—sarcasm as pressure valve when fear threatens her competent facade
 
 ### **Attraction Palette**
 
-- **Hyperawareness of proximity**: Every nerve ending tracks exactly how close he is—the heat radiating from his body, the shift of air when he moves, the gravitational pull that makes her want to close or increase distance
-
-- **Throat and chest flush**: Heat creeps up from her collarbone to her neck and cheeks, a visible tell she can't control; her skin feels too tight and overly sensitized
-
-- **Defiant eye contact**: Instead of looking away like submission would dictate, she meets his burning gaze directly, even as her pulse hammers—attraction manifests as challenge because vulnerability feels dangerous
-
-- **Internal narrative disruption**: Her usually sharp observational thoughts fragment into sensation—the line of his jaw, the timbre of his voice, the way his hands move—she has to consciously force herself back to coherent analysis
-
-- **Verbal sparring intensification**: Her wit gets sharper and more reckless when attracted, as if she can transmute desire into intellectual combat; she provokes deliberately, testing boundaries
+- **Hyperawareness of proximity**: Every nerve tracks exactly how close he is—heat radiating from his body, air shifts, gravitational pull to close or increase distance
+- **Throat and chest flush**: Heat creeps from collarbone to neck and cheeks, visible and uncontrollable; skin feels too tight and oversensitized
+- **Defiant eye contact**: Meets his burning gaze directly even as her pulse hammers—attraction manifests as challenge because vulnerability feels dangerous
+- **Internal narrative disruption**: Sharp thoughts fragment into sensation—his jaw, his voice, his hands—requires conscious effort to force coherent analysis
+- **Verbal sparring intensification**: Wit sharpens and grows reckless when attracted, transmuting desire into intellectual combat; provokes deliberately, testing boundaries
 
 ### **Anger Palette**
 
-- **Cold precision cutting**: Her voice drops in temperature and volume, each word selected for maximum damage—surgical verbal strikes targeting exactly where she knows it will hurt most based on her reading of them
+- **Cold precision cutting**: Voice drops in temperature and volume, each word selected for maximum damage—surgical strikes targeting exactly where it hurts most
+- **Controlled stillness**: Goes utterly still instead of explosive movement, every muscle locked—predatory frozen moment before potential violence
+- **Reckless truth-telling**: Weaponizes honesty, saying what everyone thinks but won't voice, deliberately burning bridges because anger makes her want to destroy connections that could hurt her
+- **Sardonic detachment**: Treats person/situation with mocking distance, analyzing motivations aloud like a specimen—reduces them to case study to strip away their power to wound
 
-- **Controlled stillness**: Instead of explosive movement, she goes utterly still, every muscle locked with the effort of not lashing out physically—a predatory frozen moment before potential violence
+### **Fear Palette**
 
-- **Reckless truth-telling**: She weaponizes honesty, saying the thing everyone's thinking but no one will voice, deliberately burning bridges and relationships because anger makes her want to destroy the connections that could hurt her
+- **Fragment retrieval**: Psychometry flares involuntarily when truly terrified—touching anything gives flashes of history, overwhelming present awareness with past echoes
+- **Voice steadiness override**: More frightened she is, more deliberately steady her voice becomes, overcompensating until almost mechanical—words slow and enunciate clearly even as hands shake
+- **Proximity seeking (unwanted)**: Body unconsciously gravitates toward nearest strength source (often Draven) even as mind screams not to show weakness—instinct overriding intellect
+- **Analytical dissociation**: Narrates her own fear like she's outside her body, cataloging physiological responses as if studying someone else
 
-- **Sardonic detachment**: She treats the person/situation with mocking intellectual distance, analyzing their motivations aloud like they're a specimen rather than engaging emotionally—reduces them to a case study to strip away their power to wound her
+### **Desire/Lust Palette**
 
-### **Fear Palette (additional emotion)**
-
-- **Fragment retrieval**: When truly terrified (not just anxious), her psychometry flares involuntarily—touching anything gives her flashes of its history, overwhelming her present awareness with past echoes; she has to fight to stay anchored in now
-
-- **Voice steadiness override**: The more frightened she is, the more deliberately steady she makes her voice, overcompensating until it sounds almost mechanical—her words slow and enunciate clearly even as her hands shake
-
-- **Proximity seeking (unwanted)**: Her body unconsciously gravitates toward the nearest source of strength (often Draven), even as her mind screams not to show weakness—instinct overriding intellect
-
-- **Analytical dissociation**: She narrates her own fear like she's outside her body, observing and cataloging her physiological responses as if studying someone else—emotional distance as survival mechanism
-
-### **Desire/Lust Palette (additional emotion)**
-
-- **Scent fixation**: She becomes acutely aware of his scent (smoke, whiskey, something primal), breathing deeper without meaning to, the smell triggering physical responses her rational mind tries to suppress
-
-- **Touch hunger**: Her skin feels starved, hyper-reactive to any contact—even accidental brushes send electricity through her nervous system; she finds herself wanting to touch just to discharge the building tension
-
-- **Proprioceptive awareness**: She feels her own body with unusual intensity—the weight of her breasts, the sensitivity of her lips, the heat pooling low in her belly, the slickness between her thighs—sensations she tries to ignore
-
-- **Internal negotiation**: Her mind wages war with her body—listing all the logical reasons this is dangerous while her body responds with primal yes; she argues with herself in fragmented internal dialogue
-
-- **Verbal stumbling**: Her usually quick wit falters when desire spikes, sentences trailing off mid-thought, words coming out breathy or rough despite attempts at composure
+- **Scent fixation**: Acutely aware of his scent (smoke, whiskey, something primal), breathing deeper without meaning to, smell triggering physical responses rational mind tries to suppress
+- **Touch hunger**: Skin feels starved, hyper-reactive to contact—accidental brushes send electricity through nervous system; wants to touch to discharge building tension
+- **Proprioceptive awareness**: Feels her body with unusual intensity—weight of breasts, sensitivity of lips, heat pooling low, slickness between thighs
+- **Internal negotiation**: Mind wages war with body—listing logical reasons this is dangerous while body responds with primal yes
+- **Verbal stumbling**: Quick wit falters when desire spikes, sentences trailing off, words coming out breathy or rough despite attempts at composure
 
 ---
 
 # **5. VOICE & LANGUAGE PALETTE**
 
 **Syntax Tendencies:**
-Variable sentence length tracking emotional state—short, punchy fragments when defensive or rattled; longer, precise constructions when analyzing or explaining; run-on spirals when overwhelmed. Uses em-dashes frequently to interrupt herself with observations or corrections. Tends toward active voice and concrete language rather than abstraction.
+Variable sentence length tracking emotional state—short punchy fragments when defensive or rattled; longer precise constructions when analyzing; run-on spirals when overwhelmed. Frequent em-dashes to interrupt herself with observations. Tends toward active voice and concrete language.
 
 **Dialogue Patterns:**
-Sharp wit deployed as defense mechanism; challenges statements with questions rather than accepting at face value; uses sarcasm and dry humor to deflect vulnerability; drops pop culture references and modern colloquialisms that mark her as younger/more human than ancient dragons; speaks in specifics not generalities ("the 1847 Castilian dagger" not "an old knife"); interrupts herself to correct imprecision; uses profanity strategically for emphasis rather than habitually; often answers questions with questions to control information flow
+Sharp wit as defense; challenges statements with questions; uses sarcasm and dry humor to deflect vulnerability; drops pop culture references and modern colloquialisms; speaks in specifics not generalities ("the 1847 Castilian dagger" not "an old knife"); interrupts herself to correct imprecision; uses profanity strategically for emphasis; answers questions with questions to control information flow
 
 **Internal Metaphor Style:**
-Architectural and spatial metaphors (walls, foundations, thresholds, rooms with locked doors) reflecting her defensive psychological structure; artifact and historical metaphors drawn from her work (she thinks of people as objects with layers of history to decode, relationships as authentication problems); occasionally sharp, dark humor in her internal narration that she'd never voice aloud; sensory detail cataloging that increases under stress (hypervigilant observation)
+Architectural and spatial metaphors (walls, foundations, thresholds, locked rooms) reflecting defensive psychological structure; artifact and historical metaphors from her work (thinks of people as objects with layers to decode, relationships as authentication problems); sharp dark humor internally that she'd never voice; sensory detail cataloging increases under stress
 
 **Sensory Bias (what they notice first / most):**
-**Visual-tactile primacy** - She notices visual details with almost photographic precision (trained by years of artifact appraisal), but her psychometry gift makes touch equally important—she's constantly aware of textures, temperatures, the urge to touch and the resistance to touching. Scent becomes increasingly prominent as her dragon senses awaken. She notices micro-expressions, body language, and the physical evidence of emotion (flushed skin, clenched fists, tension in shoulders) more than she notices verbal content.
+**Visual-tactile primacy** - Notices visual details with photographic precision (artifact appraisal training), but psychometry makes touch equally important—constantly aware of textures, temperatures, urge to touch and resistance to touching. Scent becomes prominent as dragon senses awaken. Notices micro-expressions, body language, physical evidence of emotion more than verbal content.
 
 ---
 
 # **6. CONTEXT STATES**
 
 ### **Baseline State:**
-
-Controlled, competent professional demeanor—sharp observational awareness without hypervigilance, dry wit deployed conversationally rather than defensively. She moves through space with quiet confidence in familiar territory, maintains polite but not warm distance with others, engages intellectually with her work finding genuine pleasure in solving authentication puzzles. Her defenses are present but not rigid—she can small-talk, laugh genuinely at good humor, show kindness without calculation. Still keeps people at arm's length but doesn't actively push them away. Baseline Isla is wryly amused observer of the world, comfortable in her expertise, content with surface-level connections.
+Controlled, competent professional—sharp observational awareness without hypervigilance, dry wit deployed conversationally not defensively. Moves with quiet confidence in familiar territory, maintains polite but distant interactions, engages intellectually with work finding genuine pleasure in authentication puzzles. Defenses present but not rigid—can small-talk, laugh genuinely, show kindness without calculation. Still keeps people at arm's length but doesn't actively push away. Wryly amused observer, comfortable in expertise, content with surface connections.
 
 ### **Mild Stress State:**
-
-Verbal precision increases, wit sharpens toward cutting edge, physical grounding behaviors emerge (touching objects, positioning herself with back to walls, tracking exits). She becomes more interrogative—questioning statements, looking for holes in logic, refusing to accept things at face value. Her professional mask stays in place but requires more conscious effort; she compartmentalizes emotional responses to maintain competence. She starts cataloging details compulsively, filing away information for later analysis. Humor darkens slightly, sarcasm becomes more pointed. She creates more physical distance from others, crosses arms, builds small barriers with her body language.
+Verbal precision increases, wit sharpens toward cutting, physical grounding emerges (touching objects, back to walls, tracking exits). Becomes more interrogative—questioning statements, looking for logic holes. Professional mask requires more conscious effort; compartmentalizes emotional responses. Compulsively catalogs details. Humor darkens, sarcasm more pointed. Creates more physical distance, crosses arms, builds small barriers with body language.
 
 ### **Extreme Stress State:**
+Two alternating modes:
 
-Two alternating modes depending on whether fight or flight dominates:
+**Flight mode**: Emotional withdrawal into analytical dissociation—narrates own fear like case study, splits awareness between intellectual problem-solving and physical sensation, voice unnaturally steady while body betrays terror. Makes herself small and still, minimizing presence, seeking escape routes. Psychometry may flare uncontrollably, pulling her into artifact visions as literal escape.
 
-**Flight mode**: Emotional withdrawal into analytical dissociation—she narrates her own fear like a case study, splits awareness between intellectual problem-solving and physical sensation, her voice becomes unnaturally steady and detached even as her body betrays terror. She tries to make herself small and still, minimizing her presence, looking for escape routes. Her psychometry may flare uncontrollably, pulling her into artifact visions as a literal escape from unbearable present.
-
-**Fight mode**: Reckless truth-telling and verbal warfare—she says the most cutting thing possible, deliberately burns connections, meets threats with defiant challenge even when outmatched. Her body goes predator-still before potential violence, every muscle locked and ready. As her dragon nature awakens, this mode becomes more physically dangerous—her eyes flash, her temperature spikes, and she's capable of channeling power she doesn't understand. She becomes almost suicidally brave, moving toward danger rather than away from it.
+**Fight mode**: Reckless truth-telling and verbal warfare—says most cutting thing possible, deliberately burns connections, meets threats with defiant challenge even when outmatched. Body goes predator-still before potential violence. As dragon nature awakens, becomes more physically dangerous—eyes flash, temperature spikes, channels power she doesn't understand. Becomes almost suicidally brave, moving toward danger.
 
 ---
 
@@ -163,31 +142,31 @@ Two alternating modes depending on whether fight or flight dominates:
 
 ### **Version 1 – Beginning**
 
-- **Conflict Response**: Defaults to evasion and extraction—her first instinct is always to escape the situation entirely rather than engage. When escape isn't possible, she uses verbal deflection and sarcasm to create psychological distance while she analyzes for leverage or exit strategies. She never confronts directly if she can slip away or redirect.
+- **Conflict Response**: Defaults to evasion and extraction—first instinct always escape. When escape impossible, uses verbal deflection and sarcasm for psychological distance while analyzing for leverage or exits. Never confronts directly if she can slip away.
 
-- **Flaw Expression**: Preemptive withdrawal is automatic—the moment she feels connection forming or someone getting too close to real vulnerability, she either physically leaves or creates emotional distance through cutting remarks. She mistakes being needed for her gift as safer than being wanted for herself, so she leads with her expertise and keeps everything transactional.
+- **Flaw Expression**: Preemptive withdrawal automatic—moment she feels connection forming, she either physically leaves or creates emotional distance through cutting remarks. Mistakes being needed for gift as safer than being wanted for herself, so leads with expertise and keeps everything transactional.
 
-- **Vulnerability Pattern**: Treats emotional openness as tactical disadvantage; if someone shows her genuine care or sees past her defenses, she either mocks it as manipulation or finds reasons to distrust it. Physical intimacy without emotional connection feels safer than emotional exposure. She'd rather someone see her naked than see her afraid.
+- **Vulnerability Pattern**: Treats emotional openness as tactical disadvantage. If someone shows genuine care or sees past defenses, she mocks it as manipulation or finds reasons to distrust. Physical intimacy without emotional connection feels safer than emotional exposure. Would rather someone see her naked than see her afraid.
 
 ### **Version 2 – Midpoint**
 
-- **New Awareness**: She begins recognizing that her isolation hasn't actually kept her safe—it's just kept her alone. She notices that she's been living half a life, experiencing the world through her gift (other people's histories) instead of creating her own. The mating bond pull makes her question whether what she called independence was actually just fear wearing a different name.
+- **New Awareness**: Isolation hasn't kept her safe—just kept her alone. She's been living half a life, experiencing the world through her gift (others' histories) instead of creating her own. Mating bond makes her question whether independence was actually fear wearing a different name.
 
-- **Behavioral Shift**: She starts staying in difficult conversations instead of deflecting or leaving; still deploys sarcasm but catches herself and sometimes offers a real answer underneath the defensive humor. When Draven shows her vulnerability, she doesn't immediately weaponize it or retreat—she sits with the discomfort of being trusted. She experiments with asking for help instead of insisting she handle everything alone.
+- **Behavioral Shift**: Starts staying in difficult conversations instead of deflecting or leaving; still deploys sarcasm but catches herself and sometimes offers real answers. When Draven shows vulnerability, doesn't immediately weaponize it—sits with the discomfort of being trusted. Experiments with asking for help instead of insisting on handling everything alone.
 
-- **Emerging Fear**: Terror that accepting her dragon heritage means losing her humanity and becoming something she doesn't recognize; deeper fear that if she surrenders to the mating bond, she'll discover her feelings aren't real but magically compelled, and she'll never know if she chose this or if fate chose for her.
+- **Emerging Fear**: Accepting dragon heritage means losing humanity and becoming unrecognizable; surrendering to mating bond means never knowing if she chose this or fate chose for her.
 
 ### **Version 3 – Climax**
 
-- **Defining Growth Decision**: During the blood moon confrontation, when every instinct screams to protect herself through withdrawal or control, she actively chooses vulnerability—she accepts the mating bond not because the magic compels her but because she consciously claims Draven as hers, surrendering control while simultaneously asserting agency. She uses her awakened Seer abilities at catastrophic physical cost to expose the conspiracy, choosing truth over safety.
+- **Defining Growth Decision**: During blood moon confrontation, when every instinct screams to protect herself through withdrawal, she actively chooses vulnerability—accepts the mating bond not because magic compels but because she consciously claims Draven, surrendering control while asserting agency. Uses awakened Seer abilities at catastrophic physical cost to expose conspiracy, choosing truth over safety.
 
-- **Old Behavior They Resist**: When the conspiracy is revealed and betrayal comes from within Draven's circle, her default pattern would be to retreat into "I told you so" cynicism and use it as proof that connection always leads to pain. Instead, she chooses to stay and fight beside him, refusing to let fear dictate her choices. When the bond threatens to overwhelm her identity, she resists the urge to reject it entirely—choosing integration over binary thinking.
+- **Old Behavior They Resist**: When conspiracy reveals betrayal from within Draven's circle, default pattern would be retreating into "I told you so" cynicism. Instead, chooses to stay and fight beside him, refusing to let fear dictate choices. When bond threatens to overwhelm identity, resists urge to reject it entirely—chooses integration over binary thinking.
 
 ### **Version 4 – Aftermath**
 
-- **Relationship to Core Wound**: She's reframed her mother's abandonment—understanding Elena died protecting her rather than abandoning her by withholding truth. She recognizes her worth isn't diminished by being valued for her gift; the gift is part of who she is, not a replacement for her personhood. She's learning that vulnerability is courage, not weakness, and that belonging doesn't require erasing herself.
+- **Relationship to Core Wound**: Reframed mother's abandonment—Elena died protecting her rather than abandoning her. Recognizes her worth isn't diminished by being valued for gift; gift is part of who she is, not replacement for personhood. Vulnerability is courage, not weakness; belonging doesn't require erasing herself.
 
-- **Persistent Habit (realism)**: She still deploys sarcasm and wit, still leads with intellect and observation—but now it's authentic personality rather than purely defensive armor. She still has moments of wanting to bolt when intimacy gets intense; the difference is she recognizes the pattern and chooses to stay anyway. She'll always be someone who needs periodic solitude to process, who values competence and autonomy—but she's no longer using those needs as excuses to avoid connection.
+- **Persistent Habit (realism)**: Still deploys sarcasm and wit, still leads with intellect—but now authentic personality rather than purely defensive armor. Still has moments of wanting to bolt when intimacy gets intense; difference is she recognizes the pattern and chooses to stay anyway. Will always need periodic solitude to process, values competence and autonomy—but no longer uses those needs as excuses to avoid connection.
 
 ---
 
@@ -195,43 +174,43 @@ Two alternating modes depending on whether fight or flight dominates:
 
 ### **With Draven Obsidian (romantic lead, captor, eventual mate):**
 
-- **Persona They Present**: Defiant captive who refuses to be cowed—she meets his dominance with sardonic humor and intellectual challenge, presenting herself as utterly unbothered by his power even when terrified. She wants him to see her as competent, sharp, unbreakable; definitely not as vulnerable or desperately attracted.
+- **Persona They Present**: Defiant captive who refuses to be cowed—meets his dominance with sardonic humor and intellectual challenge, presenting as unbothered by his power even when terrified. Wants him to see her as competent, sharp, unbreakable; not vulnerable or desperately attracted.
 
-- **What They Hide**: The depth of her attraction and how much his proximity affects her body; her terror that she's becoming exactly what her mother warned against; her growing emotional investment and how much his rare moments of vulnerability disarm her; the extent to which the mating bond pull is eroding her certainty that she wants to escape.
+- **What They Hide**: Depth of attraction and how his proximity affects her body; terror she's becoming what her mother warned against; growing emotional investment and how his rare vulnerability disarms her; extent the mating bond is eroding her certainty about wanting to escape.
 
-- **Conflict Pattern**: Verbal sparring that's foreplay in disguise—they fight for dominance in conversation, neither willing to submit or show weakness, every exchange crackling with sexual tension neither wants to acknowledge. She provokes him deliberately to test his control; he backs her into corners (literal and metaphorical) to watch her refuse to yield. Their conflicts escalate into either explosive arguments or explosive sexual encounters.
+- **Conflict Pattern**: Verbal sparring as foreplay—fight for dominance in conversation, neither willing to submit, every exchange crackling with sexual tension neither acknowledges. She provokes deliberately to test his control; he backs her into corners to watch her refuse to yield. Conflicts escalate into explosive arguments or explosive sexual encounters.
 
-- **Connection Pattern**: Moments of unexpected understanding where they see each other's carefully hidden wounds; he reads her body's responses while she reads his micro-expressions, creating a strange intimacy of being truly seen. Shared intellectual engagement when she's authenticating artifacts and he actually listens to her expertise. The electric charge of forced proximity where neither can escape the pull between them.
+- **Connection Pattern**: Moments of unexpected understanding where they see each other's hidden wounds; he reads her body while she reads his micro-expressions, creating strange intimacy of being truly seen. Shared intellectual engagement when authenticating artifacts. Electric charge of forced proximity neither can escape.
 
 ### **With Mira Chen (former employer/mentor figure, represents her old life):**
 
-- **Persona They Present**: Competent professional protégé who has everything under control; she wants Mira to see her as the same capable appraiser, unchanged by supernatural revelation, definitely not someone who needs rescuing or pity.
+- **Persona They Present**: Competent professional protégé with everything under control; wants Mira to see her as unchanged by supernatural revelation, definitely not needing rescue or pity.
 
-- **What They Hide**: How much her entire identity has been shaken by discovering her heritage; the extent of danger she's actually in; her growing attachment to Draven and the dragon world; how terrified she is that she can never return to her old life.
+- **What They Hide**: How much her identity has been shaken by discovering heritage; extent of actual danger; growing attachment to Draven and dragon world; terror she can never return to old life.
 
-- **Conflict Pattern**: Mira tries to "save" her from the dragon world, treating Isla like a victim who needs extraction, which triggers Isla's pride and makes her defensive. Isla resists Mira's maternal concern because accepting comfort means admitting how not-okay she is.
+- **Conflict Pattern**: Mira tries to "save" her from dragon world, treating Isla like victim needing extraction, triggering Isla's pride. Isla resists maternal concern because accepting comfort means admitting how not-okay she is.
 
-- **Connection Pattern**: Shared history and genuine affection beneath the conflict; Mira is one of few people who knew Isla before all this and valued her for her mind; moments where Isla lets her guard down enough to be honest about her fears.
+- **Connection Pattern**: Shared history and genuine affection beneath conflict; Mira knew Isla before all this and valued her mind; moments where Isla lets guard down enough to be honest about fears.
 
 ### **With Elara Whisperwind (elder dragon who recognizes her Seer heritage):**
 
-- **Persona They Present**: Skeptical outsider who won't be intimidated by ancient dragon mystique; she refuses to be awed or deferential, maintaining her modern, human irreverence as armor against feeling completely out of her depth.
+- **Persona They Present**: Skeptical outsider who won't be intimidated by ancient dragon mystique; refuses to be awed or deferential, maintaining modern irreverence as armor against feeling out of her depth.
 
-- **What They Hide**: Her desperate hunger for information about her heritage and what she's becoming; the terror that Elara sees her as a specimen or political tool rather than a person; how much she needs guidance but can't ask for it without feeling weak.
+- **What They Hide**: Desperate hunger for information about heritage and what she's becoming; terror Elara sees her as specimen or political tool rather than person; needs guidance but can't ask without feeling weak.
 
-- **Conflict Pattern**: Elara delivers information in cryptic parcels that make Isla furious—she demands straight answers and clarity while Elara maintains dragon inscrutability. Isla's modern directness clashes with ancient dragon political maneuvering.
+- **Conflict Pattern**: Elara delivers cryptic information that makes Isla furious—she demands straight answers while Elara maintains dragon inscrutability. Isla's modern directness clashes with ancient political maneuvering.
 
-- **Connection Pattern**: Elara is the only one who can explain what Isla's experiencing in her transformation; there's a strange mentor-student dynamic neither acknowledges directly. Elara sees echoes of the extinct Seers in Isla and treats her with a careful respect that unsettles her.
+- **Connection Pattern**: Elara is the only one who can explain Isla's transformation; strange mentor-student dynamic neither acknowledges. Elara sees echoes of extinct Seers in Isla and treats her with careful respect that unsettles her.
 
 ### **With Marcus Thorne (Draven's second-in-command, initially suspicious of her):**
 
-- **Persona They Present**: Unbothered by his hostility; she treats his suspicion with dry amusement, refusing to defend herself or try to win him over, which paradoxically makes him respect her more.
+- **Persona They Present**: Unbothered by his hostility; treats suspicion with dry amusement, refusing to defend herself or win him over, which paradoxically earns respect.
 
-- **What They Hide**: That his distrust actually wounds her because he represents the clan's judgment; that she wants to be accepted by Draven's inner circle more than she'll admit; that she's afraid he's right to distrust her motives.
+- **What They Hide**: His distrust wounds her because he represents clan judgment; wants to be accepted by Draven's inner circle more than she'll admit; fears he's right to distrust her motives.
 
-- **Conflict Pattern**: He tests her loyalty and questions her value; she responds with cutting wit instead of justification. They circle each other like wary predators, neither giving ground.
+- **Conflict Pattern**: He tests her loyalty and questions her value; she responds with cutting wit instead of justification. Circle each other like wary predators, neither giving ground.
 
-- **Connection Pattern**: Shared protectiveness of Draven creates grudging alliance; Marcus begins to recognize her genuine feelings aren't performance; they develop a combative sibling-like dynamic where insults become affection.
+- **Connection Pattern**: Shared protectiveness of Draven creates grudging alliance; Marcus recognizes her genuine feelings aren't performance; develop combative sibling-like dynamic where insults become affection.
 
 ---
 
