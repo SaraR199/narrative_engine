@@ -1,242 +1,528 @@
-# Narrative Physics Engine v1.0
+# NARRATIVE PHYSICS ENGINE v1.0
+## Paranormal Romance / Urban Fantasy Edition
 
 ---
 
-## 1. Plot Mechanics & Causality Rules
+## SECTION 1: CAUSALITY & PLOT LOGIC
 
-### Setup & Payoff Architecture
-1. Every major plot revelation, ability, or resource must be introduced at least 2-3 scenes before it becomes crucial to solving a problem.
+### Primary Rules
 
-2. Information discovered in one scene becomes actionable intelligence in subsequent scenes, never in the same scene it's revealed.
+**1. All plot movement must arise from character investigation, confrontation, or the consequences of prior deceptions—never from coincidence or convenient revelation.**
 
-3. Plot problems resolve through established character abilities, previously introduced resources, or logical consequences of earlier actions. External救援 that hasn't been set up is structurally impossible.
+**2. Supernatural abilities that provide information must extract a proportional physical or psychological cost. The more crucial the information, the more severe the toll.**
 
-4. Each answer creates at least one new question. Mysteries deepen before they resolve; solving one layer reveals another beneath it.
+**3. Every major revelation must emerge from:
+   - Physical evidence discovered through investigation
+   - Character mistakes that expose hidden truths
+   - Direct confrontation that forces admission
+   - Supernatural experiences that leave verifiable traces**
 
+**4. Deceptions and lies must have clear motivations rooted in character wounds, fears, or goals. No character withholds information "just because."**
 
-### Causality Chains
-6. Character decisions in Scene N create the conditions for conflict in Scene N+1. The "EXIT" of each scene explicitly drives forward momentum.
+**5. External magical obstacles (curses, compulsions, memory blocks) must create internal psychological conflict. Characters cannot simply "break" supernatural constraints—they must navigate around them or pay severe costs to breach them.**
 
-7. Every major turning point results from character action, never from coincidence or external intervention without prior setup.
+**6. Information revealed in one scene must generate new urgent questions that drive the next investigation or confrontation. Each answer creates pressure to seek the next truth.**
 
-8. Knowledge accumulates linearly within each POV. Characters operate on the specific information they've gathered through their own experience and investigation.
-
-9. When characters lack crucial information, the gap creates dramatic irony (reader knows more) or forces them into mistakes that drive plot forward.
-
-### Plot Rhythm
-10. Major revelations occur at chapter boundaries. Each chapter contains ONE primary change/discovery that shifts the POV character's understanding or situation.
-
-11. Complications multiply before resolution. For every problem partially solved, 2-3 new problems emerge from the consequences.
+**7. No supernatural solution may resolve emotional conflicts. Magic can complicate or reveal, but never repair trust, grief, or broken relationships.**
 
 ---
 
-## 2. Character Logic Rules
+## SECTION 2: CHARACTER ACTION & DECISION PHYSICS
 
-### Decision-Making Physics
-1. Characters act on incomplete information filtered through their emotional needs, creating logical mistakes rather than manufactured stupidity.
+### Primary Rules
 
-2. Every significant character choice requires two elements: (a) rational assessment based on available information, and (b) emotional need driving the decision.
+**1. Characters make decisions based on incomplete information filtered through their emotional wounds and biases, not objective assessment of situations.**
 
-3. Internal conflicts arise from two legitimate but incompatible needs. Characters want multiple things that cannot coexist, forcing impossible choices.
+**2. Characters who "protect" others by withholding information must face escalating consequences that prove their choice made things worse.**
 
-4. Character agency is absolute. Even manipulated or coerced characters are making the best choice they can perceive with their limited information.
+**3. Every major character decision must be driven by one of these forces:
+   - Desperate need to know/understand truth
+   - Attempt to protect someone from painful knowledge
+   - Response to perceived betrayal or abandonment
+   - Compulsion from unhealed emotional wound
+   - Conflicting loyalties creating impossible choices**
 
-### Knowledge & Perception
-5. Each character's understanding of events is explicitly tracked and limited to what they've personally experienced, been told, or discovered.
+**4. Characters must misinterpret events through their specific psychological lens:
+   - The abandoned interpret caution as rejection
+   - The obsessed interpret boundaries as temporary obstacles
+   - The traumatized interpret normalcy as threat
+   - The guilty interpret consequences as punishment**
 
-6. Misunderstandings arise organically from POV limitations. Characters operating on different information sets reach different conclusions about the same events.
+**5. When characters choose between competing loyalties (duty vs. love, truth vs. protection, past vs. present), the choice must create immediate negative consequences regardless of which option they select.**
 
-7. When characters withhold information from each other, the decision must serve a clear character motivation (protection, manipulation, fear, shame).
+**6. Characters cannot "choose better" until they confront the wound driving their harmful pattern. Rational awareness alone never changes behavior.**
 
-### Motivation Architecture
-8. Character motivations operate in layers: surface goal (solve murder) + deeper need (prove sanity/competence) + core wound (identity/belonging).
+### Secondary Rules
 
-9. Characters pursue goals even when those goals conflict with their safety or best interests, if the emotional need is strong enough.
+**1. Investigative protagonists must pursue truth even when warned it will destroy them. Their need to know overrides survival instinct.**
 
-10. Relationships change based on information revealed. Trust builds or breaks through discovered truths, not through arbitrary shifts.
+**2. Characters who manipulate "for love" must genuinely believe they're protecting or saving the target, never acknowledge they're violating autonomy until confronted with undeniable proof.**
 
----
-
-## 3. Pacing & Time Mechanics
-
-### Scene-to-Scene Rhythm
-1. Time between scenes is compressed (hours to days maximum). No significant "downtime" or "rest" periods occur off-stage.
-
-2. Events feel continuous even when calendar time passes. Urgency is maintained through cascading consequences and ongoing threats.
-
-3. Each scene opens either in medias res or at the moment a significant change begins. No slow buildups or lengthy scene-setting.
-
-### Chapter Velocity
-4. Each chapter equals one major revelation or turning point that shifts the story's trajectory.
-
-5. No "rest" chapters exist. Every scene changes something significant in plot, relationship dynamics, or character understanding.
-
-6. Tension escalates within each scene, building to the EXIT moment that drives the reader forward.
-
-### Multi-POV Time Management
-7. POV switches allow parallel action without time jumps. While Character A investigates, Character B plans, and their timelines intersect at crucial moments.
-
-8. Time-sensitive threats (summoning, hunting, pursuit) create inherent urgency that drives compressed timelines.
+**3. Supporting characters must hold crucial information that could prevent tragedy, but withhold it for reasons that seem protective or prudent from their perspective.**
 
 ---
 
-## 4. Scene Architecture
+## SECTION 3: DIALOGUE PHYSICS
 
-### Mandatory Scene Structure
-1. Every scene explicitly declares: POV character, POV character experience summary, The Change, Why It Matters, Scene beats, and Exit driver.
+### Primary Rules
 
-2. The Change is singular and specific. Each scene transforms ONE thing: character knowledge, relationship status, threat level, or available resources.
+**1. Characters evade direct questions through:
+   - Answering a different question than asked
+   - Providing technically true but deliberately incomplete information
+   - Redirecting to emotional/physical intimacy to derail interrogation
+   - Claiming protective motivations when pressed**
 
-3. "Why It Matters" must connect the change to the POV character's core emotional needs or survival stakes, never just to plot mechanics.
+**2. Crucial information must be revealed through:
+   - Accidental slips when character is emotionally compromised (drunk, furious, grief-stricken, lustful)
+   - Direct persistent interrogation that corners the liar
+   - Character mistakes that reveal knowledge they shouldn't possess
+   - Third-party witnesses providing contradictory information**
 
-4. Exit momentum is non-negotiable. The final beat of every scene must create a question, threat, or compulsion that drives the reader to the next scene.
+**3. Every conversation about withheld truth must escalate through these stages:
+   - Deflection/charm offensive
+   - Partial admission ("half-truth")
+   - Defensive justification
+   - Silence or retreat when cornered
+   - Full reveal only under undeniable pressure**
 
-### Scene Opening & Closing
-5. Scenes open with the POV character already in motion (physically, mentally, or emotionally). Stasis is avoided.
+**4. Characters cannot articulate their deepest fears or needs directly. These must emerge through:
+   - What they demand from others
+   - What they cannot tolerate losing
+   - The specific lies they tell themselves
+   - Actions that contradict their stated motivations**
 
-6. Key moments within scenes are tracked as discrete beats, each advancing either information flow, emotional stakes, or immediate danger.
+### Conditional Rules
 
-7. Scenes close on decisions made, revelations received, or threats materialized—never on comfortable resolution.
+**1. Romantic/sexual dialogue must layer physical desire with emotional manipulation, neither character fully honest about their true vulnerability.**
 
-### POV Character Experience
-8. Everything in the scene is filtered through the POV character's subjective perception, priorities, and emotional state.
+**2. Interrogation scenes must reveal as much about the questioner (through what they ask and how) as about the person being questioned.**
 
-9. The same event viewed from different POVs will emphasize different details based on what each character notices and cares about.
-
----
-
-## 5. Dialogue Physics
-
-### Dialogue Function
-1. Every dialogue exchange serves multiple functions: advance plot, reveal character, establish information for future use, escalate tension, or shift relationship dynamics.
-
-2. Conversations happen when characters have incompatible needs or asymmetric information that creates natural conflict.
-
-3. Characters withhold or reveal information based on clear motivation (protection, manipulation, fear, pride, shame).
-
-### Dialogue Economy
-
-4. Confrontations occur when characters reach a breaking point where silence is more costly than revelation, even if revelation brings consequences.
-
-5. Information revealed through dialogue must have been available to the speaking character through their prior experience or knowledge.
-
----
-
-## 6. POV Physics
-
-### POV Selection & Rotation
-1. Each chapter/scene belongs to exactly one POV character. No omniscient narration or POV bleed occurs.
-
-2. POV rotates among 2-4 central characters whose perspectives provide complementary information about the same events.
-
-3. POV selection for each scene is determined by: who has the most at stake emotionally in this moment, or whose limited information creates maximum dramatic irony.
-
-### POV Limitations as Plot Engine
-4. The reader knows more than any single character due to POV rotation, creating sustained dramatic irony.
-
-5. Each POV character's blind spots and biases create genuine mistakes in interpretation that drive plot complications.
-
-6. Information available to the reader but not to characters creates tension as readers anticipate collisions between incompatible understandings.
-
-### POV Voice & Filter
-7. Each POV has distinct emotional texture, priorities, and ways of processing the same objective events.
-
-8. The POV character's current emotional state colors their perception. Fear, hope, shame, or desire changes what they notice and how they interpret it.
+**3. Exposition delivered through dialogue must be:
+   - Actively resisted by the listener who doesn't want it to be true
+   - Incomplete, requiring further investigation to verify
+   - Motivated by the speaker's need to justify, warn, or manipulate**
 
 ---
 
-## 7. Information Economy
+## SECTION 4: PACING & TIME MECHANICS
 
-### Information Acquisition
-1. Crucial information is discovered through: character investigation, visions/flashbacks, physical evidence, confessions, or confrontations. Never through convenient exposition.
+### Primary Rules
 
-2. Each revelation requires payment: physical suffering, relationship damage, resource expenditure, or increased danger.
+**1. Expand time for:
+   - Physical experiences of supernatural phenomena (visions, transformations, magical pain)
+   - Confrontations where lies are exposed
+   - Intimate moments interrupted by revelations or external threats
+   - Investigative discoveries that change protagonist's understanding of identity
+   - Moments where character must choose between competing loyalties**
 
-3. Information arrives in layers over multiple scenes: hint → partial truth → full truth → revelation that earlier truth was incomplete.
+**2. Compress time for:
+   - Travel between locations
+   - Routine investigation that yields no new emotional stakes
+   - Explanations of supernatural systems (convey through action/discovery, not lecture)
+   - Recovery periods between crisis points**
 
-### Information Distribution
-4. Different characters possess different pieces of the puzzle. No single character has complete information until very late in the narrative.
+**3. Chapter endings must shift one of these elements:
+   - New revelation that recontextualizes prior events
+   - Betrayal or trust violation
+   - Escalation of external threat (ticking clock)
+   - Character isolation (loss of ally or safe space)
+   - Discovery of physical evidence that contradicts established "truth"**
 
-5. Withheld information creates dramatic irony when readers know what characters don't, building tension around the inevitable collision.
+**4. POV switches must occur at moments of maximum dramatic irony:
+   - Reader learns antagonist's true motivation immediately after protagonist makes wrong assumption
+   - Reader sees betrayer's perspective immediately after protagonist extends trust
+   - Reader discovers hidden connection immediately after protagonist dismisses possibility**
 
-6. Characters must earn knowledge through action: conducting investigation, enduring visions, forcing confrontations, or taking risks.
+### Transition Rules
 
-### Mystery Compound Interest
-7. Solving one mystery reveals another beneath it. Each answer generates 2-3 new questions that drive continued investigation.
+**1. Scene transitions must carry emotional residue. Characters enter new scenes still processing previous trauma, grief, or revelation—never reset to neutral.**
 
-8. The protagonist's core mystery (identity, past, nature) provides sustained engine throughout, with peripheral mysteries providing chapter-level momentum.
-
----
-
-## 8. Stakes & Pressure System
-
-### Layered Stakes Architecture
-1. Personal stakes (identity, sanity, relationships) and world stakes (apocalypse, realm destruction) operate simultaneously.
-
-2. Stakes escalate in concentric circles: individual safety → relationship survival → community threat → world-ending catastrophe.
-
-3. Emotional stakes compound with physical danger. Scenes combine immediate physical threat with simultaneous emotional vulnerability.
-
-### Pressure Escalation
-4. Each chapter raises stakes from the previous chapter through: new information that increases threat scope, betrayals that remove allies, or time pressure that limits options.
-
-5. Safe spaces are temporary and conditional. Sanctuaries (home, workspace, relationships) become compromised or violated as threats escalate.
-
-6. Time pressure is implicit in ongoing threats rather than artificial countdown clocks.
-
-### Consequence Physics
-7. Character choices have permanent consequences. Betrayals cannot be easily forgiven, deaths cannot be undone, trust once broken stays fractured.
-
-8. The cost of obtaining information or power is consistent and accumulates.
+**2. Time jumps must be marked by:
+   - Changed physical conditions (wounds healing/worsening, environments altered)
+   - References to off-stage actions through evidence of their occurrence
+   - Dialogue fragments that reference what happened during the gap
+   - Shifted power dynamics between characters**
 
 ---
 
-## 9. Off-Stage Narrative Design
+## SECTION 5: POV & EMOTIONAL LOGIC
 
-### Off-Stage Time
-1. Time jumps between scenes are minimal (hours to days maximum). Events that take longer are compressed or occur as background processes.
+### Primary Rules
 
-2. Character states change between scenes (research completed, resources gathered, emotional states shifted) but the process happens off-stage.
+**1. Each POV must be colored by that character's specific emotional wound:
+   - The abandoned filter events through lens of rejection and worthlessness
+   - The obsessed filter events through lens of destiny and ownership
+   - The guilty filter events through lens of debt and punishment
+   - The traumatized filter events through lens of threat and survival**
 
-3. Some crucial actions occur during gaps: blackouts, lost time, unconsciousness, or parallel POV scenes. These gaps are plot devices, not carelessness.
+**2. POV character's internal narration must contradict their external behavior when they're:
+   - Manipulating someone "for their own good"
+   - Hiding pain behind competence or charm
+   - Denying their own desperate needs
+   - Rationalizing harmful choices through noble motivations**
 
-### Background World
-4. Other characters continue their plans and actions off-stage. The world doesn't pause when POV shifts away.
+**3. Physical sensations must convey emotional states:
+   - Unwanted attraction = body betraying rational mind
+   - Supernatural connection = invasive physical compulsion
+   - Memory recovery = violent physical trauma
+   - Lies/deception detected = visceral wrongness (cold, nausea, tension)**
 
-5. Investigation, research, and planning happen "between scenes" when they would slow pacing, but results appear on-stage with character reference to what they did.
+**4. Characters must experience conflicting simultaneous emotions without resolving them:
+   - Love and rage toward the same person
+   - Desperate need for truth and terror of learning it
+   - Physical desire and emotional revulsion
+   - Gratitude and resentment for protection/interference**
 
-6. Threats evolve off-stage. Antagonists make progress toward their goals during scenes focused on other characters.
+### Secondary Rules
 
-### Implicit World Building
-7. The world exists beyond what's shown. References to history, politics, social structures, and magic systems imply depth without requiring extensive exposition.
+**1. Investigator POVs must show:
+   - Cataloging physical evidence even during emotional crisis
+   - Professional instincts competing with personal feelings
+   - Guilt over objectivity failing when case becomes personal
+   - Pattern recognition that bypasses conscious thought**
 
-8. Cultural rules and supernatural mechanics are demonstrated through character action and consequence rather than explained through dialogue or narration.
+**2. Supernatural POVs must show:
+   - Casual acceptance of impossible as normal
+   - Centuries of time creating different emotional scale
+   - Predatory instincts in conflict with chosen ethics
+   - Power as default solution requiring conscious restraint**
+
+**3. Possessed/influenced POVs must show:
+   - Time loss and disorientation
+   - Actions performed with skill they don't consciously possess
+   - Fragmented awareness of compulsion
+   - Post-influence horror at what they did**
 
 ---
 
-## 10. Structural Meta-Patterns
+## SECTION 6: INFORMATION ECONOMY
 
-### Dramatic Irony Engine
-1. Reader knowledge exceeds character knowledge through POV rotation. Watching characters operate on incomplete information creates sustained tension.
+### Primary Rules
 
-2. Revelations are timed for maximum emotional impact: when character is most vulnerable, when relationship is most fragile, when stakes are highest.
+**1. Supernatural revelations must arrive through investigation of physical evidence, never through explanatory conversation unless:
+   - The explainer is lying or providing incomplete information
+   - The listener actively resists/challenges the explanation
+   - The explanation creates new urgent questions**
 
-### Betrayal Architecture
-3. Betrayals are set up early through seemingly innocent details, revealed late when emotional investment is maximum.
+**2. Memory recovery must be:
+   - Triggered by physical objects, locations, or sensory experiences
+   - Fragmentary and incomplete, requiring assembly of pieces
+   - Violently traumatic, deterring repeated attempts
+   - Contradictory to protagonist's assumed identity**
 
-4. Multiple layers of deception exist. First betrayal revealed prepares reader for deeper betrayal.
+**3. Each character must hold specific pieces of truth they hide for different reasons:
+   - Antagonist hides methods and full plan
+   - Love interest hides prior knowledge of protagonist's past
+   - Ally hides information they think would break protagonist
+   - Protagonist's own mind hides memories that threaten survival**
+
+**4. Lies must be revealed through:
+   - Liar possessing knowledge they shouldn't have
+   - Physical evidence contradicting stated facts
+   - Third party providing different version of events
+   - Liar's behavior inconsistent with their claimed ignorance**
+
+**5. No information may be revealed through:
+   - Overheard conversations intended to inform reader
+   - Antagonist monologuing their entire plan
+   - Convenient prophesy or vision showing exactly what to do
+   - Character suddenly "remembering" crucial detail at perfect moment**
+
+### Forbidden-by-Constraint
+
+**No character may learn crucial information without:
+   - Actively investigating despite warnings
+   - Paying severe physical or psychological cost
+   - Confronting someone who has reason to withhold it
+   - Discovering physical evidence that proves the truth**
 
 ---
 
-## Application Notes
+## SECTION 7: GENRE-ALIGNMENT RULES (Paranormal Romance / Urban Fantasy)
 
-This NPE describes the underlying physics of how this narrative operates. When outlining or drafting:
+### Required Elements
 
-- Each scene must explicitly satisfy the 5-part structure (POV, Change, Why It Matters, Beats, Exit)
-- Information introduced in Scene N cannot solve problems until Scene N+2 minimum
-- Every revelation must cost something (pain, safety, relationship, resource)
-- Stakes must escalate scene-over-scene through multiplication of complications
-- POV limitations create character mistakes that drive plot forward
-- No rest, no safety, no easy answers—only earned truth through character action
+**1. Supernatural Connection Must Complicate, Not Solve:**
+   - Fated bonds, mate marks, or magical connections must create ethical dilemmas about autonomy and genuine choice
+   - Supernatural attraction must conflict with emotional trust and rational assessment
+   - Physical pull must be acknowledged as potentially violating consent if not questioned
+   - Characters must actively wonder whether their feelings are genuine or magically compelled**
 
-The system is designed to create relentless forward momentum through causally linked complications, metered information release, and character decisions made under pressure with incomplete information.
+**2. Hidden Supernatural World Rules:**
+   - Supernatural beings live concealed among humans through glamour, misdirection, or political structures
+   - Human characters discovering the supernatural must doubt their sanity before accepting truth
+   - Revelation of supernatural to humans carries severe consequences (death, memory wipe, or forced recruitment)
+   - Supernatural politics operate by different moral codes than human society**
+
+**3. Magic System Constraints:**
+   - Every supernatural ability must have clear, consistent cost (physical pain, life force, sanity, time, etc.)
+   - Power levels must have established hierarchy with political implications
+   - Magic cannot solve emotional conflicts or create genuine love/trust
+   - Magical compulsion exists but characters must recognize it as violation**
+
+**4. Romance Structure:**
+   - Physical attraction must precede emotional trust
+   - Intimate moments must be interrupted, complicated, or followed by revelations that reframe them
+   - Love triangle (or appearance of one) must involve genuine ethical dilemmas, not arbitrary obstacles
+   - Past relationships must create present complications (forgotten spouse, rejected mate, etc.)
+   - Character growth required before functional relationship possible**
+
+**5. Urban Fantasy Investigation:**
+   - Mundane investigation techniques (evidence collection, interrogation, surveillance) applied to supernatural crimes
+   - Protagonist must be professional investigator (detective, FBI, etc.) or obsessive amateur
+   - Each clue must be physical evidence that survives supernatural scrutiny
+   - Case files, photographs, and forensic evidence serve as touchstones of reality**
+
+**6. Mystery Plot Integration:**
+   - External plot (murder investigation, political conspiracy, apocalyptic threat) must parallel internal arc (identity, trust, belonging)
+   - Solving external mystery must require confronting internal wounds
+   - Red herrings must emerge from character deception, not arbitrary misdirection
+   - Final revelation must recontextualize earlier "clues" protagonist dismissed**
+
+### Allowed When Justified
+
+**1. Mate Bonds / Fated Connections:**
+   - Allowed only when protagonist actively questions whether bond violates free will
+   - Must create conflict between physical compulsion and emotional autonomy
+   - Protagonist must consider walking away despite supernatural pull
+   - Bond must be revealed to contain hidden costs or complications**
+
+**2. Memory Loss / Amnesia:**
+   - Allowed only when memory suppression is active magical constraint, not passive injury
+   - Attempting to remember must cause escalating physical trauma
+   - Other characters must have known protagonist before, creating asymmetric knowledge
+   - Recovery must be fragmentary and unreliable, requiring verification**
+
+**3. Possession / Magical Compulsion:**
+   - Allowed when victim experiences time loss, not conscious puppetry
+   - Must be revealed through victim's impossible knowledge/skills, not obvious personality change
+   - Controller must have established magical connection through prior contact
+   - Breaking compulsion must require external intervention, not willpower**
+
+**4. Love Triangle:**
+   - Allowed only when both "options" represent genuine but incompatible values or identities
+   - Neither option can be obviously wrong/right
+   - Protagonist must have genuine emotional connection to both, not arbitrary attraction
+   - Resolution must require protagonist choosing identity/values, not just "picking a boy"**
+
+**5. Centuries-Old Love Interest:**
+   - Allowed when age gap creates genuine ethical complications protagonist recognizes
+   - Ancient being must have relationship patterns shaped by inhuman timescale
+   - Protagonist must question why immortal being wants mortal/amnesiac partner with power imbalance
+   - Age must create different emotional priorities, not just exotic backstory**
+
+**6. Chosen One / Special Destiny:**
+   - Allowed only when "destiny" is burden or curse protagonist wants to escape
+   - Special status must isolate protagonist, not empower them
+   - Protagonist must actively resist their "role"
+   - Being "special" must extract ongoing cost that makes protagonist question if it's worth it**
+
+### Forbidden-by-Constraint
+
+**1. Romantic resolution cannot occur while:**
+   - Protagonist's identity remains unknown to themselves
+   - Major deception remains unconfessed between romantic parties
+   - External threat to protagonist's life remains active
+   - Protagonist has not confronted the wound driving their destructive patterns**
+
+**2. Supernatural elements cannot:**
+   - Provide convenient solution to emotional conflicts
+   - Create instant love without ethical complication
+   - Erase consequences of character choices
+   - Resolve plot through deus ex machina intervention
+   - Override consent without characters recognizing violation**
+
+**3. Investigation plot cannot:**
+   - Rely on prophetic visions showing exactly what to do
+   - Use coincidental discoveries protagonist didn't work to find
+   - Introduce evidence in final act that wasn't seeded earlier
+   - Resolve through antagonist's unprompted confession**
+
+**4. Mystery structure cannot:**
+   - Introduce crucial new character in final quarter of story
+   - Reveal antagonist's identity through exposition rather than protagonist's deduction
+   - Use red herrings unrelated to character motivations
+   - Solve case through information protagonist didn't have access to**
+
+---
+
+## SECTION 8: STAKES & PRESSURE SYSTEM
+
+### Primary Rules
+
+**1. Personal stakes must parallel external stakes:
+   - Solving murder mystery = recovering lost identity
+   - Preventing apocalypse = reclaiming stolen agency
+   - Protecting innocents = forgiving self for past failures
+   - Destroying corrupt system = choosing authentic self over false destiny**
+
+**2. Stakes must escalate through loss of safety, not just increased danger:**
+
+   - **Stage 1:** Professional case becomes personally significant
+   - **Stage 2:** Safe spaces violated (home invasion, sanctuary compromised)
+   - **Stage 3:** Trusted allies revealed as compromised or hostile
+   - **Stage 4:** Protagonist's own mind/memories proven unreliable
+   - **Stage 5:** Core identity revealed as constructed lie**
+
+**3. Ticking clock must have multiple simultaneous countdowns:**
+   - External: antagonist systematically eliminating targets
+   - Physical: protagonist's body deteriorating from supernatural strain
+   - Emotional: relationships fracturing under weight of revealed lies
+   - Cosmic: supernatural deadline (eclipse, tithe, seasonal change) approaching**
+
+**4. Each revelation must force protagonist to question a previous certainty:
+   - "I'm losing my mind" → "I have supernatural abilities"
+   - "He's helping me" → "He knew truth all along"
+   - "She's my only ally" → "She's been controlled by enemy"
+   - "I'm the victim" → "I might be the weapon"**
+
+**5. Power escalation must create new vulnerabilities:
+   - Gaining supernatural abilities = becoming target for those who fear them
+   - Learning truth about past = destabilizing present identity
+   - Recovering memories = experiencing trauma fresh again
+   - Accepting magical heritage = losing claim to human life/relationships**
+
+### Secondary Rules
+
+**1. No safe harbor can remain safe. Each location must be:**
+   - Violated by antagonist's intrusion
+   - Revealed as surveillance location
+   - Compromised by ally's betrayal
+   - Abandoned due to protagonist's transformation**
+
+**2. Every alliance must be tested by:**
+   - Revelation of prior deception
+   - Conflicting loyalties (duty vs. personal connection)
+   - Moral disagreement about acceptable costs
+   - Discovery that ally has been compromised**
+
+**3. Antagonist pressure must be psychological before physical:**
+   - First: messages proving they know protagonist's secrets
+   - Second: violations of private space
+   - Third: harm to people protagonist cares about
+   - Fourth: direct confrontation only after psychological dominance established**
+
+---
+
+## SECTION 9: OFF-STAGE NARRATIVE DESIGN
+
+### Primary Rules
+
+**1. Antagonist's off-stage actions must be revealed through:**
+   - Physical evidence protagonist discovers (placement of objects, surveillance equipment, altered environments)
+   - Victims' testimony about what happened during lost time
+   - Third-party observations of events protagonist didn't witness
+   - Body language and behavior changes in compromised characters**
+
+**2. Time protagonist doesn't witness (blackouts, separations, off-page events) must be:**
+   - Reconstructed through investigation of what changed
+   - Revealed through other POV chapters showing what actually occurred
+   - Source of horror when true events contradict protagonist's assumptions
+   - Key to solving mystery when protagonist discovers what happened during gaps**
+
+**3. Characters' pasts must be revealed through:**
+   - Physical artifacts (photographs, journals, documents)
+   - Conflicting accounts from different witnesses
+   - Protagonist's fragmented memories contradicting official story
+   - Locations that trigger sense memory**
+
+**4. Supernatural world-building must emerge through:**
+   - Characters' casual references revealing their assumptions
+   - Protagonist's confusion about normal supernatural practices
+   - Political conflicts demonstrating power structures
+   - Magical costs demonstrating system constraints**
+
+### Secondary Rules
+
+**1. Antagonist's preparation must be shown through:**
+   - Evidence of long-term surveillance
+   - Resources they shouldn't have access to
+   - Knowledge they couldn't have obtained normally
+   - Manipulation of events protagonist thought were coincidence**
+
+**2. Protagonist's lost memories must be revealed through:**
+   - Other characters' reactions to protagonist not remembering shared experiences
+   - Protagonist's inexplicable skills/knowledge they don't remember learning
+   - Locations/objects that feel familiar for unknown reasons
+   - Protagonist's instinctive responses that contradict their conscious identity**
+
+**3. Political maneuvering in supernatural community must be shown through:**
+   - Messengers delivering summons or warnings
+   - Characters carefully avoiding forbidden topics
+   - References to past conflicts shaping current fears
+   - Consequences of breaking supernatural laws/customs**
+
+---
+
+## SECTION 10: REVELATION & RECONTEXTUALIZATION MECHANICS
+
+### Primary Rules
+
+**1. Every major reveal must reframe previous scenes when reader re-examines them:**
+   - "Helpful" advice revealed as manipulation toward planned outcome
+   - "Protective" behavior revealed as possessive control
+   - "Coincidental" meetings revealed as stalking/surveillance
+   - "Mysterious" reactions revealed as recognition protagonist didn't share**
+
+**2. Protagonist must be positioned to notice clues but dismiss them through:**
+   - Unreliable narrator believing they're mentally ill
+   - Trauma-brain prioritizing survival over pattern recognition
+   - Emotional investment in believing ally's lies
+   - Professional skepticism rejecting supernatural explanations**
+
+**3. The truth must be worse than protagonist's darkest suspicion in unexpected ways:**
+   - Not just "he lied" but "he knew everything from the beginning"
+   - Not just "she's compromised" but "she's been controlled for months/years"
+   - Not just "I have powers" but "I'm the weapon/anchor/prison"
+   - Not just "he loves me" but "he's killed to possess me"**
+
+**4. Clues must be planted through:**
+   - Character possessing knowledge they claim not to have
+   - Impossibly perfect timing of "coincidental" events
+   - Objects appearing/disappearing with no explanation
+   - Other characters' confused reactions to protagonist's false assumptions**
+
+### Pattern Recognition Rules
+
+**1. Protagonist's professional skills must provide tools for truth-seeking:**
+   - Evidence collection habits applied to personal life
+   - Interrogation techniques used on allies
+   - Pattern recognition that operates despite emotional investment
+   - Documentation creating record that survives magical interference**
+
+**2. Physical evidence must survive magical manipulation:**
+   - Photographs retain truth even when human memory is altered
+   - Digital records preserve what glamour changes in physical objects
+   - Scars/wounds contradict claimed timeline of events
+   - Locations contain residue of magical working**
+
+**3. Each revelation must create urgent new question:**
+   - "If he lied about this, what else?" → drives investigation of ally
+   - "If she's controlled, since when?" → drives timeline reconstruction
+   - "If I'm this, what am I capable of?" → drives self-discovery
+   - "If past is false, what is true?" → drives identity quest**
+
+---
+
+## USAGE NOTES FOR IMPLEMENTATION
+
+This NPE is designed for **paranormal romance / urban fantasy** novels featuring:
+- Amnesiac or identity-uncertain protagonists
+- Romantic relationships complicated by deception, supernatural compulsion, or past obligations
+- Murder mystery or conspiracy investigation as external plot
+- Hidden supernatural world revealed to protagonist
+- Morally complex antagonists driven by love/obsession
+- Progressive isolation as allies are revealed as compromised
+
+### Core Tension Formula:
+**Physical Attraction × Emotional Distrust × Supernatural Compulsion × Identity Uncertainty = Maximum Romantic Conflict**
+
+### Investigation Structure:
+**Physical Evidence → Confrontation → Partial Admission → New Evidence Contradicting Admission → Full Truth → Recontextualization of All Prior Events**
+
+### Betrayal Revelation Pattern:
+**Trust Extended → Suspicious Detail Dismissed → Accumulating Contradictions → Undeniable Proof → Confrontation → Relationship Fracture**
+
+---
+
+*End of Narrative Physics Engine v1.0*
