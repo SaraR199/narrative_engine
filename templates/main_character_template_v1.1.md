@@ -165,10 +165,3 @@ For each key relationship:
 
 ---
 
-# **AI IMPLEMENTATION RULESET (NON-BRACKETED)**
-
-- Rotate emotional and behavioral palettes; do not repeat identical gestures or phrases within 3–4 scenes.
-- Express flaws through multiple strategies, not one repeated tell.
-- Use appropriate context state (baseline/mild/extreme) per scene stakes.
-- Use arc version (V1–V4) based on story progression; later versions override earlier ones.
-- Use relationship-specific dynamics for interactions with defined characters.
