@@ -9,16 +9,15 @@
 ## 1. CORE DYNAMIC OVERVIEW
 
 **One-Sentence Summary:**
-Draven trusts Cassia because she executed her cousin Marcus (his father's assassin) to prove loyalty, not realizing that sacrifice made her his most dangerous enemy—a betrayer so convinced of her own righteousness that her lies bypass dragon lie detection.
+Draven trusts Cassia because she executed her cousin Marcus (his father's assassin) to prove loyalty, not realizing that sacrifice made her his most dangerous enemy—a betrayer so convinced of her righteousness that her lies bypass dragon lie detection.
 
 **Fundamental Tension:**
-Draven believes Cassia's willingness to kill family proves absolute loyalty. Cassia believes her decade-long betrayal IS loyalty—to the clan's survival, to Marcus's vindication, to the "truth" that emotionally compromised alphas destroy everything. Both operate from genuine conviction.
+Draven believes killing family proves absolute loyalty. Cassia believes her betrayal IS loyalty—to the clan's survival, to Marcus's vindication, to the "truth" that emotionally compromised alphas destroy everything. Both operate from genuine conviction.
 
 **Why This Relationship Matters:**
-
-- **Plot Driver:** Creates internal threat within council; forces Isla to use psychometry when vision exposes Cassia's communication with Crimson Talon; escalates blood moon crisis
-- **Thematic Representation:** Trust vs. control (information hoarding created blind spots), being truly seen (he never saw her grief), surrender vs. control (her refusal to surrender to emotional truth destroys her)
-- **Character Arc Impact:** Shatters Draven's faith that control equals safety; proves isolation strategy enabled the threat; forces him to choose actual trust over illusion of control
+- **Plot Driver:** Creates internal threat; forces Isla to use psychometry; escalates blood moon crisis
+- **Thematic Representation:** Trust vs. control (information hoarding created blind spots), being truly seen (he never saw her grief), surrender vs. control (her refusal destroys her)
+- **Character Arc Impact:** Shatters Draven's faith that control equals safety; forces him to choose actual trust over illusion of control
 
 ---
 
@@ -27,57 +26,57 @@ Draven believes Cassia's willingness to kill family proves absolute loyalty. Cas
 ### Draven's Psychology
 
 **What He Believes:**
-- Cassia proved ultimate loyalty by executing Marcus during the post-assassination purge
-- Her sacrifice of family makes her trustworthy; she chose him over blood
-- Her political acumen is invaluable—she challenges his decisions thoughtfully
-- His surveillance keeps him aware of potential threats, including from her
-- She already made the hardest choice; there's nothing left to betray him for
+- Cassia proved ultimate loyalty by executing Marcus
+- Her sacrifice makes her trustworthy
+- Her political acumen is invaluable
+- His surveillance keeps him aware of threats
+- She already made the hardest choice; nothing left to betray him for
 
 **What He Doesn't See:**
 - The execution was calculated to earn unshakeable trust
-- She loved Marcus and viewed the execution as necessary sacrifice for the long game
-- Her grief and rage festered for a decade, invisible because she genuinely believes she serves the clan
-- His information control creates blind spots—she works around what he monitors
+- She loved Marcus and views the execution as necessary sacrifice for the long game
+- Her grief festered for a decade, invisible because she genuinely believes she serves the clan
+- His information control creates blind spots she exploits
 - Her counsel subtly steers him toward her agenda
 
 **Core Wound Interaction:**
-His father was killed by his most trusted advisor. Cassia's loyalty through blood sacrifice seemed like the antidote—proof that loyalty CAN be earned. Doubting her means confronting that he can't control who betrays him, that his system failed, that he's as vulnerable as his father was.
+His father was killed by his most trusted advisor. Cassia's blood sacrifice seemed like the antidote. Doubting her means confronting that he can't control who betrays him, that his system failed.
 
 **Flawed Strategy:**
-His weaponized information asymmetry backfires. He hoards information to maintain control, preventing patterns from emerging. Cassia exploits this—she knows what intelligence he'll see and feeds him curated truths. His emotional distance means he never truly saw her: never noticed her grief, never questioned her too-perfect composure, never wondered what executing Marcus cost her.
+Information hoarding prevents patterns from emerging. Cassia exploits this—she knows what intelligence he'll see and feeds him curated truths. His emotional distance means he never truly saw her: never noticed her grief, never questioned her composure, never wondered what executing Marcus cost her.
 
 ### Cassia's Psychology
 
 **What She Believes:**
-- Marcus was right—Draven's father became weak through love, making him a liability
-- Draven repeats the pattern: becoming dangerously compromised by emotional attachment to Isla
+- Marcus was right—Draven's father became weak through love
+- Draven repeats the pattern: dangerously compromised by Isla
 - Her betrayal IS loyalty—to the clan's survival, to Marcus's vision
-- She executed Marcus to earn Draven's trust as part of the plan Marcus would have approved
-- She's not lying when she claims loyalty; she IS loyal to what the clan truly needs
+- She executed Marcus to earn trust as part of the plan he would have approved
+- She's not lying when she claims loyalty; she IS loyal to what the clan needs
 
 **What She Doesn't See:**
-- Her love for Marcus controls her completely; she's the emotionally compromised one
-- Marcus's "vision" was self-serving ambition dressed as clan protection
-- A decade of patient manipulation calcified her self-deception into unbreakable conviction
-- She views others' emotions as weaknesses while utterly ruled by her own
-- She's become what she claims to oppose: someone whose personal feelings endanger the clan
+- Her love for Marcus controls her completely
+- Marcus's "vision" was self-serving ambition
+- A decade of manipulation calcified her self-deception
+- She views others' emotions as weaknesses while ruled by her own
+- She's become what she opposes: someone whose feelings endanger the clan
 
 **Core Motivation:**
-Vindicate Marcus by proving Draven suffers the same flaw—emotional attachment that clouds judgment. Her love for Marcus drives everything while she tells herself she's transcended such weakness.
+Vindicate Marcus by proving Draven suffers the same flaw—emotional attachment that clouds judgment.
 
 **Primary Flaw:**
-Belief that she's immune to emotional compromise. She views others' attachments as exploitable vulnerabilities while convinced her devotion to Marcus makes her stronger and clearer. She can't recognize that emotion controls her entirely because she's reframed it as ideological commitment.
+Belief that she's immune to emotional compromise. She can't recognize that emotion controls her entirely because she's reframed it as ideological commitment.
 
 ### The Psychological Trap
 
 **Draven's Investment:**
-He needs to believe Cassia is loyal because doubting her means his entire security system failed. She represents his successful application of control strategy—surveillance, information control, loyalty bought through shared violence. If she betrays him, control doesn't equal safety.
+He needs to believe Cassia is loyal because doubting her means his entire security system failed. If she betrays him, control doesn't equal safety.
 
 **Cassia's Self-Deception:**
-She's so thoroughly convinced her betrayal serves the clan that she experiences no guilt, no deception—her heartbeat stays steady, scent remains truthful, because in her fractured logic, she IS being loyal. This makes her undetectable through dragon biological lie detection.
+She's so convinced her betrayal serves the clan that she experiences no guilt—her heartbeat stays steady, scent remains truthful. This makes her undetectable through dragon biological lie detection.
 
 **Mutual Blindness:**
-Draven can't see her grief because he never looks for emotional truth, only behavioral compliance. Cassia can't see her own emotional control because she's labeled it "strategic clarity." They're both operating from unexamined wounds—his father's assassination taught him to trust no one; Marcus's execution taught her to hide everything.
+Draven can't see her grief because he never looks for emotional truth, only behavioral compliance. Cassia can't see her own emotional control because she's labeled it "strategic clarity."
 
 ---
 
@@ -86,51 +85,51 @@ Draven can't see her grief because he never looks for emotional truth, only beha
 ### What Draven Sees (Surface)
 
 **Role:** Trusted council member; political strategist; proof loyalty can be earned
-**Behavior:** Measured counsel; challenges decisions respectfully; remembers details; appears during crises with solutions; maintains appropriate formality
+**Behavior:** Measured counsel; challenges decisions respectfully; appears during crises with solutions
 **Key Loyalty Signals:**
 - Executed her cousin without hesitation
 - Provides accurate intelligence (because she controls what reaches him)
 - Questions his decisions, suggesting independent thinking
-- Shows no emotional volatility—always composed, rational, steady
-- Has had decade of opportunity to betray him and hasn't (as far as he knows)
+- Shows no emotional volatility—always composed, steady
+- Has had decade of opportunity to betray him and hasn't
 
 **His Mental Narrative:**
-*"Cassia chose me over blood. She proved herself when it cost her everything. Her counsel is invaluable because she's not afraid to challenge me."*
+*"Cassia chose me over blood. She proved herself when it cost her everything."*
 
 ### What's Actually Happening (Reality)
 
 **Role:** Long-game betrayer; Crimson Talon intelligence asset; architect of Draven's destabilization
-**Behavior:** Surgical manipulation with plausible deniability; every suggestion subtly steers toward vulnerability; creates problems she then "helps" solve; feeds intelligence to enemies while appearing to investigate leaks
+**Behavior:** Surgical manipulation with plausible deniability; creates problems she then "helps" solve
 **Actual Motivations:**
 - Vindicate Marcus by proving Draven equally unfit
 - Destabilize leadership to force council intervention
-- Install puppet alpha who'll continue Marcus's vision
-- Prove executing Marcus was necessary and right
+- Install puppet alpha continuing Marcus's vision
+- Prove executing Marcus was necessary
 
 **Her Mental Narrative:**
-*"Marcus was right. Draven's father became weak, and now Draven follows the same path—compromised by the human. I serve the clan's TRUE survival by removing him before he destroys everything. This is loyalty."*
+*"Marcus was right. Draven follows the same path—compromised by the human. I serve the clan's TRUE survival. This is loyalty."*
 
 ### The Performance
 
 **How She Maintains The Mask:**
 
-1. **Sophisticated Self-Deception:** Not consciously lying. She's reframed betrayal as loyalty so thoroughly that biological lie detection fails.
+1. **Sophisticated Self-Deception:** Reframed betrayal as loyalty so thoroughly that biological lie detection fails.
 
-2. **Plausible Deniability Architecture:** Every action has innocent explanation. Delayed security response? The runner was sick (she poisoned him mildly). Intelligence leaked? Must be the eastern vassals (she planted evidence).
+2. **Plausible Deniability Architecture:** Every action has innocent explanation. Delayed security response? The runner was sick (she poisoned him). Intelligence leaked? Must be the eastern vassals (she planted evidence).
 
 3. **Strategic Truth-Telling:** Provides accurate intelligence about minor threats, building credibility while concealing major manipulation.
 
-4. **Emotional Stillness:** Dragons read emotional volatility as deception. Cassia's preternatural composure appears competent but is actually dissociation—her mind calculating three moves ahead.
+4. **Emotional Stillness:** Cassia's preternatural composure appears competent but is actually dissociation—calculating three moves ahead.
 
-5. **The Helpful Problem-Solver:** Orchestrates problems then appears with solutions, positioning herself as indispensable.
+5. **The Helpful Problem-Solver:** Orchestrates problems then appears with solutions.
 
 ### Dramatic Irony
 
 **Scenes That Play Differently:**
-- **Council meetings where Cassia advocates caution about Isla:** Draven hears strategic counsel; reader knows she's preventing the stabilizing mating bond
-- **Her questions about security protocols:** Draven hears diligent verification; reader knows she's identifying weaknesses
+- **Council meetings:** Draven hears strategic counsel; reader knows she's preventing the stabilizing mating bond
+- **Security protocol questions:** Draven hears diligent verification; reader knows she's identifying weaknesses
 - **Sympathetic moments with Isla:** Draven sees bridge-building; reader knows she's fishing for information
-- **Her stillness during emergencies:** Draven reads competence; reader knows she's calculating how to exploit chaos she created
+- **Stillness during emergencies:** Draven reads competence; reader knows she's calculating exploitation
 
 ---
 
@@ -140,113 +139,104 @@ Draven can't see her grief because he never looks for emotional truth, only beha
 
 **Relationship State:** Draven treats Cassia as valued inner circle member
 **Key Dynamics:**
-- Provides measured counsel about Isla, advocating political solutions
-- Draven values her perspective as counterweight to Kai's aggressive approach
-- Appears sympathetic to Isla while actually assessing threat level
-- Behind scenes: feeding intelligence to Crimson Talon, orchestrating minor accidents
+- Provides measured counsel about Isla
+- Appears sympathetic to Isla while assessing threat level
+- Behind scenes: feeding intelligence to Crimson Talon, orchestrating accidents
 
 **Critical Scenes:**
-- Council meeting where Cassia gathers intelligence about Isla's authentication process
-- Private advice about managing clan perception (actually planting doubt about the bond)
+- Council meeting where Cassia gathers intelligence about Isla's authentication
+- Private advice planting doubt about the bond
 - Her "investigation" into supply disruptions she orchestrated
 
-**Draven's Perception:** *"Cassia's political instincts are sharp. I should listen to her concerns."*
-**Cassia's Reality:** *"He's already compromised. The blood moon timeline gives me the perfect window—he'll be too focused on the bond to see the knife coming."*
+**Draven's Perception:** *"Cassia's political instincts are sharp."*
+**Cassia's Reality:** *"He's already compromised. The blood moon gives me the perfect window."*
 
 ### Act 2: Hairline Fractures
 
-**Relationship State:** Small inconsistencies accumulate; Kai's instincts trigger Draven's paranoia; Cassia takes bigger risks
+**Relationship State:** Small inconsistencies accumulate; Kai's instincts trigger paranoia; Cassia takes bigger risks
 **Shifting Dynamics:**
-- Isla's Seer heritage makes Cassia more aggressive—she didn't anticipate this
-- Cassia counsels against the mating bond more forcefully, citing his father's vulnerability
-- Kai mentions Cassia was "conveniently" positioned during a security breach—Draven dismisses it but the seed is planted
-- Her questions become more invasive; explanations for being certain places too convenient
+- Isla's Seer heritage makes Cassia more aggressive
+- Cassia counsels against the mating bond more forcefully
+- Kai notes Cassia was "conveniently" positioned during a breach
+- Her questions become more invasive; explanations too convenient
 
 **Critical Scenes:**
-- Cassia advocates strongly against publicly acknowledging the bond: "Your father's love made him weak. Don't repeat his mistake." (Her vehemence strikes Draven as personal)
-- Kai reports: "She knew about the eastern route vulnerability before I'd finished the security assessment. How?"
-- Isla uses psychometry and gets a flash of Cassia's presence somewhere she claimed not to be
+- Cassia: "Your father's love made him weak. Don't repeat his mistake." (Vehemence strikes Draven as personal)
+- Kai: "She knew about the eastern route vulnerability before I'd finished assessment. How?"
+- Isla's psychometry flash shows Cassia where she claimed not to be
 
-**Draven's Perception:** *"Perhaps she's genuinely worried I'm becoming my father. Or perhaps... no. She proved herself a decade ago."*
-**Cassia's Reality:** *"The Seer gift changes everything. If the girl can authenticate truths, she's more dangerous than I calculated. I need to accelerate."*
+**Draven's Perception:** *"Perhaps she's worried I'm becoming my father. Or perhaps... no."*
+**Cassia's Reality:** *"The Seer gift changes everything. I need to accelerate."*
 
 ### Act 3: The Unraveling
 
-**Relationship State:** Isla's psychometry provides undeniable proof; Draven confronts the betrayal
+**Relationship State:** Isla's psychometry provides undeniable proof
 
 **The Evidence:**
-Isla touches the communication device Cassia used to coordinate with Crimson Talon. The psychometric vision shows:
-- Cassia's hands encoding a message about the crown's authentication schedule
+Isla touches Cassia's communication device. The psychometric vision shows:
+- Cassia encoding a message about crown authentication schedule
 - Her voice: "Draven is compromised by the human. The blood moon is your window."
-- The satisfied cold fury in her eyes
-- Her touching her left wrist reflexively (Marcus's signet location)
+- Cold fury in her eyes
+- Touching her left wrist reflexively (Marcus's signet location)
 
 **The Confrontation:**
-Draven assembles the council, presents the evidence. Cassia doesn't crumble—she defends:
-
-*"Marcus was RIGHT. Your father became a liability, blinded by grief. You're repeating the pattern—compromised by a woman, blind to real threats. I have served this clan's SURVIVAL, not the whims of flawed alphas. Everything I've done has been to protect us from weak leadership that puts personal feelings above clan safety."*
+Cassia defends: *"Marcus was RIGHT. Your father became a liability, blinded by grief. You're repeating the pattern—compromised by a woman. I have served this clan's SURVIVAL, not the whims of flawed alphas."*
 
 **Critical Revelations:**
 - She loved Marcus; executing him was her sacrifice for the long game
 - She's been feeding intelligence to Crimson Talon for years
 - Multiple "accidents" were her orchestration
-- Her counsel has subtly steered Draven toward vulnerabilities for a decade
+- Her counsel has steered Draven toward vulnerabilities for a decade
 - She genuinely believes she's the hero
 
 **Draven's Response:**
-Initial shock gives way to cold rage—but also devastating recognition. His control strategy failed. Information hoarding created blind spots she exploited.
-
-*"You say you served the clan. You served a dead man's ambition and called it loyalty. You're so convinced of your own righteousness, you believe your own lies—that's why I never scented the deception."*
+*"You served a dead man's ambition and called it loyalty. You're so convinced of your righteousness, you believe your own lies—that's why I never scented the deception."*
 
 **Cassia's Final Position:**
-Absolute conviction. No remorse. Dies (or is exiled/imprisoned) warning: *"When the next weak alpha destroys what we've built, you'll remember I tried to save you."*
+No remorse. Dies (or is exiled) warning: *"When the next weak alpha destroys what we've built, you'll remember I tried to save you."*
 
 ### Act 4: Aftermath
 
-**Lasting Impact on Draven:**
-- Control and surveillance don't equal safety—actually created vulnerability
-- He never truly saw Cassia: her grief, her pain, her festering wound
+**Lasting Impact:**
+- Control and surveillance don't equal safety—created vulnerability
+- He never truly saw Cassia's grief, pain, wound
 - Information hoarding prevented pattern recognition
-- Must choose whether to double down on paranoia or learn different approach
-- The betrayal validates his fear while proving his strategy was the problem
+- Must choose: double down on paranoia or learn different approach
 
 **Character Growth Catalyst:**
-Cassia's betrayal proves isolation and control create the dangers he fears. She got close because he never looked for emotional truth, only behavioral compliance. He never asked about her grief over Marcus, treated her as a functional asset rather than a whole person.
-
-This forces transformation: with Isla, he must choose actual trust—vulnerability, sharing information, being truly seen—rather than comfortable illusion of control through surveillance.
+Cassia's betrayal proves isolation and control create the dangers he fears. She got close because he never looked for emotional truth. This forces transformation: with Isla, he must choose actual trust—vulnerability, sharing information, being truly seen.
 
 **Thematic Resolution:**
-Cassia's refusal to surrender to emotional truth destroyed her. She couldn't admit Marcus was wrong, couldn't confront her grief, couldn't surrender her need to control the narrative. Draven must learn the opposite: surrendering control and accepting vulnerability is terrifying but necessary.
+Cassia's refusal to surrender to emotional truth destroyed her. Draven must learn the opposite: surrendering control and accepting vulnerability is terrifying but necessary.
 
 ---
 
 ## 5. KEY INTERACTION PATTERNS
 
-### Pattern 1: The Council Dynamic (Political Performance)
+### Pattern 1: The Council Dynamic
 
-Cassia speaks third or fourth in council meetings—never first (too obvious), never last (seems reactive). She provides "balanced perspective" that appears to weigh multiple angles while subtly steering toward her preferred outcome.
+Cassia speaks third or fourth in meetings—never first (too obvious), never last (seems reactive). She provides "balanced perspective" while subtly steering toward her outcome.
 
-**Sample Exchange:**
-**Cassia:** "The Crimson Talon incursion is troubling, Alpha. Though one must wonder—if our intelligence has been compromised, perhaps the threat lies closer than we've considered?"
-**Draven:** *[Hears: legitimate security concern]* "You're suggesting we audit the inner circle."
-**Cassia:** "I'm suggesting we cannot afford assumptions. Even about those we trust most." *[Plants suspicion of everyone except herself]*
+**Sample:**
+**Cassia:** "The Crimson Talon incursion is troubling. Though one must wonder—if our intelligence has been compromised, perhaps the threat lies closer?"
+**Draven:** "You're suggesting we audit the inner circle."
+**Cassia:** "I'm suggesting we cannot afford assumptions. Even about those we trust most."
 
 ### Pattern 2: The Concerned Redirect
 
-When questioned about anything sensitive, Cassia furrows her brow with apparent worry, asks a question that reframes the conversation toward someone else's potential guilt, and positions herself as helping investigate.
+When questioned, Cassia furrows her brow with worry, reframes the conversation toward someone else's guilt, positions herself as helping investigate.
 
-**Sample Exchange:**
-**Kai:** "You knew about the eastern route vulnerability before my assessment was complete. How?"
-**Cassia:** *[Slight frown—concerned, not defensive]* "I'd heard rumors from the eastern vassals. I should have reported it more formally. Have we confirmed the runner's route? I worry the breach might be in the messenger system itself."
-*[Appears apologetic, redirects to messenger system she controls]*
+**Sample:**
+**Kai:** "You knew about the eastern route vulnerability before my assessment. How?"
+**Cassia:** "I'd heard rumors from eastern vassals. Have we confirmed the runner's route? I worry the breach might be in the messenger system itself."
 
 ### Pattern 3: Stillness During Chaos
 
-When crises occur, others react with anger or panic. Cassia becomes preternaturally still—appears competent but is actually dissociating, calculating three moves ahead.
+When crises occur, others react with emotion. Cassia becomes preternaturally still—appears competent but is dissociating, calculating three moves ahead.
 
 ### Pattern 4: The Proprietary Touch (Unconscious Tell)
 
-Cassia lightly touches objects of power—the back of Draven's chair, council documents, the crown's case—as though testing ownership. She also touches her left wrist (where Marcus wore his signet) when challenged. Draven never notices. Kai sees it and his suspicion deepens.
+Cassia touches objects of power—Draven's chair, council documents, the crown's case—as though testing ownership. She touches her left wrist (where Marcus wore his signet) when challenged. Draven never notices. Kai's suspicion deepens.
 
 ### Pattern 5: Strategic Truth-Telling
 
@@ -254,11 +244,10 @@ Cassia provides accurate intelligence about minor threats she knows Draven will 
 
 ### Pattern 6: Planting Doubt About Isla
 
-Cassia never directly attacks Isla but asks questions that plant suspicion, frames concerns as protective of Draven's judgment.
+Cassia never directly attacks Isla but asks questions planting suspicion.
 
-**Sample Exchange:**
-**Cassia:** "The girl's abilities are remarkable. But don't you find it convenient how she arrives precisely when we need authentication? I'm not suggesting deception—merely that we should verify her background thoroughly. And the bond manifested so quickly... Your father's bond formed over months, not days. One wonders if there's external influence. I only raise it because I care about your safety, Alpha."
-*[Plants: Isla might be a plant, the bond might be artificial, moving too fast is dangerous]*
+**Sample:**
+**Cassia:** "The girl's abilities are remarkable. But don't you find it convenient how she arrives precisely when we need authentication? Your father's bond formed over months, not days. One wonders if there's external influence."
 
 ---
 
@@ -266,38 +255,32 @@ Cassia never directly attacks Isla but asks questions that plant suspicion, fram
 
 ### Surface-Level Conflicts
 
-**Disagreement Over Isla's Treatment:**
-Cassia advocates political caution: treat Isla as valuable asset, but don't let personal feelings compromise clan security. Draven increasingly resents her interference. Appears to be strategic counsel vs. emotional investment.
+**Disagreement Over Isla:** Cassia advocates political caution; Draven increasingly resents her interference.
 
-**Council Authority Debates:**
-Cassia pushes back on Draven making unilateral decisions about the blood moon timeline. Advocates for more council input. Appears to be proper governance checks vs. alpha authority.
+**Council Authority:** Cassia pushes back on Draven's unilateral decisions about blood moon timeline.
 
-**Risk Assessment Differences:**
-Cassia warns about external threats (Crimson Talon) while Draven focuses on crown authentication and Isla. Appears to be different strategic priorities.
+**Risk Assessment:** Cassia warns about Crimson Talon; Draven focuses on crown authentication and Isla.
 
 ### Actual Conflicts
 
-**Ideological War Over Leadership:**
-Cassia believes emotionally attached alphas are liabilities. Draven (unconsciously) moving toward understanding that connection is strength. Fundamental disagreement about what makes a strong leader—though Draven doesn't realize they're having this fight.
+**Ideological War:** Cassia believes emotionally attached alphas are liabilities. Draven (unconsciously) moving toward understanding that connection is strength.
 
-**Control of Narrative:**
-Cassia works to control what information reaches Draven and how it's framed. Draven's information hoarding plays into her hands—she knows what he monitors and works around it.
+**Control of Narrative:** Cassia controls what information reaches Draven. His information hoarding plays into her hands.
 
-**Competing Visions:**
-Cassia wants puppet leadership continuing Marcus's isolationist approach. Draven (evolving) toward leadership that integrates strength with genuine connection.
+**Competing Visions:** Cassia wants puppet leadership continuing Marcus's isolationist approach. Draven evolving toward leadership integrating strength with connection.
 
 ### The Meta-Conflict: Trust Itself
 
-Can Draven trust his own judgment about who deserves trust? Cassia's betrayal targets his deepest wound—his father trusted Marcus and died for it. If Draven is wrong about Cassia, it proves he can't identify loyalty, that his system failed, that he's as vulnerable as his father was.
+Can Draven trust his judgment about who deserves trust? Cassia's betrayal targets his deepest wound—his father trusted Marcus and died for it. If Draven is wrong about Cassia, he can't identify loyalty, his system failed, he's as vulnerable as his father was.
 
-This isn't just political—it's existential. It threatens Draven's entire worldview. Accepting she fooled him means accepting his control strategy is fundamentally flawed, which means confronting the terror beneath: he's not actually safe, control is an illusion, and the only path to real security is the one that terrifies him most (genuine trust and vulnerability).
+This is existential. Accepting she fooled him means accepting his control strategy is fundamentally flawed, which means confronting: he's not actually safe, control is an illusion, and the only path to real security is the one that terrifies him most (genuine trust and vulnerability).
 
 ### Escalation Pattern
 
-**Early:** Gentle disagreements in council; easy to interpret as healthy debate
-**Middle:** More forceful advocacy; Cassia's vehemence feels slightly personal; small inconsistencies accumulate
-**Late:** Kai's suspicions force Draven to choose between his system and his instinct
-**Climax:** Undeniable proof forces confrontation; conflict explodes into existential crisis
+**Early:** Gentle disagreements; easy to interpret as healthy debate
+**Middle:** More forceful advocacy; vehemence feels personal; inconsistencies accumulate
+**Late:** Kai's suspicions force Draven to choose between system and instinct
+**Climax:** Undeniable proof forces confrontation; explodes into existential crisis
 
 ---
 
@@ -306,45 +289,34 @@ This isn't just political—it's existential. It threatens Draven's entire world
 ### What Cassia's Betrayal Teaches Draven
 
 **Lesson 1: Control Creates Blindness**
-His information hoarding meant he never shared enough for patterns to emerge. His compartmentalization gave Cassia perfect cover because no one had the full picture except Draven, who was looking for behavioral compliance rather than emotional truth.
-
-**Application:** With Isla, he must share information, collaborate, trust others with the full picture.
+Information hoarding meant he never shared enough for patterns to emerge. Cassia had perfect cover because no one had the full picture except Draven, who looked for behavioral compliance rather than emotional truth.
 
 **Lesson 2: Seeing Behavior Without Seeing the Person Is Dangerous**
-He monitored what Cassia did but never looked at who she was—her grief, her pain, her internal world. He never asked what executing Marcus cost her emotionally. He treated her as a functional asset, which is exactly how she could hide.
-
-**Application:** With Isla, he must actually see her—not just her usefulness but her full humanity, her pain, her needs.
+He monitored what Cassia did but never looked at who she was—her grief, pain, internal world. He never asked what executing Marcus cost her emotionally.
 
 **Lesson 3: The Paranoia Was Right, But The Response Was Wrong**
-His father's assassination taught him to be vigilant. He was right to be. But his response—isolate, control, monitor without connecting—created exactly the vulnerability he feared.
-
-**Application:** The answer isn't "trust blindly" or "trust no one." It's "trust wisely"—with eyes open, with actual intimacy, with willingness to be vulnerable.
+His father's assassination taught him to be vigilant. But his response—isolate, control, monitor without connecting—created exactly the vulnerability he feared.
 
 **Lesson 4: Self-Deception Is Most Dangerous**
 Cassia wasn't performing loyalty—she felt it (toward her warped ideal). Her lies bypassed detection because they weren't lies to her. The most dangerous threats come from people who've convinced themselves their harm is help.
 
-**Application:** He must examine his own self-deceptions. When he tells himself controlling Isla is "protecting" her, is that truth or justification?
-
 ### How Cassia Forces Draven's Arc Forward
 
-**Before Betrayal Reveal:**
-Draven can maintain the comfortable illusion that his system works. Cassia's apparent loyalty "proves" the system works.
+**Before:** Draven maintains the comfortable illusion that his system works.
 
-**After Betrayal Reveal:**
-The comfortable illusion shatters. His system didn't work. Control didn't equal safety. Information hoarding created the blind spot. He must choose: double down on the failed strategy (more control, more isolation) or try something terrifying (actual trust, vulnerability, connection).
+**After:** The illusion shatters. He must choose: double down on the failed strategy or try something terrifying (actual trust, vulnerability, connection).
 
-**The Choice Architecture:**
-Cassia's betrayal removes the middle ground of comfortable denial. He can't go back. The betrayal creates the crisis that forces transformation.
+**The Choice Architecture:** Cassia's betrayal removes the middle ground. The betrayal creates the crisis forcing transformation.
 
 ### What Makes This Transformation Earned
 
-**Not Instant:** Draven's first response is to consider more control, more surveillance, trusting even less. The transformation requires:
+**Not Instant:** Draven's first response is more control, more surveillance, less trust. The transformation requires:
 - Isla confronting him about the difference between surveillance and trust
 - Kai pointing out that Cassia succeeded because Draven never knew her as a person
-- Recognizing that completing the mating bond requires vulnerability he can't fake
+- Recognizing completing the mating bond requires vulnerability he can't fake
 - Active choice to share information, admit fear, be truly seen
 
-**Costly:** Choosing to trust feels like walking unarmed into battle. It violates every survival strategy that's kept him alive and powerful.
+**Costly:** Choosing to trust feels like walking unarmed into battle.
 
 **Realistic:** He doesn't become perfectly trusting. He'll always struggle with control impulses. The difference is consciousness—he catches himself, names the fear, chooses differently.
 
@@ -354,19 +326,19 @@ Cassia's betrayal removes the middle ground of comfortable denial. He can't go b
 
 ### Plot Functions
 
-**Internal Threat:** Provides enemy-within that raises stakes beyond external conflict. The Crimson Talon clan is dangerous, but discovering the betrayal is inside Draven's council makes nowhere safe.
+**Internal Threat:** Provides enemy-within that raises stakes. Discovering betrayal inside Draven's council makes nowhere safe.
 
-**Investigation Catalyst:** Her machinations create the pattern of "accidents" and intelligence leaks that Isla must investigate, forcing Isla to use her psychometry actively.
+**Investigation Catalyst:** Her machinations create the pattern of "accidents" and leaks that Isla must investigate, forcing her to use psychometry actively.
 
-**Ticking Clock Pressure:** Her coordination with Crimson Talon creates multiple simultaneous countdowns: intelligence leaks, planned assassination attempts, enemy mobilization during blood moon.
+**Ticking Clock Pressure:** Her coordination with Crimson Talon creates simultaneous countdowns: intelligence leaks, assassination attempts, enemy mobilization during blood moon.
 
-**Revelation Structure:** Her betrayal follows NPE-compliant revelation pattern:
+**Revelation Structure:** NPE-compliant revelation pattern:
 1. Physical evidence (Isla's psychometry on communication device)
 2. Pattern recognition (Kai's accumulated suspicions)
 3. Confrontation (Draven forced to investigate)
 4. Recontextualization (previous scenes replay differently)
 
-**Climax Escalation:** Her exposure happens during blood moon crisis, compounding pressure. Draven must handle external threat, internal betrayal, supernatural crisis, and relationship transformation simultaneously.
+**Climax Escalation:** Her exposure happens during blood moon crisis. Draven must handle external threat, internal betrayal, supernatural crisis, and relationship transformation simultaneously.
 
 ### Thematic Functions
 
@@ -384,14 +356,11 @@ Cassia's absolute refusal to surrender to emotional truth destroys her. She can'
 
 ### Emotional Functions
 
-**Devastation Before Triumph:**
-Cassia's betrayal is the gut-punch that makes Draven's eventual triumph with Isla more meaningful.
+**Devastation Before Triumph:** Cassia's betrayal is the gut-punch that makes Draven's eventual triumph with Isla more meaningful.
 
-**Validation of Fear:**
-Her betrayal validates Draven's deepest fear—people closest to you can destroy you. This makes his choice to trust Isla braver.
+**Validation of Fear:** Her betrayal validates Draven's deepest fear—people closest to you can destroy you. This makes his choice to trust Isla braver.
 
-**Cathartic Confrontation:**
-The scene where Draven confronts Cassia gives him the opportunity to articulate what he's learned, to stand in his transformation.
+**Cathartic Confrontation:** The scene where Draven confronts Cassia gives him the opportunity to articulate what he's learned, to stand in his transformation.
 
 --
 
