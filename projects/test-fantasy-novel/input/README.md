@@ -9,12 +9,15 @@ Add the following files to this directory to use the Book Design Workflow:
 
 ### For Story Development (Steps 2-11)
 - **story-concept.md** - Your high-level story premise, logline, and core concept
-- **characters-concept.md** - Initial character concepts and ideas
+- **characters-concept.md** - Character concepts and ideas (used in Steps 2, 3, 4, 6)
 - **world-concept.md** - World-building concepts, setting details, and constraints
-- **character-concept.md** - Detailed character concept for character development (Step 4)
 
-## Optional Files
-- **relationships-concept.md** - Relationship concepts between characters (used in Step 6)
+## Generated Files
+
+The workflow automatically generates:
+- **Relationship mapping** (Step 6) - Extracted from your characters and story concepts
+- **Character profiles** (Step 4) - One file per character
+- **Relationship architectures** (Step 7) - One file per key relationship
 
 ## File Format
 

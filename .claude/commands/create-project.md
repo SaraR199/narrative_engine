@@ -16,12 +16,12 @@ After creating the project, inform the user:
 - How to run the workflow for this project
 
 Required input files for the workflow:
-- `story-concept.md` - High-level story premise and concept
-- `characters-concept.md` - Character concepts and initial ideas
-- `world-concept.md` - World-building concepts and setting
-- `character-concept.md` - Detailed character concept (for Step 4)
 - `existing_outline.md` - Existing outline for NPE extraction (for Step 1)
-- `relationships-concept.md` - Relationship concepts between characters (optional)
+- `story-concept.md` - High-level story premise and concept
+- `characters-concept.md` - Character concepts and initial ideas (used in Steps 2, 3, 4, 6)
+- `world-concept.md` - World-building concepts and setting
+
+Note: Relationship mapping is automatically generated in Step 6 from your characters and story concepts.
 
 Usage example:
 ```

@@ -81,9 +81,7 @@ narrative_engine/
 │   │   │   ├── story-concept.md
 │   │   │   ├── characters-concept.md
 │   │   │   ├── world-concept.md
-│   │   │   ├── character-concept.md
-│   │   │   ├── existing_outline.md
-│   │   │   └── relationships-concept.md
+│   │   │   └── existing_outline.md
 │   │   └── outputs/         # Generated outputs for this project
 │   │       ├── npe.md
 │   │       ├── dramatic_spine.md
@@ -124,10 +122,8 @@ narrative_engine/
    Add the required files to `projects/my-fantasy-novel/input/`:
    - `existing_outline.md` - Your existing book outline (for NPE extraction in Step 1)
    - `story-concept.md` - Your story premise and concept
-   - `characters-concept.md` - Character concepts and ideas
+   - `characters-concept.md` - Character concepts and ideas (used across multiple steps)
    - `world-concept.md` - World-building and setting concepts
-   - `character-concept.md` - Detailed character concept
-   - `relationships-concept.md` - (Optional) Relationship concepts
 
    Your outline should contain the structure, plot points, character arcs, and narrative elements from a book you've worked on. The more complete, the better the NPE extraction will be.
 

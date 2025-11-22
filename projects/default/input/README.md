@@ -1,40 +1,42 @@
-# Input Directory
+# Input Files for default project
 
-Place your input files here for the workflow.
+Add the following files to this directory to use the Book Design Workflow:
 
-## Step 1: NPE Extraction
+## Required Files
 
-**Required file:** `existing_outline.md`
+### For NPE Extraction (Step 1)
+- **existing_outline.md** - An existing book outline from another project you've worked on. This will be analyzed to extract your generic writing preferences and create your Narrative Physics Engine (NPE).
 
-This should contain an outline from another book project you've worked on. The workflow will analyze it to extract your generic writing preferences.
+### For Story Development (Steps 2-11)
+- **story-concept.md** - Your high-level story premise, logline, and core concept
+- **characters-concept.md** - Character concepts and ideas (used in Steps 2, 3, 4, 6)
+- **world-concept.md** - World-building concepts, setting details, and constraints
 
-### What to Include
+## Generated Files
 
-Your outline should contain:
-- Plot structure and major story beats
-- Character arcs and decision points
-- Scene descriptions and pacing notes
-- How stakes escalate over time
-- Cause-and-effect chains
-- Information release patterns
-- Any dialogue or POV patterns you use
+The workflow automatically generates:
+- **Relationship mapping** (Step 6) - Extracted from your characters and story concepts
+- **Character profiles** (Step 4) - One file per character
+- **Relationship architectures** (Step 7) - One file per key relationship
 
-### Example Structure
+## File Format
 
-```markdown
-# [Book Title]
+All files should be in Markdown format (.md). Be as detailed as possible - the more context you provide, the better the workflow outputs will be.
 
-## Act 1
-### Chapter 1: [Title]
-- Scene 1: [Character] does X because Y, which causes Z...
-- Stakes: ...
-- Character arc: ...
+## Running the Workflow
 
-### Chapter 2: [Title]
-...
+Once you've added your input files, tell Claude Code:
 
-## Act 2
-...
+```
+Run step 1 for default
 ```
 
-The more detailed your outline, the better the NPE extraction will capture your writing patterns.
+Or to run the entire workflow:
+
+```
+Run the book design workflow for default
+```
+
+## Outputs
+
+Generated outputs will be saved to `projects/default/outputs/`

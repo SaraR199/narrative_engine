@@ -61,7 +61,7 @@
       "model": "sonnet",
       "parallel_processing": true,
       "inputs": {
-        "CHARACTER_CONCEPT": "input/character-concept.md",
+        "CHARACTERS_CONCEPT": "input/characters-concept.md",
         "MAIN_CHARACTER_TEMPLATE": "templates/main_character_template_v1.1.md",
         "NPE": "outputs/npe.md",
         "DRAMATIC_SPINE": "outputs/dramatic_spine.md",
@@ -208,7 +208,7 @@
     "orchestration": "Claude Code acts as the orchestrator, spawning subagents via Task tool",
     "multi_project": "All input/output paths are resolved relative to projects/{project-name}/ when a project name is specified",
     "context_minimal": "Each subagent only loads files specified in 'inputs' and 'depends_on'",
-    "parallel_processing": "Steps with parallel_processing:true will parse input files and spawn multiple subagents in parallel (e.g., Step 2 spawns one agent per character)",
+    "parallel_processing": "Steps with parallel_processing:true will parse input files and spawn multiple subagents in parallel (e.g., Step 4 spawns one agent per character, Step 7 spawns one agent per relationship)",
     "adding_steps": "Add new step objects with incremental numbering",
     "model_options": "sonnet (default, balanced), opus (most capable), haiku (fastest)"
   }
