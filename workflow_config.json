@@ -18,22 +18,40 @@
       "depends_on": []
     },
     "2": {
+      "name": "Dramatic Spine Extraction",
+      "description": "Extract the high-level dramatic spine (tension axes, dominant energy, emotional progression) from story, character, and world concepts",
+      "prompt_template": "step2_dramatic_spine.md",
+      "agent_type": "story-architect",
+      "model": "sonnet",
+      "inputs": {
+        "STORY_CONCEPT": "input/story-concept.md",
+        "CHARACTERS_CONCEPT": "input/characters-concept.md",
+        "WORLD_CONCEPT": "input/world-concept.md",
+        "NPE": "outputs/npe.md"
+      },
+      "outputs": {
+        "dramatic_spine": "outputs/dramatic_spine.md"
+      },
+      "depends_on": ["1"]
+    },
+    "3": {
       "name": "Character Development",
       "description": "Develop detailed character profiles from character concepts using the Main Character Template. Supports multiple characters - spawns parallel subagents for each character in input file.",
-      "prompt_template": "step2_character_development.md",
+      "prompt_template": "step3_character_development.md",
       "agent_type": "character-architect",
       "model": "sonnet",
       "parallel_processing": true,
       "inputs": {
         "CHARACTER_CONCEPT": "input/character-concept.md",
         "MAIN_CHARACTER_TEMPLATE": "templates/main_character_template_v1.1.md",
-        "NPE": "outputs/npe.md"
+        "NPE": "outputs/npe.md",
+        "DRAMATIC_SPINE": "outputs/dramatic_spine.md"
       },
       "outputs": {
         "character_profiles": "outputs/character_*.md"
       },
       "output_pattern": "outputs/character_{CharacterName}.md",
-      "depends_on": ["1"]
+      "depends_on": ["1", "2"]
     }
   },
   "usage": "Tell Claude Code: 'Run step 1', 'Run step 2', or 'Run the book design workflow'",
