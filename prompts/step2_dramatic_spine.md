@@ -30,35 +30,47 @@ Think of it as the story's "tone thermostat" and "tension blueprint."
 
 Analyze the three concept documents and extract the dramatic spine by identifying:
 
-### 1. Primary Tension Axis
-The main source of dramatic pressure in this story. Choose ONE:
+### 1. Primary Tension Axes (1-3 required)
+The main sources of dramatic pressure in this story. Identify **1-3 primary axes** based on your genre and story needs:
+
+**When to use multiple primary axes:**
+- **Dual-genre novels** (e.g., fantasy romance, romantic suspense) - Use 2 primary axes to balance both genre stakes
+- **Complex narratives** - Use 2-3 axes when multiple equally-weighted tensions drive the story
+- **Single-focus stories** - Use 1 primary axis if one tension clearly dominates
+
+**Available Primary Axes:**
 - **Romantic** - Will they/won't they, relationship conflict
 - **Mystery** - What happened, whodunit, revelation-seeking
 - **Survival** - Will they live, escape, endure
 - **Political** - Power struggles, ideological conflict, social change
 - **Identity** - Who am I really, transformation, self-discovery
 - **Moral** - Right vs wrong, ethical dilemmas, corruption vs integrity
+- **External Stakes** - World-threat, quest completion, defeating antagonist (for fantasy/adventure/thriller)
 - **Other** - Define it specifically
 
-**Output for Primary Axis:**
+**Output for Each Primary Axis:**
 - Name the axis
 - Describe how it manifests in THIS story specifically
-- Identify what question drives the primary tension
+- Identify what question drives this tension
+- Explain how this axis carries equal weight through the narrative (for dual-genre)
 
-### 2. Secondary Tension Axis
-The supporting layer of dramatic pressure. This creates complexity and prevents one-note tension. Choose ONE:
+### 2. Secondary Tension Axes (0-2 optional)
+Supporting layers of dramatic pressure that add complexity without being the main story driver. These create texture and prevent one-note tension.
+
+**Available Secondary Axes:**
 - Family dynamics
 - Identity crisis
 - Career/purpose
 - Cosmic/existential
 - Social belonging
 - Legacy/mortality
+- Internal transformation
 - Other (define it)
 
-**Output for Secondary Axis:**
+**Output for Each Secondary Axis:**
 - Name the axis
-- Describe how it interweaves with the primary axis
-- Explain what additional pressure it creates
+- Describe how it interweaves with the primary axes
+- Explain what additional pressure or complexity it creates
 
 ### 3. Dominant Energy
 The ambient "feel" of the book—the emotional weather system. Choose the PRIMARY energy (you can note secondary flavors):
@@ -106,13 +118,38 @@ Structure your response as follows:
 ```markdown
 # Dramatic Spine
 
-## Primary Tension Axis
-[Name]: [Specific description for this story]
+## Primary Tension Axes
+
+### Primary Axis 1: [Name]
+[Specific description for this story]
 
 **Driving Question:** [The central question this axis creates]
 
-## Secondary Tension Axis
-[Name]: [How it manifests and interweaves with primary]
+**Narrative Weight:** [How this axis carries equal weight through the story - especially important for dual-genre]
+
+### Primary Axis 2: [Name] (if applicable)
+[Specific description for this story]
+
+**Driving Question:** [The central question this axis creates]
+
+**Narrative Weight:** [How this axis carries equal weight through the story]
+
+### Primary Axis 3: [Name] (if applicable - rare)
+[Specific description for this story]
+
+**Driving Question:** [The central question this axis creates]
+
+**Narrative Weight:** [How this axis carries equal weight through the story]
+
+## Secondary Tension Axes (if any)
+
+### Secondary Axis 1: [Name] (if applicable)
+[How it manifests and interweaves with primary axes]
+
+**Additional Pressure:** [What complexity this adds]
+
+### Secondary Axis 2: [Name] (if applicable)
+[How it manifests and interweaves with primary axes]
 
 **Additional Pressure:** [What complexity this adds]
 
@@ -136,17 +173,20 @@ Structure your response as follows:
 
 ## Integration Notes
 
-[2-3 sentences on how these elements work together to create a cohesive dramatic experience. How does the dominant energy serve the tension axes? How does the emotional progression map to the dramatic questions?]
+[2-3 sentences on how these elements work together to create a cohesive dramatic experience. How does the dominant energy serve the tension axes? How does the emotional progression map to the dramatic questions? For dual-genre: how do the two primary axes balance and support each other?]
 ```
 
 ## Important Guidelines
 
 - **Be specific to THIS story** - Don't write generic descriptions
 - **Use the NPE as constraints** - Ensure your dramatic spine respects the narrative rules defined in the NPE
+- **Choose the right number of axes** - Don't default to maximum. Use 1 axis for focused stories, 2 for dual-genre, 3 only when truly necessary
+- **Primary axes carry equal weight** - If using multiple primary axes, each must sustain tension throughout the entire narrative
 - **Focus on FEELING not EVENTS** - You're mapping emotional architecture, not plot
 - **Make it actionable** - This spine will guide character development, scene design, and pacing choices
 - **Trust the concepts** - The answers are in the three documents; extract what's already there
 - **Be concise** - Clarity over comprehensiveness
+- **For dual-genre**: Explicitly show how both primary axes balance—don't let one dominate unless that's intentional
 
 ## Begin
 

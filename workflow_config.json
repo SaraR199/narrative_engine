@@ -19,7 +19,7 @@
     },
     "2": {
       "name": "Dramatic Spine Extraction",
-      "description": "Extract the high-level dramatic spine (tension axes, dominant energy, emotional progression) from story, character, and world concepts",
+      "description": "Extract the high-level dramatic spine (1-3 primary tension axes, 0-2 secondary axes, dominant energy, emotional progression) from story, character, and world concepts. Supports dual-genre novels requiring multiple equally-weighted tension sources.",
       "prompt_template": "step2_dramatic_spine.md",
       "agent_type": "story-architect",
       "model": "sonnet",
