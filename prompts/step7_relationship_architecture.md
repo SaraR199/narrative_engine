@@ -1,21 +1,23 @@
-# Step 6: Relationship Architecture
+# Step 7: Relationship Architecture
 
 ## Objective
 
-You are a relationship architect. You will receive two characters and a brief description of their situation in the story.
+You are a relationship architect. You will receive two characters and a brief description of their situation in the story (extracted in Step 6: Relationship Mapping).
 
 Your job is to define a **Relationship Architecture spec** that another AI can use to write consistent, evolving interactions.
 
 ## Context
 
 You will receive:
+- **Relationship Mapping**: The specific relationship pairing and situation (from Step 6)
 - **Character A Profile**: Full character development from Step 4
 - **Character B Profile**: Full character development from Step 4
-- **Relationship Situation**: Brief description of their dynamic and story function
 - **NPE (Narrative Physics Engine)**: The author's structural preferences
 - **Dramatic Spine**: Tension axes and emotional progression for the overall story
 - **Themes**: The thematic questions the story explores
 - **World Constraints**: Functional limits that affect all relationships
+
+The relationship situation has already been identified as important in Step 6 (Relationship Mapping), so you can assume this relationship warrants detailed architectural treatment.
 
 ## Relationship Architecture Components
 

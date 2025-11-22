@@ -91,14 +91,33 @@
       "depends_on": ["1", "2", "3", "4"]
     },
     "6": {
+      "name": "Relationship Mapping",
+      "description": "Identify and extract important relationships from concept files and character profiles. Filters to main/primary relationships that drive plot, character arcs, or themes. Generates relationship mapping for architecture step.",
+      "prompt_template": "step6_relationship_mapping.md",
+      "agent_type": "character-architect",
+      "model": "sonnet",
+      "inputs": {
+        "STORY_CONCEPT": "input/story-concept.md",
+        "CHARACTERS_CONCEPT": "input/characters-concept.md",
+        "CHARACTER_PROFILES": "outputs/character_*.md",
+        "NPE": "outputs/npe.md",
+        "DRAMATIC_SPINE": "outputs/dramatic_spine.md",
+        "THEMES": "outputs/themes.md"
+      },
+      "outputs": {
+        "relationship_mapping": "outputs/relationship_mapping.md"
+      },
+      "depends_on": ["1", "2", "3", "4"]
+    },
+    "7": {
       "name": "Relationship Architecture",
-      "description": "Define relationship architecture for key character pairings. Supports multiple relationships - spawns parallel subagents for each relationship in input file. Creates specs for consistent, evolving interactions across three-act structure.",
-      "prompt_template": "step6_relationship_architecture.md",
+      "description": "Define relationship architecture for key character pairings. Supports multiple relationships - spawns parallel subagents for each relationship in mapping. Creates specs for consistent, evolving interactions across three-act structure.",
+      "prompt_template": "step7_relationship_architecture.md",
       "agent_type": "character-architect",
       "model": "sonnet",
       "parallel_processing": true,
       "inputs": {
-        "RELATIONSHIPS_CONCEPT": "input/relationships-concept.md",
+        "RELATIONSHIP_MAPPING": "outputs/relationship_mapping.md",
         "CHARACTER_PROFILES": "outputs/character_*.md",
         "NPE": "outputs/npe.md",
         "DRAMATIC_SPINE": "outputs/dramatic_spine.md",
@@ -109,7 +128,7 @@
         "relationship_architectures": "outputs/relationship_*.md"
       },
       "output_pattern": "outputs/relationship_{CharacterA}_{CharacterB}.md",
-      "depends_on": ["1", "2", "3", "4", "5"]
+      "depends_on": ["1", "2", "3", "4", "5", "6"]
     }
   },
   "usage": "Tell Claude Code: 'Run step 1', 'Run step 2', or 'Run the book design workflow'",
