@@ -67,20 +67,36 @@ See `.claude/agents/AGENTS.md` for complete agent documentation.
 ```
 narrative_engine/
 ├── .claude/
-│   └── agents/               # Specialized creative writing agents
-│       ├── AGENTS.md        # Agent documentation
-│       ├── npe-extractor.md
-│       ├── story-architect.md
-│       ├── character-architect.md
-│       └── scene-designer.md
+│   ├── agents/               # Specialized creative writing agents
+│   │   ├── AGENTS.md        # Agent documentation
+│   │   ├── npe-extractor.md
+│   │   ├── story-architect.md
+│   │   ├── character-architect.md
+│   │   └── scene-designer.md
+│   └── commands/             # Slash commands
+│       └── create-project.md # Create new project command
+├── projects/                 # All your book projects
+│   ├── fantasy-novel/        # Example project
+│   │   ├── input/           # Input files for this project
+│   │   │   ├── story-concept.md
+│   │   │   ├── characters-concept.md
+│   │   │   ├── world-concept.md
+│   │   │   ├── character-concept.md
+│   │   │   ├── existing_outline.md
+│   │   │   └── relationships-concept.md
+│   │   └── outputs/         # Generated outputs for this project
+│   │       ├── npe.md
+│   │       ├── dramatic_spine.md
+│   │       └── ...
+│   └── scifi-thriller/       # Another project
+│       ├── input/
+│       └── outputs/
 ├── workflow_config.json      # Step definitions and dependencies
 ├── README.md                 # This file
-├── input/                    # Your input files go here
-│   └── existing_outline.md   # Your existing outline for NPE extraction
-├── outputs/                  # Generated artifacts
-│   └── npe.md               # Your Narrative Physics Engine (after Step 1)
-└── prompts/                  # Prompt templates for each step
-    └── step1_npe_extraction.md
+├── prompts/                  # Prompt templates for each step
+│   └── step1_npe_extraction.md
+└── templates/                # Reusable templates
+    └── npe_template
 ```
 
 ## Getting Started
@@ -88,54 +104,71 @@ narrative_engine/
 ### Prerequisites
 
 - Claude Code (you're already using it!)
-- An existing book outline to analyze
+- An existing book outline to analyze (for NPE extraction)
 
 ### Setup
 
-1. **Add your existing outline:**
+1. **Create a new project:**
 
-   Replace the placeholder content in `input/existing_outline.md` with your actual book outline.
+   Use the create-project slash command:
+   ```
+   /create-project my-fantasy-novel
+   ```
 
-   Your outline should contain the structure, plot points, character arcs, and any other narrative elements from a book you've worked on. The more complete the outline, the better the NPE extraction will be.
+   This creates:
+   - `projects/my-fantasy-novel/input/` - Where you'll add your input files
+   - `projects/my-fantasy-novel/outputs/` - Where workflow outputs will be saved
+
+2. **Add your input files:**
+
+   Add the required files to `projects/my-fantasy-novel/input/`:
+   - `existing_outline.md` - Your existing book outline (for NPE extraction in Step 1)
+   - `story-concept.md` - Your story premise and concept
+   - `characters-concept.md` - Character concepts and ideas
+   - `world-concept.md` - World-building and setting concepts
+   - `character-concept.md` - Detailed character concept
+   - `relationships-concept.md` - (Optional) Relationship concepts
+
+   Your outline should contain the structure, plot points, character arcs, and narrative elements from a book you've worked on. The more complete, the better the NPE extraction will be.
 
 ### Running the Workflow
 
-Simply tell Claude Code what you want to do. Claude Code will act as the orchestrator.
+Simply tell Claude Code what you want to do, **specifying the project name**. Claude Code will act as the orchestrator.
 
 #### Step 1: Extract Your NPE
 
 In Claude Code, say:
 
 ```
-Run step 1
+Run step 1 for my-fantasy-novel
 ```
 
 or
 
 ```
-Execute step 1 of the book design workflow
+Execute step 1 of the book design workflow for my-fantasy-novel
 ```
 
 **What happens:**
 1. Claude Code reads `workflow_config.json` to understand Step 1
-2. Loads your outline from `input/existing_outline.md`
+2. Loads your outline from `projects/my-fantasy-novel/input/existing_outline.md`
 3. Loads the prompt template from `prompts/step1_npe_extraction.md`
 4. Spawns a subagent using the Task tool with minimal context
 5. The subagent analyzes your outline and generates the NPE
-6. Saves the result to `outputs/npe.md`
+6. Saves the result to `projects/my-fantasy-novel/outputs/npe.md`
 
 #### Running All Steps
 
 Once all steps are defined, you can run the entire workflow:
 
 ```
-Run the book design workflow
+Run the book design workflow for my-fantasy-novel
 ```
 
 or
 
 ```
-Run all workflow steps
+Run all workflow steps for my-fantasy-novel
 ```
 
 Claude Code will execute all steps sequentially, passing outputs forward.
@@ -145,14 +178,26 @@ Claude Code will execute all steps sequentially, passing outputs forward.
 To refine an output, just ask:
 
 ```
-Re-run step 1
+Re-run step 1 for my-fantasy-novel
 ```
 
 or
 
 ```
-Regenerate the NPE
+Regenerate the NPE for my-fantasy-novel
 ```
+
+#### Working on Multiple Projects
+
+You can work on multiple projects simultaneously:
+
+```
+Run step 1 for fantasy-novel
+Run step 1 for scifi-thriller
+Run step 3 for romance-mystery
+```
+
+Each project maintains its own separate input and output files.
 
 ## Adding New Workflow Steps
 

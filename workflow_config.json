@@ -203,9 +203,10 @@
       "depends_on": ["1", "9", "10"]
     }
   },
-  "usage": "Tell Claude Code: 'Run step 1', 'Run step 2', or 'Run the book design workflow'",
+  "usage": "Tell Claude Code: 'Run step 1 for [project-name]', 'Run step 2 for [project-name]', or 'Run the book design workflow for [project-name]'. Use '/create-project [project-name]' to create a new project.",
   "notes": {
     "orchestration": "Claude Code acts as the orchestrator, spawning subagents via Task tool",
+    "multi_project": "All input/output paths are resolved relative to projects/{project-name}/ when a project name is specified",
     "context_minimal": "Each subagent only loads files specified in 'inputs' and 'depends_on'",
     "parallel_processing": "Steps with parallel_processing:true will parse input files and spawn multiple subagents in parallel (e.g., Step 2 spawns one agent per character)",
     "adding_steps": "Add new step objects with incremental numbering",
