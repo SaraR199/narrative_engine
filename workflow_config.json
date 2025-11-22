@@ -55,7 +55,7 @@
     },
     "4": {
       "name": "Character Development",
-      "description": "Develop detailed character profiles from character concepts using the Main Character Template. Supports multiple characters - spawns parallel subagents for each character in input file.",
+      "description": "Develop detailed character profiles from character concepts. Uses Main Character Template for protagonists/leads and Secondary Character Template for supporting cast. Supports multiple characters - spawns parallel subagents for each character in input file.",
       "prompt_template": "step4_character_development.md",
       "agent_type": "character-architect",
       "model": "sonnet",
@@ -63,6 +63,7 @@
       "inputs": {
         "CHARACTERS_CONCEPT": "input/characters-concept.md",
         "MAIN_CHARACTER_TEMPLATE": "templates/main_character_template_v1.1.md",
+        "SECONDARY_CHARACTER_TEMPLATE": "templates/secondary_character_template_v1.0.md",
         "NPE": "outputs/npe.md",
         "DRAMATIC_SPINE": "outputs/dramatic_spine.md",
         "THEMES": "outputs/themes.md"
