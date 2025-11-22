@@ -1,8 +1,8 @@
 {
   "workflow_version": "1.0.0",
   "project_name": "dragon-mafia-paranormal-v1",
-  "current_step": "5",
-  "last_updated": "2025-11-22T21:24:00Z",
+  "current_step": "7",
+  "last_updated": "2025-11-22T21:40:00Z",
   "steps": {
     "1": {
       "name": "NPE Extraction",
@@ -40,11 +40,17 @@
     },
     "5": {
       "name": "World Constraints Extraction",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2025-11-22T21:30:00Z",
+      "completed_at": "2025-11-22T21:35:00Z",
+      "outputs_generated": ["outputs/world_constraints.md"]
     },
     "6": {
       "name": "Relationship Mapping",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2025-11-22T21:36:00Z",
+      "completed_at": "2025-11-22T21:40:00Z",
+      "outputs_generated": ["outputs/relationship_mapping.md"]
     },
     "7": {
       "name": "Relationship Architecture",
