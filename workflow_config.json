@@ -5,12 +5,13 @@
   "steps": {
     "1": {
       "name": "NPE Extraction",
-      "description": "Extract Narrative Physics Engine from existing outline to capture generic writing preferences",
+      "description": "Extract Narrative Physics Engine from existing outline to capture generic writing preferences. Uses NPE template as base and customizes for genre and outline patterns.",
       "prompt_template": "step1_npe_extraction.md",
       "agent_type": "npe-extractor",
       "model": "sonnet",
       "inputs": {
-        "outline": "input/existing_outline.md"
+        "NPE_TEMPLATE": "templates/npe_template",
+        "OUTLINE_CONTENT": "input/existing_outline.md"
       },
       "outputs": {
         "npe": "outputs/npe.md"
