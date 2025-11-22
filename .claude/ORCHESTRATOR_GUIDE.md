@@ -18,6 +18,204 @@ This document explains how Claude Code should execute the book design workflow s
 
 When the user says **"Run step [N]"** or **"Run the book design workflow"**, Claude Code acts as the orchestrator, spawning specialized subagents for each creative task.
 
+## Workflow State Tracking
+
+**CRITICAL:** Each project maintains a `workflow_state.json` file that tracks execution progress. This enables:
+- **Cross-chat resumption**: Resume workflow in any new chat session
+- **Clear signaling**: Instantly know what step to run next
+- **Error recovery**: Track failed steps and retry them
+- **Progress visibility**: Show users what's completed and what's pending
+
+### State File Location
+
+```
+projects/{project-name}/workflow_state.json
+```
+
+### State Management Rules
+
+**The orchestrator MUST:**
+
+1. **Initialize state** when creating a new project or before running the first step
+2. **Read state** before determining what to run (check `current_step` field)
+3. **Update state** before starting a step (set status to `in_progress`)
+4. **Update state** after completing a step (set status to `completed`, update `current_step`)
+5. **Update state** on failure (set status to `failed`, capture error message)
+
+### When User Says "Continue the workflow" or "Resume"
+
+1. **Read** `projects/{project-name}/workflow_state.json`
+2. **Check** the `current_step` field to see what should run next
+3. **Check** if that step is `in_progress` (resume it) or `failed` (retry it)
+4. **Execute** the current step, or move to next pending step if current is completed
+5. **Update** state after execution
+
+**Example:**
+```json
+{
+  "current_step": "5",
+  "steps": {
+    "5": {
+      "name": "World Constraints Extraction",
+      "status": "in_progress",
+      "started_at": "2025-11-22T10:30:00Z"
+    }
+  }
+}
+```
+
+In this case, resume or retry step 5.
+
+### Initializing Workflow State
+
+When creating a new project or running the first step, initialize the state file:
+
+```json
+{
+  "workflow_version": "1.0.0",
+  "project_name": "my-project",
+  "current_step": "1",
+  "last_updated": "2025-11-22T21:45:00Z",
+  "steps": {
+    "1": {"name": "NPE Extraction", "status": "pending"},
+    "2": {"name": "Dramatic Spine Extraction", "status": "pending"},
+    "3": {"name": "Theme Extraction", "status": "pending"},
+    "4": {"name": "Character Development", "status": "pending"},
+    "5": {"name": "World Constraints Extraction", "status": "pending"},
+    "6": {"name": "Relationship Mapping", "status": "pending"},
+    "7": {"name": "Relationship Architecture", "status": "pending"},
+    "8": {"name": "Premise Refinement", "status": "pending"},
+    "9": {"name": "Story Outline", "status": "pending"},
+    "10": {"name": "NPE Inspection", "status": "pending"},
+    "11": {"name": "Outline Rewrite", "status": "pending"}
+  }
+}
+```
+
+**Note:** Use step names from `workflow_config.json` to populate the state file.
+
+### Updating State: Before Starting a Step
+
+Before spawning subagents for step N:
+
+```json
+{
+  "current_step": "N",
+  "last_updated": "2025-11-22T21:45:00Z",
+  "steps": {
+    "N": {
+      "name": "Step Name",
+      "status": "in_progress",
+      "started_at": "2025-11-22T21:45:00Z"
+    }
+  }
+}
+```
+
+### Updating State: After Completing a Step
+
+After subagent completes successfully and outputs are saved:
+
+```json
+{
+  "current_step": "N+1",
+  "last_updated": "2025-11-22T21:50:00Z",
+  "steps": {
+    "N": {
+      "name": "Step Name",
+      "status": "completed",
+      "started_at": "2025-11-22T21:45:00Z",
+      "completed_at": "2025-11-22T21:50:00Z",
+      "outputs_generated": ["outputs/file.md"]
+    },
+    "N+1": {
+      "name": "Next Step Name",
+      "status": "pending"
+    }
+  }
+}
+```
+
+**Special case:** If step N is the last step (step 11), set `current_step` to `null` to signal workflow completion.
+
+### Updating State: On Failure
+
+If a step fails (missing dependency, agent error, etc.):
+
+```json
+{
+  "current_step": "N",
+  "last_updated": "2025-11-22T21:47:00Z",
+  "steps": {
+    "N": {
+      "name": "Step Name",
+      "status": "failed",
+      "started_at": "2025-11-22T21:45:00Z",
+      "failed_at": "2025-11-22T21:47:00Z",
+      "error": "Missing required input file: input/story-concept.md"
+    }
+  }
+}
+```
+
+**Recovery:** When user fixes the issue and says "retry" or "continue", re-run step N and update status back to `in_progress`, then `completed` on success.
+
+### State-Driven Workflow Execution Example
+
+**User says:** "Continue the workflow for dragon-mafia"
+
+**Orchestrator actions:**
+
+1. **Read state:**
+   ```python
+   state = read('projects/dragon-mafia/workflow_state.json')
+   current_step = state['current_step']  # "3"
+   step_status = state['steps']['3']['status']  # "pending"
+   ```
+
+2. **Determine action:**
+   - If status is "pending": Start step 3
+   - If status is "in_progress": Resume or retry step 3
+   - If status is "completed": Move to step 4
+   - If status is "failed": Retry step 3 or ask user to fix error
+
+3. **Update state before execution:**
+   ```python
+   state['steps']['3']['status'] = 'in_progress'
+   state['steps']['3']['started_at'] = current_timestamp()
+   state['last_updated'] = current_timestamp()
+   write('projects/dragon-mafia/workflow_state.json', state)
+   ```
+
+4. **Execute step** (spawn subagent, save outputs)
+
+5. **Update state after success:**
+   ```python
+   state['steps']['3']['status'] = 'completed'
+   state['steps']['3']['completed_at'] = current_timestamp()
+   state['steps']['3']['outputs_generated'] = ['outputs/themes.md']
+   state['current_step'] = '4'
+   state['last_updated'] = current_timestamp()
+   write('projects/dragon-mafia/workflow_state.json', state)
+   ```
+
+6. **Inform user:**
+   ```
+   "Step 3 (Theme Extraction) completed successfully.
+   Output saved to: outputs/themes.md
+
+   Current workflow status: 3/11 steps completed
+   Next step: 4 (Character Development)"
+   ```
+
+### Benefits of State Tracking
+
+✅ **Resume anywhere**: Start in one chat, continue in another
+✅ **Clear signals**: No guessing what to run next
+✅ **Error recovery**: Know exactly what failed and why
+✅ **Progress tracking**: Show users how far along they are
+✅ **Idempotency**: Safe to re-run "continue" command multiple times
+
 ## Parallelization Quick Reference
 
 The workflow supports both **parallel step execution** and **internal parallelization** for efficiency:
@@ -61,6 +259,22 @@ See detailed instructions for each parallelization type below.
 ## Orchestration Process
 
 ### Step-by-Step Execution
+
+#### 0. Read or Initialize Workflow State (NEW - CRITICAL)
+
+Before executing any step, check if `projects/{project-name}/workflow_state.json` exists:
+
+**If it exists:**
+- Read the state file
+- Check `current_step` to see what should run next
+- Verify the requested step aligns with workflow state
+- If user says "continue", use `current_step` to determine what to run
+
+**If it doesn't exist:**
+- Initialize a new state file with all steps set to "pending"
+- Set `current_step` to "1"
+- Set `workflow_version` from workflow_config.json
+- See "Initializing Workflow State" section above for the template
 
 #### 1. Read the Workflow Configuration
 
@@ -184,7 +398,24 @@ You just need to pass the **fully-injected prompt** (from step 5) as the task pr
 - ✅ The fully-injected prompt with all file contents embedded
 - ❌ NOT the raw template with `{{PLACEHOLDERS}}` still in it
 
-#### 7. Spawn the Subagent
+#### 7. Update State: Mark Step as In Progress
+
+Before spawning the subagent, update the workflow state:
+
+```python
+# Read current state
+state = read('projects/{project-name}/workflow_state.json')
+
+# Update the current step status
+state['steps'][current_step_number]['status'] = 'in_progress'
+state['steps'][current_step_number]['started_at'] = current_timestamp_iso8601()
+state['last_updated'] = current_timestamp_iso8601()
+
+# Write updated state
+write('projects/{project-name}/workflow_state.json', state)
+```
+
+#### 8. Spawn the Subagent
 
 Use the Task tool to spawn the specialized agent with the **fully-injected prompt**:
 
@@ -258,12 +489,11 @@ Task(
 # This will cause the subagent to read files again!
 ```
 
-#### 8. Save the Output
+#### 9. Save the Output
 
 When the subagent completes:
 - Take the agent's output
 - Save it to the path specified in `outputs`
-- Confirm to the user that the step completed
 
 Example:
 ```
@@ -273,11 +503,45 @@ outputs: {
 ```
 Save the agent's response to `outputs/character_profile.md`
 
+#### 10. Update State: Mark Step as Completed
+
+After successfully saving outputs, update the workflow state:
+
+```python
+# Read current state
+state = read('projects/{project-name}/workflow_state.json')
+
+# Mark current step as completed
+state['steps'][current_step_number]['status'] = 'completed'
+state['steps'][current_step_number]['completed_at'] = current_timestamp_iso8601()
+state['steps'][current_step_number]['outputs_generated'] = ['outputs/file.md']  # List all output files
+
+# Advance to next step (or null if this was the last step)
+next_step = str(int(current_step_number) + 1) if int(current_step_number) < 11 else null
+state['current_step'] = next_step
+state['last_updated'] = current_timestamp_iso8601()
+
+# Write updated state
+write('projects/{project-name}/workflow_state.json', state)
+```
+
+#### 11. Confirm to User
+
+Tell the user:
+- What step completed
+- Where outputs were saved
+- Current progress (X/11 steps completed)
+- What the next step is (if not finished)
+
 ## Example: Running Step 2 (Dramatic Spine Extraction)
 
 User says: **"Run step 2"**
 
 ### Orchestrator Actions:
+
+0. **Check/Initialize state**: Read or create `projects/{project-name}/workflow_state.json`
+   - Verify step 1 is completed (status: "completed")
+   - Confirm step 2 can run (dependencies satisfied)
 
 1. **Load config**: Read `workflow_config.json`, get step "2"
    ```json
@@ -332,7 +596,16 @@ User says: **"Run step 2"**
    # final_prompt is now ~19,000 chars (7654 + 2000 + 1500 + 3000 + 5000)
    ```
 
-6. **Spawn subagent with fully-injected prompt**:
+6. **Update state - mark as in_progress**:
+   ```python
+   state = read('projects/{project-name}/workflow_state.json')
+   state['steps']['2']['status'] = 'in_progress'
+   state['steps']['2']['started_at'] = '2025-11-22T21:45:00Z'
+   state['last_updated'] = '2025-11-22T21:45:00Z'
+   write('projects/{project-name}/workflow_state.json', state)
+   ```
+
+7. **Spawn subagent with fully-injected prompt**:
    ```python
    Task(
      subagent_type="story-architect",
@@ -344,9 +617,27 @@ User says: **"Run step 2"**
 
    **The subagent receives a complete prompt with all file contents already embedded. It does NOT need to read any files.**
 
-7. **Save output**: When agent completes, save response to `outputs/dramatic_spine.md`
+8. **Save output**: When agent completes, save response to `outputs/dramatic_spine.md`
 
-8. **Confirm**: Tell user "Step 2 completed. Dramatic spine saved to outputs/dramatic_spine.md"
+9. **Update state - mark as completed**:
+   ```python
+   state = read('projects/{project-name}/workflow_state.json')
+   state['steps']['2']['status'] = 'completed'
+   state['steps']['2']['completed_at'] = '2025-11-22T21:50:00Z'
+   state['steps']['2']['outputs_generated'] = ['outputs/dramatic_spine.md']
+   state['current_step'] = '3'  # Advance to next step
+   state['last_updated'] = '2025-11-22T21:50:00Z'
+   write('projects/{project-name}/workflow_state.json', state)
+   ```
+
+10. **Confirm**: Tell user:
+    ```
+    "Step 2 (Dramatic Spine Extraction) completed successfully.
+    Output saved to: outputs/dramatic_spine.md
+
+    Current workflow status: 2/11 steps completed
+    Next step: 3 (Theme Extraction)"
+    ```
 
 ## Parallel Execution Strategies
 

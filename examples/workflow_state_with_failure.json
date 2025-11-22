@@ -1,0 +1,58 @@
+{
+  "workflow_version": "1.0.0",
+  "project_name": "sci-fi-thriller",
+  "current_step": "2",
+  "last_updated": "2025-11-22T15:22:00Z",
+  "steps": {
+    "1": {
+      "name": "NPE Extraction",
+      "status": "completed",
+      "started_at": "2025-11-22T14:00:00Z",
+      "completed_at": "2025-11-22T14:18:00Z",
+      "outputs_generated": ["outputs/npe.md"]
+    },
+    "2": {
+      "name": "Dramatic Spine Extraction",
+      "status": "failed",
+      "started_at": "2025-11-22T15:00:00Z",
+      "failed_at": "2025-11-22T15:22:00Z",
+      "error": "Missing required input file: input/world-concept.md. Please create this file with your world-building concepts before retrying step 2."
+    },
+    "3": {
+      "name": "Theme Extraction",
+      "status": "pending"
+    },
+    "4": {
+      "name": "Character Development",
+      "status": "pending"
+    },
+    "5": {
+      "name": "World Constraints Extraction",
+      "status": "pending"
+    },
+    "6": {
+      "name": "Relationship Mapping",
+      "status": "pending"
+    },
+    "7": {
+      "name": "Relationship Architecture",
+      "status": "pending"
+    },
+    "8": {
+      "name": "Premise Refinement",
+      "status": "pending"
+    },
+    "9": {
+      "name": "Story Outline",
+      "status": "pending"
+    },
+    "10": {
+      "name": "NPE Inspection",
+      "status": "pending"
+    },
+    "11": {
+      "name": "Outline Rewrite",
+      "status": "pending"
+    }
+  }
+}

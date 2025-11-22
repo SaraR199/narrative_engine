@@ -1,0 +1,70 @@
+{
+  "workflow_version": "1.0.0",
+  "project_name": "dragon-mafia-paranormal-v1",
+  "current_step": "5",
+  "last_updated": "2025-11-22T21:24:00Z",
+  "steps": {
+    "1": {
+      "name": "NPE Extraction",
+      "status": "completed",
+      "started_at": "2025-11-22T18:00:00Z",
+      "completed_at": "2025-11-22T18:15:00Z",
+      "outputs_generated": ["outputs/npe.md"]
+    },
+    "2": {
+      "name": "Dramatic Spine Extraction",
+      "status": "completed",
+      "started_at": "2025-11-22T18:30:00Z",
+      "completed_at": "2025-11-22T18:45:00Z",
+      "outputs_generated": ["outputs/dramatic_spine.md"]
+    },
+    "3": {
+      "name": "Theme Extraction",
+      "status": "completed",
+      "started_at": "2025-11-22T19:00:00Z",
+      "completed_at": "2025-11-22T19:15:00Z",
+      "outputs_generated": ["outputs/themes.md"]
+    },
+    "4": {
+      "name": "Character Development",
+      "status": "completed",
+      "started_at": "2025-11-22T20:00:00Z",
+      "completed_at": "2025-11-22T21:24:00Z",
+      "outputs_generated": [
+        "outputs/character_alexei_lex_volkov.md",
+        "outputs/character_darius_kael.md",
+        "outputs/character_mikhail_misha_dragunov.md",
+        "outputs/character_sera_volkov.md",
+        "outputs/character_vivienne_shen.md"
+      ]
+    },
+    "5": {
+      "name": "World Constraints Extraction",
+      "status": "pending"
+    },
+    "6": {
+      "name": "Relationship Mapping",
+      "status": "pending"
+    },
+    "7": {
+      "name": "Relationship Architecture",
+      "status": "pending"
+    },
+    "8": {
+      "name": "Premise Refinement",
+      "status": "pending"
+    },
+    "9": {
+      "name": "Story Outline",
+      "status": "pending"
+    },
+    "10": {
+      "name": "NPE Inspection",
+      "status": "pending"
+    },
+    "11": {
+      "name": "Outline Rewrite",
+      "status": "pending"
+    }
+  }
+}
