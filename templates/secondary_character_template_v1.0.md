@@ -105,27 +105,6 @@
 
 ---
 
-# **6. AI IMPLEMENTATION NOTES**
-
-**Consistency Anchors:**
-- [What 1-2 behaviors should appear every time they're on the page?]
-- [What should NEVER change about this character?]
-
-**Variation Guidance:**
-- [What can/should vary based on context?]
-- [How should their behavior shift under different pressures or situations?]
-
-**Scene Usage:**
-- [When should this character be deployed in scenes?]
-- [What should they typically DO when present?]
-- [What should they NOT be used for?]
-
-**Relationship Dynamics to Maintain:**
-- [What specific dynamic with the protagonist must stay consistent?]
-- [Optional: What dynamic with other characters matters?]
-
----
-
 # **USAGE NOTES**
 
 - **Arc States are REQUIRED for**: antagonists, mentors, close allies, love interests, major obstacles
