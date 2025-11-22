@@ -1,4 +1,4 @@
-# Input Files for test-fantasy-novel
+# Input Files for default project
 
 Add the following files to this directory to use the Book Design Workflow:
 
@@ -28,15 +28,15 @@ All files should be in Markdown format (.md). Be as detailed as possible - the m
 Once you've added your input files, tell Claude Code:
 
 ```
-Run step 1 for test-fantasy-novel
+Run step 1 for default
 ```
 
 Or to run the entire workflow:
 
 ```
-Run the book design workflow for test-fantasy-novel
+Run the book design workflow for default
 ```
 
 ## Outputs
 
-Generated outputs will be saved to `projects/test-fantasy-novel/outputs/`
+Generated outputs will be saved to `projects/default/outputs/`
