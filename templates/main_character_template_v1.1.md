@@ -1,246 +1,174 @@
-# Main Character Template v1.1
+# **MAIN CHARACTER TEMPLATE — Version 1.1**
 
-## Core Identity
-
-**Name:** [Full name and any nicknames]
-
-**Role in Story:** [What function does this character serve? Protagonist, antagonist, mentor, etc.]
-
-**One-Sentence Essence:** [Who they are at their core - their defining quality]
+*All brackets now contain explicit prompts/questions.*
 
 ---
 
-## Psychological Foundation
+# **1. CHARACTER CORE**
 
-### Want vs. Need
-- **Surface Want (External Goal):** [What they think they want / are pursuing]
-- **Deep Need (Internal Necessity):** [What they actually need to become whole]
-- **Misalignment:** [How the want and need conflict]
+**Name:**
+[What is the character’s full name?]
 
-### Core Wound
-- **Origin Event:** [What happened that created this wound]
-- **Age/Context:** [When and where this occurred]
-- **Emotional Impact:** [How it shaped them]
-- **False Belief Created:** [The lie they now believe about themselves/world]
+**Role in Story:**
+[What is this character’s role in the story (protagonist, love interest, deuteragonist, etc.)?]
 
-### Coping Mechanism
-- **Primary Defense:** [How they protect themselves from the wound]
-- **Behavioral Pattern:** [What this looks like in action]
-- **Cost:** [What this coping mechanism prevents them from having]
+**Core Contradiction (X but also Y):**
+[What two opposing traits define this character and create internal tension?]
 
-### Fatal Flaw
-- **The Weakness:** [The character defect that must be overcome]
-- **How It Manifests:** [Specific ways this flaw shows up]
-- **Why It Persists:** [What makes this flaw hard to overcome]
-- **Connection to Wound:** [How the flaw stems from the wound]
+**Core Wound (origin included, 1–2 sentences):**
+[What past experience caused their deepest emotional wound, and how did it shape them?]
 
----
+**Core Lie (false belief shaped by wound):**
+[What incorrect belief do they hold about themself, others, or the world because of their wound?]
 
-## Worldview & Values
+**External Want (conscious goal):**
+[What specific, external goal does the character actively pursue in the story?]
 
-### Worldview (How They See Reality)
-- **Core Belief About People:** [How they view human nature]
-- **Core Belief About Power:** [How they view control/agency]
-- **Core Belief About Love/Connection:** [How they view relationships]
-- **Core Belief About Success:** [How they define winning]
-
-### Value Hierarchy (Ranked)
-1. [Most important value]
-2. [Second value]
-3. [Third value]
-4. [Fourth value]
-5. [Fifth value]
-
-**Value Conflicts:** [Which values create internal tension]
+**Internal Need (unconscious growth requirement):**
+[What deep emotional or psychological truth does the character need to realize to grow?]
 
 ---
 
-## Character Arc Structure
+# **2. FLAW SYSTEM (MULTI-EXPRESSION)**
 
-### Version 1: Initial State (Beginning)
-- **Behavioral Signature:** [How they typically act/react]
-- **Decision-Making Pattern:** [How they solve problems]
-- **Relationship Style:** [How they connect with others]
-- **Visible Symptoms:** [What others observe about them]
+**Primary Flawed Strategy (main maladaptive behavior):**
+[What is the character’s main unhealthy strategy for staying safe or getting what they want?]
 
-### Version 2: Resistance Phase (Early-Mid)
-- **Behavioral Shift:** [Small changes starting to show]
-- **Internal Tension:** [What they're struggling with]
-- **Relationship Changes:** [How connections are strained]
-- **Coping Under Pressure:** [How they respond to challenges]
+**Secondary Flawed Strategies (2–3 additional patterns):**
 
-### Version 3: Breaking Point (Climax Approach)
-- **Behavioral Crisis:** [How they act when the old way fails]
-- **Forced Confrontation:** [What they can no longer avoid]
-- **Relationship Rupture:** [Connections that break/transform]
-- **Choice Point:** [The decision they must make]
+- [What is another maladaptive behavior they fall into under pressure?]
+- [What is a second maladaptive behavior?]
+- [What is a third maladaptive behavior?]
 
-### Version 4: Transformed State (Resolution)
-- **New Behavioral Pattern:** [How they now act/react]
-- **New Decision-Making:** [Their evolved problem-solving]
-- **New Relationship Style:** [How they now connect]
-- **Visible Growth:** [What others observe has changed]
+**Shadow Trait (latent trait they avoid expressing):**
+[What powerful trait do they possess but suppress due to fear, shame, or conditioning?]
 
 ---
 
-## Voice & Expression
+# **3. VALUES & BOUNDARIES**
 
-### Speech Patterns
-- **Vocabulary Level:** [Formal, casual, technical, poetic, etc.]
-- **Sentence Structure:** [Short/choppy, long/flowing, fragment-heavy, etc.]
-- **Verbal Tics:** [Repeated words, phrases, or patterns]
-- **Topic Preferences:** [What they talk about most]
-- **Topic Avoidances:** [What they deflect from]
-- **Humor Style:** [Sarcastic, dry, silly, dark, none, etc.]
+**Top Values (ranked):**
 
-### Sample Dialogue Snippets
-1. [Example line showing voice]
-2. [Example line showing voice]
-3. [Example line showing voice]
-4. [Example line showing voice]
-5. [Example line showing voice]
+1. [What is their most important personal value?]
+2. [What is their second most important personal value?]
+3. [What is their third most important personal value?]
+
+**Hard Boundaries (lines they do not cross):**
+[What moral, personal, or emotional lines will they not cross?]
+
+**Temptations (what pressures them to break boundaries):**
+[What situations, emotions, or people could push them to violate their own boundaries?]
 
 ---
 
-## Emotional & Behavioral Palettes
+# **4. EMOTIONAL & BEHAVIORAL PALETTES**
 
-### Anxiety/Fear Expressions (4-5 variations)
-1. [Specific behavior when anxious]
-2. [Different anxiety manifestation]
-3. [Another fear response]
-4. [Alternative anxiety behavior]
-5. [Fifth variation]
+For each emotion, provide a variety of internal and external expressions.
 
-### Attraction/Interest Expressions (4-5 variations)
-1. [How they show interest in ideas/people]
-2. [Different attraction signal]
-3. [Another way they express interest]
-4. [Alternative attraction behavior]
-5. [Fifth variation]
+### **Anxiety Palette**
 
-### Anger/Frustration Expressions (4-5 variations)
-1. [How they show anger]
-2. [Different frustration manifestation]
-3. [Another anger response]
-4. [Alternative frustration behavior]
-5. [Fifth variation]
+- [What internal thought pattern appears when they are anxious?]
+- [What second internal reaction do they have when anxious?]
+- [What physical behavior shows their anxiety without being repetitive?]
+- [What second physical response shows anxiety?]
+- [What verbal tell appears when anxious?]
 
-### Joy/Satisfaction Expressions (4-5 variations)
-1. [How they show happiness]
-2. [Different joy manifestation]
-3. [Another satisfaction response]
-4. [Alternative joy behavior]
-5. [Fifth variation]
+### **Attraction Palette**
 
-### Sadness/Grief Expressions (4-5 variations)
-1. [How they show sadness]
-2. [Different grief manifestation]
-3. [Another sorrow response]
-4. [Alternative sadness behavior]
-5. [Fifth variation]
+- [What subtle physical behavior signals attraction for this character?]
+- [What second physical reaction appears when they feel drawn to someone?]
+- [What internal reaction reveals attraction?]
+- [What verbal pattern or shift signals romantic interest?]
+
+### **Anger Palette**
+
+- [How does their anger appear in a cold or controlled way?]
+- [How does their anger appear in a sharp or reactive way?]
+- [How does their anger appear in a self-protective or avoidant way?]
+
+### **Additional Emotion Palettes (optional)**
+
+[What additional emotion should be defined, and how does it express in multiple varied behaviors?]
 
 ---
 
-## Physical & Sensory Details
+# **5. VOICE & LANGUAGE PALETTE**
 
-### Physical Description
-- **Age:** [Actual age]
-- **Build/Physicality:** [Body type, posture, movement quality]
-- **Distinctive Features:** [What stands out visually]
-- **Style/Presentation:** [How they dress, groom, present]
+**Syntax Tendencies:**
+[What does their typical sentence structure look like? Long? Clipped? Rambling? Precise?]
 
-### Physical Habits & Tells
-- **When Relaxed:** [Physical behavior when comfortable]
-- **When Stressed:** [Physical tells of stress]
-- **When Lying/Hiding:** [Body language when deceptive]
-- **When Engaged:** [Physical signs of interest]
+**Dialogue Patterns:**
+[How do they tend to speak? What verbal quirks or strategies define their dialogue?]
 
-### Sensory Signature
-- **Primary Sense:** [Which sense they rely on most]
-- **Sensory Preferences:** [What sensations they seek]
-- **Sensory Aversions:** [What sensations they avoid]
+**Internal Metaphor Style:**
+[What type of metaphors or imagery does their internal narration prefer (e.g., nautical, mechanical, botanical, culinary, etc.)?]
+
+**Sensory Bias (what they notice first / most):**
+[What sense (sight, sound, touch, smell, taste) do they rely on most and why?]
 
 ---
 
-## Relationships & Social Dynamics
+# **6. CONTEXT STATES**
 
-### Relationship to Protagonist (if not protagonist)
-- **Function:** [Ally, enemy, mirror, obstacle, etc.]
-- **Dynamic:** [How they interact/conflict]
-- **Evolution:** [How relationship changes across story]
+### **Baseline State:**
 
-### Key Relationships Map
-1. **[Name]:** [Relationship type and dynamic]
-2. **[Name]:** [Relationship type and dynamic]
-3. **[Name]:** [Relationship type and dynamic]
-4. **[Name]:** [Relationship type and dynamic]
+[How do they typically behave on a normal, low-stress day?]
 
-### Social Patterns
-- **In Groups:** [How they behave in social settings]
-- **One-on-One:** [How they are in intimate conversation]
-- **With Authority:** [How they relate to power]
-- **With Vulnerability:** [How they respond to others' weakness]
+### **Mild Stress State:**
+
+[How does their behavior shift when they are moderately stressed or uncomfortable?]
+
+### **Extreme Stress State:**
+
+[How do they act under extreme pressure, panic, or emotional overload?]
 
 ---
 
-## Competencies & Limitations
+# **7. ARC STATES (CHARACTER EVOLUTION)**
 
-### Strengths/Skills
-1. [What they're genuinely good at]
-2. [Another competency]
-3. [Third strength]
-4. [Fourth skill]
+### **Version 1 – Beginning**
 
-### Weaknesses/Gaps
-1. [What they're genuinely bad at]
-2. [Another limitation]
-3. [Third weakness]
-4. [Fourth gap]
+- Conflict Response: [How do they respond to conflict at the start of the story?]
+- Flaw Expression: [How does their main flaw show up early on?]
+- Vulnerability Pattern: [How do they handle intimacy or emotional exposure early in the story?]
 
-### Growth Areas (Skills They'll Develop)
-- [Skill acquired through arc]
-- [Another capability developed]
-- [Third growth area]
+### **Version 2 – Midpoint**
 
----
+- New Awareness: [What uncomfortable truth do they begin to notice about themself around the midpoint?]
+- Behavioral Shift: [What small positive change begins to appear in their behavior?]
+- Emerging Fear: [What new fear arises because of the stakes increasing?]
 
-## NPE Compliance Notes
+### **Version 3 – Climax**
 
-### How This Character Follows the Narrative Physics Engine
+- Defining Growth Decision: [What major decision or action demonstrates their growth during the climax?]
+- Old Behavior They Resist: [What old pattern do they almost fall back into but consciously avoid?]
 
-**Plot Mechanics:** [How character's decisions drive cause-effect chains]
+### **Version 4 – Aftermath**
 
-**Character Logic:** [How their psychology aligns with NPE rules]
-
-**Arc Integration:** [How transformation integrates with plot structure]
-
-**Constraint Adherence:** [Specific NPE rules this character embodies]
+- Relationship to Core Wound: [How has their understanding of their wound changed by the resolution?]
+- Persistent Habit (realism): [What trait or habit remains unchanged to keep them human and not overly “fixed”?]
 
 ---
 
-## Arc Integration with Plot
+# **8. RELATIONSHIP-SPECIFIC BEHAVIOR**
 
-### Act 1 Beats
-- **Beat [#]:** [Character state/action at this plot point]
-- **Beat [#]:** [Character state/action at this plot point]
-- **Beat [#]:** [Character state/action at this plot point]
+For each key relationship:
 
-### Act 2 Beats
-- **Beat [#]:** [Character state/action at this plot point]
-- **Beat [#]:** [Character state/action at this plot point]
-- **Beat [#]:** [Character state/action at this plot point]
+### **With [Who is the relationship with?]:**
 
-### Act 3 Beats
-- **Beat [#]:** [Character state/action at this plot point]
-- **Beat [#]:** [Character state/action at this plot point]
-- **Beat [#]:** [Character state/action at this plot point]
+- Persona They Present: [How do they try to appear to this person?]
+- What They Hide: [What do they conceal from this person and why?]
+- Conflict Pattern: [What conflict pattern emerges between them?]
+- Connection Pattern: [What pattern of ease, chemistry, or trust appears between them?]
+
+(Repeat for each major relationship.)
 
 ---
 
-## Meta Notes
+# **AI IMPLEMENTATION RULESET (NON-BRACKETED)**
 
-**Key Scenes for This Character:** [Which scenes are crucial for their arc]
-
-**Character's Thematic Function:** [What theme they embody/explore]
-
-**Common Pitfalls to Avoid:** [What would break this character's consistency]
+- Rotate emotional and behavioral palettes; do not repeat identical gestures or phrases within 3–4 scenes.
+- Express flaws through multiple strategies, not one repeated tell.
+- Use appropriate context state (baseline/mild/extreme) per scene stakes.
+- Use arc version (V1–V4) based on story progression; later versions override earlier ones.
+- Use relationship-specific dynamics for interactions with defined characters.
