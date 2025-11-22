@@ -170,6 +170,21 @@
         "outline": "outputs/outline.md"
       },
       "depends_on": ["1", "2", "3", "4", "5", "6", "7", "8"]
+    },
+    "10": {
+      "name": "NPE Inspection",
+      "description": "Perform rigorous quality assurance inspection of the generated outline against the NPE. Identifies violations, strengths, and provides prioritized recommendations for bringing outline into full NPE compliance.",
+      "prompt_template": "step10_npe_inspection.md",
+      "agent_type": "story-architect",
+      "model": "sonnet",
+      "inputs": {
+        "NPE": "outputs/npe.md",
+        "OUTLINE": "outputs/outline.md"
+      },
+      "outputs": {
+        "npe_inspection_report": "outputs/npe_inspection_report.md"
+      },
+      "depends_on": ["1", "9"]
     }
   },
   "usage": "Tell Claude Code: 'Run step 1', 'Run step 2', or 'Run the book design workflow'",
