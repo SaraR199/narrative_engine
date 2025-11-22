@@ -172,41 +172,6 @@ With **Kai** (Draven's enforcer/head of security): Kai's instincts have always b
 
 ---
 
-# **NPE COMPLIANCE NOTES**
 
-**Causality & Plot Logic:**
-- Cassia's betrayal is revealed through **physical evidence discovered via Isla's psychometry** (NPE Section 1, Rule 3) — not convenient confession or overheard conversation
-- Her deceptions have **clear motivation rooted in character wound** (love for murdered uncle Marcus twisted into ideology) — not arbitrary villainy (NPE Section 1, Rule 4)
-- Information she reveals during final confrontation **generates new urgent questions** (How long was Marcus planning this? Who else is compromised? What did Draven's father actually do to warrant assassination?) (NPE Section 1, Rule 6)
-
-**Character Action & Decision Physics:**
-- Her decisions are driven by **unhealed emotional wound** (Marcus's death) creating **compulsion she doesn't recognize as harmful** (NPE Section 2, Rule 3)
-- She **misinterprets events through her specific psychological lens** (the guilty interpret consequences as punishment — she sees Draven's success as temporary and his love for Isla as weakness confirming her judgment) (NPE Section 2, Rule 4)
-- She **genuinely believes she's protecting** the clan, never acknowledging she's violating trust until confronted with undeniable proof (NPE Section 2, Secondary Rule 2)
-
-**Dialogue Physics:**
-- She **evades direct questions through** answering different questions, providing technically true but incomplete information, and redirecting to others' potential guilt (NPE Section 3, Rule 1)
-- **Accidental slips** when emotionally compromised during final confrontation (NPE Section 3, Rule 2)
-- **Exposition delivered through dialogue** is actively resisted by listeners (Draven doesn't want to believe his trusted advisor betrayed him) and motivated by her need to justify (NPE Section 3, Conditional Rule 3)
-
-**Information Economy:**
-- She **holds specific pieces of truth** (methods of communication with Crimson Talon, extent of conspiracy network, timeline of surveillance) for clear reasons (self-preservation, tactical advantage) (NPE Section 6, Rule 3)
-- Her **lies are revealed through** possessing knowledge she shouldn't have and physical evidence contradicting stated facts (NPE Section 6, Rule 4)
-- Truth is discovered through **Isla actively investigating** despite warnings and **paying psychological cost** (horror of discovering someone so trusted was enemy) (NPE Section 6, Forbidden-by-Constraint)
-
-**Stakes & Pressure System:**
-- Represents **Stage 3 escalation** (trusted ally revealed as hostile) in the loss-of-safety progression (NPE Section 8, Rule 2)
-- Her exposure forces Draven to **question previous certainty** ("My council is loyal" → "My inner circle was compromised for a decade") (NPE Section 8, Rule 4)
-
-**Off-Stage Narrative Design:**
-- Her **off-stage actions revealed through physical evidence** (communication devices, altered documents, testimony from Crimson Talon intermediaries) (NPE Section 9, Rule 1)
-- **Antagonist's preparation shown through** evidence of long-term surveillance and resources she shouldn't have access to (NPE Section 9, Secondary Rule 1)
-
-**Revelation & Recontextualization:**
-- Her exposure **reframes previous scenes** — helpful advice was manipulation, protective behavior was sabotage, coincidental knowledge was evidence of conspiracy (NPE Section 10, Rule 1)
-- **Clues planted through** her possessing knowledge she shouldn't have (knowing about security weakness before it's reported, aware of Isla's background too quickly) (NPE Section 10, Rule 4)
-- **Truth is worse than suspected** — not just "she's compromised" but "she's been the architect for a decade and orchestrated multiple assassinations" (NPE Section 10, Rule 3)
-
----
 
 **END OF CHARACTER PROFILE**
