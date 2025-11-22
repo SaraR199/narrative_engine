@@ -129,6 +129,25 @@
       },
       "output_pattern": "outputs/relationship_{CharacterA}_{CharacterB}.md",
       "depends_on": ["1", "2", "3", "4", "5", "6"]
+    },
+    "8": {
+      "name": "Story Outline",
+      "description": "Synthesize all workflow outputs into a complete 3-act story outline. Creates structured blueprint with turning points, character-driven causality, relationship dynamics, and scene-level mechanics. Does NOT read original concept files—only uses NPE and workflow-generated outputs.",
+      "prompt_template": "step8_outline.md",
+      "agent_type": "story-architect",
+      "model": "sonnet",
+      "inputs": {
+        "NPE": "outputs/npe.md",
+        "DRAMATIC_SPINE": "outputs/dramatic_spine.md",
+        "THEMES": "outputs/themes.md",
+        "CHARACTER_PROFILES": "outputs/character_*.md",
+        "WORLD_CONSTRAINTS": "outputs/world_constraints.md",
+        "RELATIONSHIP_ARCHITECTURES": "outputs/relationship_*.md"
+      },
+      "outputs": {
+        "outline": "outputs/outline.md"
+      },
+      "depends_on": ["1", "2", "3", "4", "5", "6", "7"]
     }
   },
   "usage": "Tell Claude Code: 'Run step 1', 'Run step 2', or 'Run the book design workflow'",
