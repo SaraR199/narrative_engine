@@ -19,7 +19,7 @@
     },
     "2": {
       "name": "Dramatic Spine Extraction",
-      "description": "Extract the high-level dramatic spine (tension axes, dominant energy, emotional progression) from story, character, and world concepts",
+      "description": "Extract the high-level dramatic spine (1-3 primary tension axes, 0-2 secondary axes, dominant energy, emotional progression) from story, character, and world concepts. Supports dual-genre novels requiring multiple equally-weighted tension sources.",
       "prompt_template": "step2_dramatic_spine.md",
       "agent_type": "story-architect",
       "model": "sonnet",
@@ -129,6 +129,46 @@
       },
       "output_pattern": "outputs/relationship_{CharacterA}_{CharacterB}.md",
       "depends_on": ["1", "2", "3", "4", "5", "6"]
+    },
+    "8": {
+      "name": "Premise Refinement",
+      "description": "Refine the original story premise to align with all established structural foundations (NPE, dramatic spine, themes, character arcs, world constraints, relationships). Reads ONLY story-concept.md from original inputs plus all workflow outputs. Creates focused premise grounded in constraints.",
+      "prompt_template": "step8_premise_refinement.md",
+      "agent_type": "story-architect",
+      "model": "sonnet",
+      "inputs": {
+        "STORY_CONCEPT": "input/story-concept.md",
+        "NPE": "outputs/npe.md",
+        "DRAMATIC_SPINE": "outputs/dramatic_spine.md",
+        "THEMES": "outputs/themes.md",
+        "CHARACTER_PROFILES": "outputs/character_*.md",
+        "WORLD_CONSTRAINTS": "outputs/world_constraints.md",
+        "RELATIONSHIP_ARCHITECTURES": "outputs/relationship_*.md"
+      },
+      "outputs": {
+        "refined_premise": "outputs/refined_premise.md"
+      },
+      "depends_on": ["1", "2", "3", "4", "5", "6", "7"]
+    },
+    "9": {
+      "name": "Story Outline",
+      "description": "Synthesize all workflow outputs into a complete 3-act story outline. Creates structured blueprint with turning points, character-driven causality, relationship dynamics, and scene-level mechanics. Does NOT read original concept files—only uses NPE and workflow-generated outputs.",
+      "prompt_template": "step9_outline.md",
+      "agent_type": "story-architect",
+      "model": "sonnet",
+      "inputs": {
+        "NPE": "outputs/npe.md",
+        "DRAMATIC_SPINE": "outputs/dramatic_spine.md",
+        "THEMES": "outputs/themes.md",
+        "CHARACTER_PROFILES": "outputs/character_*.md",
+        "WORLD_CONSTRAINTS": "outputs/world_constraints.md",
+        "RELATIONSHIP_ARCHITECTURES": "outputs/relationship_*.md",
+        "REFINED_PREMISE": "outputs/refined_premise.md"
+      },
+      "outputs": {
+        "outline": "outputs/outline.md"
+      },
+      "depends_on": ["1", "2", "3", "4", "5", "6", "7", "8"]
     }
   },
   "usage": "Tell Claude Code: 'Run step 1', 'Run step 2', or 'Run the book design workflow'",
