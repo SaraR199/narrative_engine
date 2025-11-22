@@ -1,8 +1,6 @@
 # **SECONDARY CHARACTER TEMPLATE — Version 1.0**
 ## Kai Thornhart
 
-*Streamlined template for supporting characters with narrative function focus.*
-
 ---
 
 # **1. CHARACTER CORE**
@@ -185,61 +183,3 @@ Embodies the story's central question: **"Can you surrender without losing yours
 
 ---
 
-# **NPE COMPLIANCE NOTES**
-
-**How Kai Thornhart Follows Narrative Physics Engine Rules:**
-
-**Character Action & Decision Physics:**
-- His decisions are filtered through grief-wound: sees all events through lens of loss and cost-benefit of risk (NPE Section 2, Rule 1)
-- Protected Draven by withholding nothing about mating bond costs — but his bluntness actually proves protective withholding makes things worse, aligning with NPE Section 2, Rule 2
-- Every major decision driven by unhealed wound: Sera's death compels him to protect Draven's mate better than he protected his own (NPE Section 2, Rule 3)
-
-**Dialogue Physics:**
-- Delivers exposition about Draven's past through motivated speech — warns Isla to prepare her, not for reader convenience (NPE Section 3, Conditional Rule 3)
-- His story about Sera reveals as much about him (frozen by loss, would choose same pain again) as it does about dragon world dangers (NPE Section 3, Conditional Rule 2)
-- Cannot articulate his deepest need (to prevent another Sera tragedy) directly — emerges through his fierce protection of Isla and demanding Draven not "fuck this up" (NPE Section 3, Rule 4)
-
-**POV & Emotional Logic** (when in his POV):
-- Filters events through lens of guilt and loss: measures everything against Sera's death, sees threats everywhere (NPE Section 5, Rule 1)
-- Physical sensations convey emotional state: touching Sera's ring when discussing love = visceral connection to buried grief (NPE Section 5, Rule 3)
-- Experiences conflicting emotions without resolving: grateful Draven gave him purpose after loss + resentful he must watch another love story while frozen in his own (NPE Section 5, Rule 4)
-
-**Information Economy:**
-- Shares backstory about Draven's father through direct storytelling, but listener (Isla) actively needs this information to understand Draven's behavior, and it creates new questions about whether Draven will repeat his father's mistakes (NPE Section 6, Rule 1 exception)
-- His knowledge of Sera's death revealed through physical evidence: refuses to enter sealed quarters, wears her ring, voice goes flat when discussing past (NPE Section 6, Rule 4)
-
-**Stakes & Pressure:**
-- Embodies secondary theme through personal loss: his mate was weaponized against him, proving love makes you targetable (NPE Section 8, aligns with thematic pressure)
-- His alliance tested by Isla's presence — duty to clan security conflicts with loyalty to Draven's happiness (NPE Section 8, Secondary Rule 2)
-
-**Genre-Alignment:**
-- His lost mate serves as cautionary tale about supernatural bonds: proves they can be weaponized, destroyed, used to break even the strongest warriors (NPE Section 7, Required Element 1)
-- Represents the cost of being truly seen: Sera knew him completely, enemies exploited that to destroy her, yet he doesn't regret the vulnerability (NPE Section 7, aligns with thematic architecture)
-- Cannot have "resolution" to his grief before protagonists resolve theirs — his wound remains to keep story grounded in realism (NPE Section 7, Forbidden-by-Constraint 1)
-
-**Specifically Supports NPE by:**
-- Preventing convenient solutions: His warnings and protection complicate rather than solve Isla's integration into clan
-- Creating pressure through alliance conflict: His shift from antagonistic to protective of Isla creates tension with other council members
-- Embodying thematic cost: Living proof that surrender can end in devastating loss, not just triumph
-- Providing earned exposition: His backstory delivery is motivated by character need (protecting Isla/Draven) not plot convenience
-
----
-
-**CHARACTER INTEGRATION CHECKLIST**
-
-✅ **Dramatic Spine Connection**:
-- **Primary Axis 2 (Political/Survival)**: Kai executes enforcement maintaining clan reputation, identifies internal betrayal, neutralizes threats — he's the tactical muscle behind Draven's political position
-- **Secondary Axis 2 (Loyalty and Belonging)**: Embodies clan loyalty through proven crisis-forged bond with Draven; his arc with Isla demonstrates chosen family transcending blood ties
-
-✅ **Thematic Reflection**:
-- **Main Theme** ("Can you surrender without losing yourself?"): Living answer = he surrendered completely to Sera, lost everything, lives in half-life but would still choose it; proves surrender can destroy you but that never surrendering isn't living
-- **Secondary Theme** ("What is the cost of being truly seen?"): Sera saw him fully, enemies weaponized that visibility to kill her, yet he doesn't regret being known — only regrets failing to protect what love created
-
-✅ **Emotional Progression Contribution**:
-- **Act 1 (Thrilling danger)**: His cold lethality and blunt warnings establish stakes and danger of dragon world
-- **Act 2 (Charged tension)**: His shift toward respecting Isla signals her legitimacy, while his cautionary tale raises emotional stakes
-- **Act 3 (Terrifying vulnerability/Fierce triumph)**: Takes blade for Isla, proving love's cost and chosen family's power; his survival (scarred but living) provides hope without erasing consequences
-
----
-
-*End of Kai Thornhart Secondary Character Profile*
