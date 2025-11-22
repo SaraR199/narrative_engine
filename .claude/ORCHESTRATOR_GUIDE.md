@@ -170,6 +170,7 @@ if "{{" in final_prompt or "}}" in final_prompt:
 - `{{OUTLINE_CONTENT}}` → Full contents of `input/existing_outline.md`
 - `{{NPE_TEMPLATE}}` → Full contents of `templates/npe_template`
 - `{{MAIN_CHARACTER_TEMPLATE}}` → Full contents of `templates/main_character_template_v1.1.md`
+- `{{SECONDARY_CHARACTER_TEMPLATE}}` → Full contents of `templates/secondary_character_template_v1.0.md`
 
 #### 6. Build the Complete Agent Prompt
 
@@ -481,62 +482,88 @@ Ready to proceed to Step 7."
 
 ## Special Case: Multiple Characters (Step 4)
 
-Step 4 is special because `input/character-concept.md` can contain **multiple characters**, and each character should get its own parallel subagent.
+Step 4 is special because `input/characters-concept.md` can contain **multiple characters** of different types, and each character should get its own parallel subagent.
 
 ### Character File Format
 
-The character-concept file uses this structure:
+The characters-concept file uses markers to distinguish main characters from secondary characters:
 
 ```markdown
-# CHARACTER: Sarah Chen
-[concept for Sarah]
+# MAIN CHARACTER: Sarah Chen
+[detailed concept for Sarah - protagonist]
 
 ---
 
-# CHARACTER: Marcus Reed
-[concept for Marcus]
+# MAIN CHARACTER: Marcus Reed
+[detailed concept for Marcus - romantic lead]
 
 ---
 
-# CHARACTER: Dr. Elena Vasquez
-[concept for Elena]
+# SECONDARY CHARACTER: Dr. Elena Vasquez
+[lighter concept for Elena - mentor]
+
+---
+
+# SECONDARY CHARACTER: Detective Morrison
+[lighter concept for Morrison - antagonist]
 
 ---
 ```
 
+**Important:**
+- Characters marked with `# MAIN CHARACTER:` use the comprehensive Main Character Template (8 sections)
+- Characters marked with `# SECONDARY CHARACTER:` use the streamlined Secondary Character Template (6 sections)
+- The prompt template includes BOTH templates and instructs the subagent to use the appropriate one
+- The orchestrator doesn't need to parse character type - just split by character and inject both templates
+
 ### Parallel Processing
 
-When executing Step 2:
+When executing Step 4:
 
 #### 1. Parse Character File
 
-Read `input/character-concept.md` and split it into individual characters:
+Read `input/characters-concept.md` and split it into individual characters:
 
 ```python
 # Pseudocode
 characters = []
-sections = character_file.split('# CHARACTER:')
+# Split on both MAIN CHARACTER and SECONDARY CHARACTER markers
+sections = character_file.split('# MAIN CHARACTER:') + character_file.split('# SECONDARY CHARACTER:')
+
+# Alternative: Use regex to split on either marker
+import re
+sections = re.split(r'# (?:MAIN|SECONDARY) CHARACTER:', character_file)
+
 for section in sections[1:]:  # Skip first empty section
     lines = section.strip().split('\n')
     name = lines[0].strip()  # First line is the name
     concept = '\n'.join(lines[1:]).split('---')[0].strip()  # Content until ---
-    characters.append({'name': name, 'concept': concept})
+
+    # Determine character type from original marker (for filename purposes)
+    # But the subagent will auto-detect from the concept content
+    characters.append({'name': name, 'concept': section.strip()})
 ```
 
 Example result:
 ```python
 [
-  {'name': 'Sarah Chen', 'concept': 'Sarah is the protagonist...'},
-  {'name': 'Marcus Reed', 'concept': 'Marcus is the antagonist...'},
-  {'name': 'Dr. Elena Vasquez', 'concept': 'Elena is Sarah\'s mentor...'}
+  {'name': 'Sarah Chen', 'concept': 'Sarah Chen\n[Role:]...[detailed concept]'},
+  {'name': 'Marcus Reed', 'concept': 'Marcus Reed\n[Role:]...[detailed concept]'},
+  {'name': 'Dr. Elena Vasquez', 'concept': 'Dr. Elena Vasquez\n[Role:]...[lighter concept]'}
 ]
 ```
+
+**Note:** The orchestrator doesn't need to determine character type - just extract each character's full concept block. The subagent prompt includes both templates and will select the appropriate one based on the `# MAIN CHARACTER:` or `# SECONDARY CHARACTER:` marker in the concept.
 
 #### 2. Load Shared Inputs
 
 Load inputs that ALL characters will need:
 ```python
-template_content = read('templates/main_character_template_v1.1.md')
+# Load BOTH templates - the prompt includes both and the subagent selects the right one
+main_template_content = read('templates/main_character_template_v1.1.md')
+secondary_template_content = read('templates/secondary_character_template_v1.0.md')
+
+# Load shared workflow outputs
 npe_content = read('outputs/npe.md')
 dramatic_spine = read('outputs/dramatic_spine.md')
 themes = read('outputs/themes.md')
@@ -544,20 +571,25 @@ themes = read('outputs/themes.md')
 
 #### 3. Spawn Parallel Subagents with Placeholder Injection
 
-For each character, **inject placeholders** then spawn a separate character-architect agent **in parallel**:
+For each character, **inject placeholders** (including BOTH templates) then spawn a separate character-architect agent **in parallel**:
 
 ```python
 # Prepare ALL prompts with placeholder injection BEFORE spawning
 character_prompts = []
 
 for character in characters:
-    # Load template
+    # Load prompt template
     prompt_template = read('prompts/step4_character_development.md')
 
     # ⚠️ INJECT PLACEHOLDERS for this character
     char_prompt = prompt_template
     char_prompt = char_prompt.replace('{{CHARACTER_CONCEPT}}', character['concept'])
-    char_prompt = char_prompt.replace('{{MAIN_CHARACTER_TEMPLATE}}', template_content)
+
+    # Inject BOTH templates - the subagent will select the appropriate one
+    char_prompt = char_prompt.replace('{{MAIN_CHARACTER_TEMPLATE}}', main_template_content)
+    char_prompt = char_prompt.replace('{{SECONDARY_CHARACTER_TEMPLATE}}', secondary_template_content)
+
+    # Inject shared workflow outputs
     char_prompt = char_prompt.replace('{{NPE}}', npe_content)
     char_prompt = char_prompt.replace('{{DRAMATIC_SPINE}}', dramatic_spine)
     char_prompt = char_prompt.replace('{{THEMES}}', themes)
