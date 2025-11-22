@@ -1,6 +1,4 @@
 # VIVIENNE SHEN - CHARACTER PROFILE
-## Secondary Character Template v1.0
-
 ---
 
 # **1. CHARACTER CORE**
