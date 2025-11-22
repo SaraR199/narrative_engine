@@ -1,0 +1,92 @@
+{
+  "workflow_version": "1.0.0",
+  "project_name": "epic-fantasy",
+  "current_step": null,
+  "last_updated": "2025-11-22T22:30:00Z",
+  "steps": {
+    "1": {
+      "name": "NPE Extraction",
+      "status": "completed",
+      "started_at": "2025-11-22T08:00:00Z",
+      "completed_at": "2025-11-22T08:15:00Z",
+      "outputs_generated": ["outputs/npe.md"]
+    },
+    "2": {
+      "name": "Dramatic Spine Extraction",
+      "status": "completed",
+      "started_at": "2025-11-22T09:00:00Z",
+      "completed_at": "2025-11-22T09:18:00Z",
+      "outputs_generated": ["outputs/dramatic_spine.md"]
+    },
+    "3": {
+      "name": "Theme Extraction",
+      "status": "completed",
+      "started_at": "2025-11-22T10:30:00Z",
+      "completed_at": "2025-11-22T10:42:00Z",
+      "outputs_generated": ["outputs/themes.md"]
+    },
+    "4": {
+      "name": "Character Development",
+      "status": "completed",
+      "started_at": "2025-11-22T11:00:00Z",
+      "completed_at": "2025-11-22T11:35:00Z",
+      "outputs_generated": [
+        "outputs/character_Aria_Stormwind.md",
+        "outputs/character_Theron_Blackwood.md",
+        "outputs/character_Elder_Kaelen.md"
+      ]
+    },
+    "5": {
+      "name": "World Constraints Extraction",
+      "status": "completed",
+      "started_at": "2025-11-22T12:00:00Z",
+      "completed_at": "2025-11-22T12:20:00Z",
+      "outputs_generated": ["outputs/world_constraints.md"]
+    },
+    "6": {
+      "name": "Relationship Mapping",
+      "status": "completed",
+      "started_at": "2025-11-22T13:00:00Z",
+      "completed_at": "2025-11-22T13:15:00Z",
+      "outputs_generated": ["outputs/relationship_mapping.md"]
+    },
+    "7": {
+      "name": "Relationship Architecture",
+      "status": "completed",
+      "started_at": "2025-11-22T14:00:00Z",
+      "completed_at": "2025-11-22T14:30:00Z",
+      "outputs_generated": [
+        "outputs/relationship_Aria_Stormwind_Theron_Blackwood.md",
+        "outputs/relationship_Aria_Stormwind_Elder_Kaelen.md"
+      ]
+    },
+    "8": {
+      "name": "Premise Refinement",
+      "status": "completed",
+      "started_at": "2025-11-22T15:00:00Z",
+      "completed_at": "2025-11-22T15:25:00Z",
+      "outputs_generated": ["outputs/refined_premise.md"]
+    },
+    "9": {
+      "name": "Story Outline",
+      "status": "completed",
+      "started_at": "2025-11-22T16:00:00Z",
+      "completed_at": "2025-11-22T16:50:00Z",
+      "outputs_generated": ["outputs/outline.md"]
+    },
+    "10": {
+      "name": "NPE Inspection",
+      "status": "completed",
+      "started_at": "2025-11-22T18:00:00Z",
+      "completed_at": "2025-11-22T18:30:00Z",
+      "outputs_generated": ["outputs/npe_inspection_report.md"]
+    },
+    "11": {
+      "name": "Outline Rewrite",
+      "status": "completed",
+      "started_at": "2025-11-22T20:00:00Z",
+      "completed_at": "2025-11-22T22:30:00Z",
+      "outputs_generated": ["outputs/outline_revised.md"]
+    }
+  }
+}

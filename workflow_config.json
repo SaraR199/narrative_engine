@@ -211,6 +211,7 @@
     "context_minimal": "Each subagent only loads files specified in 'inputs' and 'depends_on'",
     "parallel_processing": "Steps with parallel_processing:true will parse input files and spawn multiple subagents in parallel (e.g., Step 4 spawns one agent per character, Step 7 spawns one agent per relationship)",
     "adding_steps": "Add new step objects with incremental numbering",
-    "model_options": "sonnet (default, balanced), opus (most capable), haiku (fastest)"
+    "model_options": "sonnet (default, balanced), opus (most capable), haiku (fastest)",
+    "state_tracking": "Each project maintains workflow_state.json to track step completion, enable cross-chat resumption, and signal what step to run next. Orchestrator MUST update state before/after each step execution."
   }
 }
