@@ -6,6 +6,46 @@ This document explains how Claude Code should execute the book design workflow s
 
 When the user says **"Run step [N]"** or **"Run the book design workflow"**, Claude Code acts as the orchestrator, spawning specialized subagents for each creative task.
 
+## Parallelization Quick Reference
+
+The workflow supports both **parallel step execution** and **internal parallelization** for efficiency:
+
+| Type | Steps/Features | Description | Time Savings |
+|------|---------------|-------------|--------------|
+| **Parallel Steps** | Steps 5 & 6 | Both depend only on 1-4, can run simultaneously | 1 step equivalent |
+| **Internal Parallel** | Step 4 | Spawns multiple character-architect agents (one per character) | 3x faster for 3 characters |
+| **Internal Parallel** | Step 7 | Spawns multiple character-architect agents (one per relationship) | 3x faster for 3 relationships |
+
+### Execution Order Summary
+
+**Sequential (No Parallelization):**
+```
+1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10 → 11
+```
+
+**Optimized (With Parallelization):**
+```
+1 → 2 → 3 → 4 → [5 & 6 in parallel] → 7 → 8 → 9 → 10 → 11
+       ↓                    ↓
+   (parallel          (parallel
+   characters)        relationships)
+```
+
+### When to Use Parallel Execution
+
+**Use parallel step execution (Steps 5-6) when:**
+- Running the full workflow
+- User requests optimization or faster execution
+- Both steps are needed and their dependencies are met
+
+**Use internal parallelization (Steps 4, 7) when:**
+- Multiple entities exist in the input files
+- Always recommended (no downside)
+
+See detailed instructions for each parallelization type below.
+
+---
+
 ## Orchestration Process
 
 ### Step-by-Step Execution
@@ -164,9 +204,116 @@ User says: **"Run step 2"**
 
 8. **Confirm**: Tell user "Step 2 completed. Character profile saved to outputs/character_profile.md"
 
-## Special Case: Multiple Characters (Step 2)
+## Parallel Execution Strategies
 
-Step 2 is special because `input/character-concept.md` can contain **multiple characters**, and each character should get its own parallel subagent.
+The workflow has two types of parallelization opportunities:
+
+1. **Parallel Step Execution**: Multiple workflow steps run simultaneously (Steps 5-6)
+2. **Internal Parallelization**: A single step spawns multiple agents for multiple entities (Steps 4, 7)
+
+---
+
+## Parallel Step Execution: Steps 5 and 6
+
+Steps 5 (World Constraints Extraction) and 6 (Relationship Mapping) can run **in parallel** because they both depend only on Steps 1-4 and don't depend on each other.
+
+### When to Use Parallel Step Execution
+
+**Run Steps 5-6 in parallel when:**
+- User says "Run steps 5 and 6" or "Continue the workflow from step 5"
+- User explicitly requests parallel execution
+- You're running the full workflow and want to optimize execution time
+
+### How to Execute Steps 5-6 in Parallel
+
+#### 1. Verify Dependencies
+
+Both steps require:
+- `outputs/npe.md` (from Step 1)
+- `outputs/dramatic_spine.md` (from Step 2)
+- `outputs/themes.md` (from Step 3)
+- `outputs/character_*.md` (from Step 4)
+
+Check that all these files exist before proceeding.
+
+#### 2. Load Shared Inputs
+
+Load inputs that both steps need:
+```
+NPE = read('outputs/npe.md')
+DRAMATIC_SPINE = read('outputs/dramatic_spine.md')
+THEMES = read('outputs/themes.md')
+CHARACTER_PROFILES = read_all('outputs/character_*.md')
+```
+
+#### 3. Load Step-Specific Inputs
+
+**Step 5 needs:**
+- `input/world-concept.md`
+
+**Step 6 needs:**
+- `input/story-concept.md`
+- `input/characters-concept.md`
+
+#### 4. Prepare Both Prompts
+
+Load and inject placeholders for both prompt templates:
+- `prompts/step5_world_constraints.md`
+- `prompts/step6_relationship_mapping.md`
+
+#### 5. Spawn Both Agents in a Single Message
+
+**Critical:** Send both Task tool calls in **one message** to run them in parallel:
+
+```python
+# Message with TWO Task tool calls
+Task(
+    subagent_type="story-architect",
+    prompt="[Step 5 fully injected prompt]",
+    description="Extract world constraints",
+    model="sonnet"
+)
+
+Task(
+    subagent_type="character-architect",
+    prompt="[Step 6 fully injected prompt]",
+    description="Map key relationships",
+    model="sonnet"
+)
+```
+
+#### 6. Wait for Both to Complete
+
+Both agents will run simultaneously. Wait for both to finish before proceeding.
+
+#### 7. Save Both Outputs
+
+```
+Step 5 output → outputs/world_constraints.md
+Step 6 output → outputs/relationship_mapping.md
+```
+
+#### 8. Confirm Completion
+
+```
+"Steps 5 and 6 completed in parallel:
+- World constraints saved to outputs/world_constraints.md
+- Relationship mapping saved to outputs/relationship_mapping.md
+
+Ready to proceed to Step 7."
+```
+
+### Why This Works
+
+- **No data dependency**: Step 5 doesn't need Step 6's output and vice versa
+- **Different agents**: Step 5 uses story-architect, Step 6 uses character-architect
+- **Time savings**: Runs in parallel instead of sequential (saves 1 step equivalent of time)
+
+---
+
+## Special Case: Multiple Characters (Step 4)
+
+Step 4 is special because `input/character-concept.md` can contain **multiple characters**, and each character should get its own parallel subagent.
 
 ### Character File Format
 
@@ -276,6 +423,174 @@ Naming pattern: `outputs/character_{Name_With_Underscores}.md`
 3. Use Claude Code's ability to send multiple Tool calls in one message
 4. Wait for all agents to complete before confirming to user
 5. Handle errors per character (one character failing shouldn't block others)
+
+---
+
+## Special Case: Multiple Relationships (Step 7)
+
+Step 7 is special because `outputs/relationship_mapping.md` can contain **multiple relationships**, and each relationship should get its own parallel subagent.
+
+### Relationship Mapping File Format
+
+The relationship mapping file (from Step 6) uses this structure:
+
+```markdown
+# RELATIONSHIP: Sarah Chen & Marcus Reed
+
+**Situation:**
+[Description of the relationship situation]
+
+**Why this relationship matters:**
+- [Reason 1]
+- [Reason 2]
+
+---
+
+# RELATIONSHIP: Sarah Chen & Dr. Elena Vasquez
+
+**Situation:**
+[Description]
+
+**Why this relationship matters:**
+- [Reason 1]
+- [Reason 2]
+
+---
+
+# RELATIONSHIP: Marcus Reed & Dr. Elena Vasquez
+
+**Situation:**
+[Description]
+
+**Why this relationship matters:**
+- [Reason 1]
+- [Reason 2]
+
+---
+```
+
+### Parallel Processing for Step 7
+
+When executing Step 7:
+
+#### 1. Parse Relationship Mapping File
+
+Read `outputs/relationship_mapping.md` and split it into individual relationships:
+
+```python
+# Pseudocode
+relationships = []
+sections = relationship_file.split('# RELATIONSHIP:')
+for section in sections[1:]:  # Skip first empty section
+    lines = section.strip().split('\n')
+    header = lines[0].strip()  # "Character A & Character B"
+
+    # Extract character names
+    parts = header.split('&')
+    char_a = parts[0].strip()
+    char_b = parts[1].strip()
+
+    # Extract full relationship content (until next --- separator)
+    content = '\n'.join(lines).split('---')[0].strip()
+
+    relationships.append({
+        'char_a': char_a,
+        'char_b': char_b,
+        'content': content
+    })
+```
+
+Example result:
+```python
+[
+  {'char_a': 'Sarah Chen', 'char_b': 'Marcus Reed', 'content': '# RELATIONSHIP: Sarah Chen & Marcus Reed\n\n**Situation:**...'},
+  {'char_a': 'Sarah Chen', 'char_b': 'Dr. Elena Vasquez', 'content': '# RELATIONSHIP: Sarah Chen & Dr. Elena Vasquez\n\n**Situation:**...'},
+  {'char_a': 'Marcus Reed', 'char_b': 'Dr. Elena Vasquez', 'content': '# RELATIONSHIP: Marcus Reed & Dr. Elena Vasquez\n\n**Situation:**...'}
+]
+```
+
+#### 2. Load Character Profiles
+
+For each relationship, you'll need both character profiles:
+
+```python
+# For each relationship, load the relevant character profiles
+char_profiles = {}
+for relationship in relationships:
+    if relationship['char_a'] not in char_profiles:
+        char_profiles[relationship['char_a']] = read(f"outputs/character_{clean_name(relationship['char_a'])}.md")
+    if relationship['char_b'] not in char_profiles:
+        char_profiles[relationship['char_b']] = read(f"outputs/character_{clean_name(relationship['char_b'])}.md")
+```
+
+Note: Character filenames use underscores for spaces (e.g., `character_Sarah_Chen.md`)
+
+#### 3. Spawn Parallel Subagents
+
+For each relationship, spawn a separate character-architect agent **in parallel**:
+
+```python
+# Send a SINGLE message with MULTIPLE Task tool calls
+for relationship in relationships:
+    # Build prompt for this relationship
+    prompt = load_prompt_template('step7_relationship_architecture.md')
+
+    # Replace placeholders
+    prompt = prompt.replace('{{RELATIONSHIP_MAPPING}}', relationship['content'])
+    prompt = prompt.replace('{{CHARACTER_A_PROFILE}}', char_profiles[relationship['char_a']])
+    prompt = prompt.replace('{{CHARACTER_B_PROFILE}}', char_profiles[relationship['char_b']])
+    prompt = prompt.replace('{{NPE}}', npe_content)
+    prompt = prompt.replace('{{DRAMATIC_SPINE}}', dramatic_spine_content)
+    prompt = prompt.replace('{{THEMES}}', themes_content)
+    prompt = prompt.replace('{{WORLD_CONSTRAINTS}}', world_constraints_content)
+
+    # Spawn task (all in same message = parallel execution)
+    Task(
+        subagent_type="character-architect",
+        prompt=prompt,
+        description=f"Architect relationship: {relationship['char_a']} & {relationship['char_b']}",
+        model="sonnet"
+    )
+```
+
+**Critical:** Send all Task tool calls in a **single message** to run them in parallel. Don't wait for one to complete before spawning the next.
+
+#### 4. Save Multiple Outputs
+
+When agents complete, save each relationship architecture to a separate file:
+
+```
+outputs/relationship_Sarah_Chen_Marcus_Reed.md
+outputs/relationship_Sarah_Chen_Dr_Elena_Vasquez.md
+outputs/relationship_Marcus_Reed_Dr_Elena_Vasquez.md
+```
+
+Naming pattern: `outputs/relationship_{CharA}_{CharB}.md` (with spaces converted to underscores)
+
+#### 5. Confirm Completion
+
+```
+"Step 7 completed. Generated 3 relationship architectures:
+- outputs/relationship_Sarah_Chen_Marcus_Reed.md
+- outputs/relationship_Sarah_Chen_Dr_Elena_Vasquez.md
+- outputs/relationship_Marcus_Reed_Dr_Elena_Vasquez.md"
+```
+
+### Why Parallel Processing?
+
+- **Efficiency**: All relationship architectures develop simultaneously
+- **Consistency**: All use the same NPE, themes, world constraints
+- **Speed**: 3 relationships in parallel is 3x faster than sequential
+- **Independence**: Relationship architectures don't depend on each other
+
+### Implementation Notes
+
+1. Parse the relationship mapping file carefully - look for `# RELATIONSHIP:` markers
+2. Extract both character names from the header (format: "Character A & Character B")
+3. Match character names to their profile filenames (replace spaces with underscores)
+4. Use Claude Code's ability to send multiple Tool calls in one message
+5. Wait for all agents to complete before confirming to user
+6. Handle errors per relationship (one relationship failing shouldn't block others)
 
 ## Running All Steps
 
