@@ -1,8 +1,8 @@
 {
   "workflow_version": "1.0.0",
   "project_name": "dragon-mafia-paranormal-v2",
-  "current_step": "7",
-  "last_updated": "2025-11-22T21:24:00Z",
+  "current_step": "9",
+  "last_updated": "2025-11-22T22:00:00Z",
   "steps": {
     "1": {
       "name": "NPE Extraction",
@@ -56,11 +56,24 @@
     },
     "7": {
       "name": "Relationship Architecture",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2025-11-22T21:53:00Z",
+      "completed_at": "2025-11-22T21:57:00Z",
+      "outputs_generated": [
+        "outputs/relationship_Draven_Ashford_Isla_Thorn.md",
+        "outputs/relationship_Isla_Thorn_Elara_Whisperwind.md",
+        "outputs/relationship_Draven_Ashford_Kai_Thornhart.md",
+        "outputs/relationship_Draven_Ashford_Cassia_Nightshade.md",
+        "outputs/relationship_Isla_Thorn_Kai_Thornhart.md",
+        "outputs/relationship_Isla_Thorn_Mira_Chen.md"
+      ]
     },
     "8": {
       "name": "Premise Refinement",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2025-11-22T21:58:00Z",
+      "completed_at": "2025-11-22T22:00:00Z",
+      "outputs_generated": ["outputs/refined_premise.md"]
     },
     "9": {
       "name": "Story Outline",
