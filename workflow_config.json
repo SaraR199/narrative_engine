@@ -185,6 +185,22 @@
         "npe_inspection_report": "outputs/npe_inspection_report.md"
       },
       "depends_on": ["1", "9"]
+    },
+    "11": {
+      "name": "Outline Rewrite",
+      "description": "Rewrite the outline to achieve full NPE compliance based on inspection report. Authorized to rebuild entire acts, restructure scenes from scratch, and make fundamental structural changes. Not a patch job—fluid reconstruction with focus on structural integrity over preservation.",
+      "prompt_template": "step11_outline_rewrite.md",
+      "agent_type": "story-architect",
+      "model": "sonnet",
+      "inputs": {
+        "NPE": "outputs/npe.md",
+        "INSPECTION_REPORT": "outputs/npe_inspection_report.md",
+        "ORIGINAL_OUTLINE": "outputs/outline.md"
+      },
+      "outputs": {
+        "outline_revised": "outputs/outline_revised.md"
+      },
+      "depends_on": ["1", "9", "10"]
     }
   },
   "usage": "Tell Claude Code: 'Run step 1', 'Run step 2', or 'Run the book design workflow'",
