@@ -8,83 +8,83 @@
 Theron Ashclaw
 
 **Role in Story:**
-External antagonist — Alpha of Crimson Talon Clan and the physical embodiment of what happens when grudges consume identity; dark mirror showing Draven what he could become if he surrendered to bitterness instead of love
+External antagonist — Alpha of Crimson Talon Clan; dark mirror showing Draven what he becomes if grudges consume identity
 
 **Primary Narrative Function:**
-Theron exists to create external pressure that forces Draven and Isla together through escalating life-or-death situations that trigger emotional breakthroughs. He provides the ticking clock and physical stakes that won't allow the protagonists to avoid confronting their bond. Most critically, he embodies the thematic warning: he is a man who has completely surrendered to inherited hatred, proving that surrender without consciousness or choice leads to annihilation of self. His three-generation grudge against Obsidian Flame has become his entire identity — remove the hatred and nothing remains. He views Isla through three simultaneous lenses: political leverage against Draven, prize to claim (her Seer abilities), and potential mate to steal as ultimate violation. His escalation from political maneuvering to scorched-earth violence demonstrates the destructive endpoint of letting pride and grudges define you. Whether he genuinely believes the Emberstone Crown is fake or is using it as pretext remains strategically ambiguous — even he may no longer distinguish between genuine belief and convenient justification.
+Creates external pressure forcing Draven and Isla together through escalating life-or-death situations. Embodies the thematic warning: complete surrender to inherited hatred annihilates self. The three-generation grudge against Obsidian Flame is his entire identity — remove it and nothing remains. Views Isla simultaneously as political leverage, prize (Seer abilities), and potential mate to steal. Escalation from political maneuvering to scorched-earth violence demonstrates the endpoint of letting grudges define you. Whether he believes the Emberstone Crown is fake or uses it as pretext remains ambiguous — even he may not know.
 
 **Core Contradiction (X but also Y):**
-Strategic enough to build political coalitions and plan multi-stage attacks but also explosively volatile in ways that undermine his own carefully constructed plans — his intelligence and his rage are constantly at war, and the rage is winning
+Strategic enough to build coalitions and multi-stage attacks but explosively volatile in ways that undermine his own plans — intelligence and rage constantly at war, with rage winning
 
 **Core Motivation:**
-To reclaim what he believes his family was robbed of three generations ago and prove Crimson Talon's superiority over Obsidian Flame — not through coexistence or negotiation but through absolute dominance and destruction; the grudge isn't something he carries, it's the architecture of his identity
+Reclaim what his family was robbed of three generations ago and prove Crimson Talon's superiority through absolute dominance and destruction — not coexistence. The grudge isn't something he carries; it's the architecture of his identity.
 
 ---
 
 # **2. KEY TRAITS & BEHAVIORAL PATTERNS**
 
-**Defining Traits (3-5 core characteristics):**
+**Defining Traits:**
 
-1. **Inherited-grudge identity** — His entire sense of self is constructed around a slight from three generations back that he never personally experienced; references "what they did to my grandfather" as though it happened to him yesterday; cannot introduce himself without mentioning clan rivalry within three sentences; when asked what Crimson Talon stands for, can only articulate what they stand *against*
+1. **Inherited-grudge identity** — Entire self constructed around a three-generation-old slight he never experienced; references "what they did to my grandfather" as yesterday's news; cannot introduce himself without mentioning clan rivalry; when asked what Crimson Talon stands for, can only articulate what they stand *against*
 
-2. **Explosive volatility masked by tactical planning** — Capable of sophisticated multi-stage strategies (political undermining, then territorial probing, then direct assault) but his temper destroys his own plans; will spend weeks positioning pieces only to flip the board in rage when someone challenges his honor; his advisors have learned to implement plans quickly before his next outburst derails everything
+2. **Explosive volatility masked by tactical planning** — Capable of sophisticated strategies but temper destroys his own plans; spends weeks positioning pieces then flips the board in rage when honor is challenged; advisors implement plans quickly before his next outburst derails everything
 
-3. **Fire as identity and curse** — Crimson Talon's fire burns hotter than Obsidian Flame's controlled precision, and Theron embodies this literally; his dragon form runs dangerously hot, his temper ignites faster, his strategies favor overwhelming force over subtlety; sees this volatility as strength and Draven's control as weakness, never recognizing it's consuming him from inside
+3. **Fire as identity and curse** — Crimson Talon fire burns hotter than Obsidian Flame's controlled precision, which Theron embodies literally; dragon form runs dangerously hot, temper ignites faster, strategies favor overwhelming force; sees volatility as strength and Draven's control as weakness, never recognizing it's consuming him
 
-4. **Objectifying entitlement toward Isla** — Views her through three simultaneous frameworks: leverage to hurt Draven, prize to claim for her Seer abilities, and potential mate to steal as ultimate dominance gesture; cannot see her as a person with agency; his "courtship" (if it can be called that) involves threats, demonstrations of power, and promises to give her better treatment than Draven — genuinely believes he's offering her an upgrade
+4. **Objectifying entitlement toward Isla** — Views her through three frameworks: leverage to hurt Draven, prize for her Seer abilities, potential mate to steal as ultimate dominance gesture; cannot see her as person with agency; "courtship" involves threats, power displays, and promises of better treatment than Draven — genuinely believes he's offering an upgrade
 
-5. **Ambiguous self-deception** — May genuinely believe the Emberstone Crown is fake, or may be using it as convenient pretext for war he wanted anyway; even he might not know anymore where genuine conviction ends and strategic justification begins; has told the lie so many times it's become his truth
+5. **Ambiguous self-deception** — May genuinely believe the Emberstone Crown is fake or use it as pretext for war he wanted anyway; even he might not know where conviction ends and justification begins; has told the lie so many times it's become his truth
 
-**Primary Flaw or Weakness:**
-Cannot exist without the grudge — his entire identity is constructed around what was taken from his family; if forced to let go of the hatred, he would face complete ego dissolution because there's nothing else there; he is the cautionary tale of surrender without consciousness: he surrendered completely to inherited bitterness and it annihilated who he might have been
+**Primary Flaw:**
+Cannot exist without the grudge — entire identity constructed around what was taken; forced to let go of hatred means complete ego dissolution. Cautionary tale of surrender without consciousness: surrendered completely to inherited bitterness and it annihilated who he might have been.
 
-**Signature Behaviors (2-3 distinctive actions/patterns):**
-- **Temperature spike tells**: When angry (which is often), the air around him shimmers with heat; minor frustrations make metal objects too hot to touch; true rage causes spontaneous combustion of nearby flammable materials — his control over his fire is the first thing to go when emotional
-- **Compulsive grudge-history recitation**: Cannot let perceived slights go unaddressed; will interrupt negotiations to detail how current situation parallels the original three-generation-old offense; his advisors have heard the story so many times they can recite it word-for-word
-- **Dominance through violation**: Every interaction designed to prove he can take what he wants — interrupts others, invades physical space, makes sexual innuendo about Isla within Draven's earshot; the goal is always to provoke reaction that "justifies" escalation
+**Signature Behaviors:**
+- **Temperature spike tells**: Air shimmers with heat when angry; minor frustrations heat metal; true rage causes spontaneous combustion — fire control is first to go when emotional
+- **Compulsive grudge-history recitation**: Cannot let slights go; interrupts negotiations to detail how situations parallel the original offense; advisors can recite the story word-for-word
+- **Dominance through violation**: Every interaction proves he can take what he wants — interrupts, invades space, makes sexual innuendo about Isla within Draven's earshot; goal is always provoking reaction to "justify" escalation
 
 ---
 
 # **3. VOICE & EXPRESSION**
 
 **Dialogue Patterns:**
-Oscillates between calculated political speech (when executing strategy) and explosive short bursts (when provoked). Uses fire metaphors obsessively — everything burns, smolders, ignites, or turns to ash. References clan history as though it's current events, collapsing three generations into immediate present. Makes everything personal and territorial: "your Seer" (about Isla), "your fake crown," "your stolen territory." Employs false reasonableness that barely masks rage: "I'm being perfectly civil" while radiating threat. Questions are rhetorical weapons designed to humiliate rather than elicit information. Interrupts frequently because listening feels like submission.
+Oscillates between calculated political speech (executing strategy) and explosive bursts (when provoked). Uses fire metaphors obsessively — everything burns, smolders, ignites, or turns to ash. References clan history as current events, collapsing three generations into immediate present. Makes everything personal: "your Seer," "your fake crown," "your stolen territory." Employs false reasonableness barely masking rage. Questions are rhetorical weapons to humiliate. Interrupts frequently because listening feels like submission.
 
-**Sample Dialogue (2-3 lines that sound like THIS character):**
-- "Three generations my family has waited for Obsidian Flame's lies to catch up to them. That crown is as fake as your claim to honor, Ashford. Everyone knows it. Some of us are just brave enough to say it out loud." *(public challenge at inter-clan gathering)*
-- "Your Seer is wasted on you — all that power locked behind your paranoid control. I'd let her burn bright. Course, she'd have to choose it. Wouldn't you, Isla?" *(deliberate provocation, objectifying her while pretending to offer choice)*
-- "You call it a grudge. I call it memory. My grandfather didn't forget what yours did, and I won't dishonor him by pretending we can share territory with thieves and liars." *(to neutral party trying to broker peace)*
+**Sample Dialogue:**
+- "Three generations my family has waited for Obsidian Flame's lies to catch up to them. That crown is as fake as your claim to honor, Ashford. Everyone knows it. Some of us are just brave enough to say it out loud."
+- "Your Seer is wasted on you — all that power locked behind your paranoid control. I'd let her burn bright. Course, she'd have to choose it. Wouldn't you, Isla?"
+- "You call it a grudge. I call it memory. My grandfather didn't forget what yours did, and I won't dishonor him by pretending we can share territory with thieves and liars."
 
-**Key Emotional Expressions (1-2 primary emotions):**
+**Key Emotional Expressions:**
 
-### Rage (his default state, barely contained):
-- **Internal**: Experiences anger as vindication and righteousness; feels most alive when fury ignites; the heat in his blood is proof he's right and they're wrong; interpretive lens that filters everything as fresh offense
-- **External**: Temperature spikes, voice drops to dangerous quiet before exploding into volume, switches between false calm and volcanic eruption with no middle ground
-- **Behavioral tell**: Starts pacing when rage builds; fire manifestation intensifies (air shimmers, objects heat, smoke curls from his hands in dragon form); jaw clenches so hard it's visible
+### Rage (default state, barely contained):
+- **Internal**: Experiences anger as vindication and righteousness; feels most alive when fury ignites; heat in blood proves he's right; interpretive lens filtering everything as fresh offense
+- **External**: Temperature spikes, voice drops to dangerous quiet before explosive volume, switches between false calm and volcanic eruption
+- **Behavioral tell**: Paces when rage builds; fire intensifies (air shimmers, objects heat, smoke from hands); visible jaw clench
 
-### Obsessive focus (when executing his multi-stage plans):
-- **Internal**: Catalogs every slight, tracks every debt, maps territory and vulnerabilities with predatory precision; this is the only time his mind quiets because the grudge has clear direction
-- **External**: Goes still and calculating, voice smooths into false civility, eyes track target with unblinking intensity
-- **Behavioral tell**: Repeats key phrases from his plans like mantras ("first political, then territorial, then direct"); touches objects that belonged to his grandfather (ring, blade) as though drawing power from ancestral rage
+### Obsessive focus (executing plans):
+- **Internal**: Catalogs every slight, tracks every debt, maps territory and vulnerabilities with predatory precision; only time his mind quiets
+- **External**: Goes still and calculating, voice smooths to false civility, unblinking intensity
+- **Behavioral tell**: Repeats plan phrases like mantras; touches grandfather's objects (ring, blade) as though drawing power from ancestral rage
 
 ---
 
 # **4. ARC STATES**
 
 ### **Version 1 – Beginning**
-- **Relationship to Protagonist**: Views Draven as illegitimate heir to stolen power; sees Isla as convenient weakness in Draven's armor and potential asset to claim; operates through political channels initially, challenging crown's authenticity and questioning Obsidian Flame's territorial claims; cultivates allies among neutral clans by framing Draven as unstable/desperate
-- **Primary Behavior**: Strategic undermining through official channels — demands authentication hearings, spreads rumors about crown's legitimacy, questions why Draven needs a human Seer if the crown is real; tests boundaries with territorial incursions that fall just short of open warfare
-- **Key Belief**: Draven is weak because he hesitates, controls himself, plays political games; Theron believes overwhelming force and righteous certainty will prevail; sees the mating bond forming as ultimate proof of Draven's weakness and vulnerability
+- **Relationship to Protagonist**: Views Draven as illegitimate heir to stolen power; Isla as weakness in Draven's armor and asset to claim; operates through political channels, challenging crown authenticity and territorial claims; cultivates allies by framing Draven as unstable
+- **Primary Behavior**: Strategic undermining — demands authentication hearings, spreads legitimacy rumors, questions why Draven needs human Seer if crown is real; territorial incursions just short of open warfare
+- **Key Belief**: Draven is weak because he hesitates and controls himself; overwhelming force and righteous certainty will prevail; mating bond forming proves Draven's vulnerability
 
 ### **Version 2 – Midpoint Shift**
-- **Changed Awareness**: Isla authenticates the crown successfully, which should end his challenge — but instead of backing down, he doubles down, either genuinely convincing himself she's been coerced/manipulated or consciously choosing to disbelieve because the grudge matters more than truth; realizes Draven's bond with Isla makes her the perfect leverage point; witnesses that attacking Isla provokes Draven into tactical mistakes
-- **Behavioral Adjustment**: Escalates from political maneuvering to direct action — territorial raids become violent, his rhetoric shifts from questioning legitimacy to openly calling for war, begins planning Isla's abduction or assassination as strategic strike; his control over his own volatility deteriorates as obsession intensifies
-- **New Tension**: His own clan begins questioning whether his vendetta is worth the cost; some Crimson Talon members see the authenticated crown as proof they should stand down, but Theron views their doubt as betrayal; he's now fighting external enemies and internal dissent simultaneously
+- **Changed Awareness**: Crown authentication should end his challenge but he doubles down — either genuinely convincing himself Isla was coerced or choosing disbelief because grudge matters more than truth; realizes Isla is perfect leverage; attacking her provokes Draven into mistakes
+- **Behavioral Adjustment**: Escalates to direct action — violent territorial raids, rhetoric shifts to openly calling for war, plans Isla's abduction or assassination; control over volatility deteriorates as obsession intensifies
+- **New Tension**: Own clan questions whether vendetta is worth the cost; some see authenticated crown as reason to stand down but Theron views doubt as betrayal; fights external enemies and internal dissent simultaneously
 
 ### **Version 3 – Climax/Resolution**
-- **Defining Choice or Action**: Launches all-out assault during blood moon or other moment of maximum protagonist vulnerability; attempts to abduct Isla or kill Draven, fully committed to scorched-earth tactics even when it's clear he'll lose; cannot retreat or negotiate because his entire identity is invested in this confrontation; the grudge has consumed him so completely that survival without victory is psychologically impossible
-- **Final Relationship to Protagonist**: Dies or is utterly defeated having learned nothing — his final words are likely further justification, recitation of the grudge, or curse against Obsidian Flame; alternately, survives but is broken/exiled, reduced to bitter shell still muttering about what was stolen; no redemption arc because he embodies the failure to transform
-- **Growth or Change**: No growth — he is the cautionary tale of stagnation; chose to surrender to hatred instead of release it, and it destroyed him; his defeat demonstrates that some people cannot be saved from their own bitterness, and that's a tragedy but also a necessity
+- **Defining Choice**: Launches all-out assault at maximum vulnerability; attempts to abduct Isla or kill Draven, fully committed to scorched-earth tactics even when losing is clear; cannot retreat because entire identity is invested; survival without victory is psychologically impossible
+- **Final Relationship to Protagonist**: Dies or is utterly defeated having learned nothing — final words are further justification, grudge recitation, or curse; alternatively survives broken/exiled, bitter shell still muttering about what was stolen; no redemption
+- **Growth or Change**: None — cautionary tale of stagnation; chose to surrender to hatred instead of release it, and it destroyed him; defeat demonstrates some people cannot be saved from their own bitterness
 
 ---
 
@@ -92,40 +92,40 @@ Oscillates between calculated political speech (when executing strategy) and exp
 
 **Relationship to Protagonist(s):**
 
-**With Draven**: Dark mirror relationship — Theron is what Draven could become if he let bitterness and control-obsession consume him entirely. Both are Alphas dealing with inherited trauma (Draven's father's breakdown, Theron's grandfather's grudge), but Draven is fighting not to become his father while Theron has embraced becoming his grandfather's rage made flesh. Theron sees Draven's control as weakness and cowardice; Draven sees Theron's volatility as pathetic lack of discipline. Their confrontations are ideological as much as territorial — two versions of alpha masculinity, one consuming itself with rage and one learning (painfully) to integrate vulnerability. Theron cannot conceive of Draven as anything but enemy; even temporary alliance would feel like soul-death.
+**With Draven**: Dark mirror — what Draven becomes if bitterness and control-obsession consume him. Both Alphas deal with inherited trauma (Draven's father's breakdown, Theron's grandfather's grudge), but Draven fights not to become his father while Theron embraced becoming his grandfather's rage made flesh. Theron sees Draven's control as weakness; Draven sees Theron's volatility as pathetic lack of discipline. Confrontations are ideological — two versions of alpha masculinity, one consuming itself with rage and one learning to integrate vulnerability.
 
-**With Isla**: Complete objectification through three simultaneous frameworks: (1) Political leverage — hurting her hurts Draven, which serves the grudge; (2) Asset acquisition — her Seer abilities would make Crimson Talon unstoppable, so claiming her is strategic; (3) Dominance trophy — stealing Draven's mate would be the ultimate violation and victory. He describes this objectification as "offering her a choice" and genuinely seems to believe she'd be better off with him, demonstrating both his self-deception and his inability to recognize her as a person with agency. His "courtship" involves threats, displays of power, and promises to unleash her abilities unlike Draven's "paranoid control" — it's manipulation framed as liberation. Isla represents everything he wants to take from Draven wrapped into one person.
+**With Isla**: Complete objectification through three frameworks: political leverage (hurting her hurts Draven), asset acquisition (Seer abilities make Crimson Talon unstoppable), dominance trophy (stealing Draven's mate is ultimate violation). Describes this as "offering choice" and believes she'd be better off with him, demonstrating self-deception and inability to recognize her agency. "Courtship" is manipulation framed as liberation.
 
 **Relationship to Other Key Characters:**
 
-**Crimson Talon Clan**: They enable his obsession by reinforcing the grudge-narrative — it's been passed down for three generations as core clan identity. However, by V2-V3, some members begin questioning whether the vendetta is worth the cost, creating internal fractures Theron must suppress. He views their doubt as betrayal of ancestral honor, which further isolates him even within his own power structure.
+**Crimson Talon Clan**: Enable obsession by reinforcing grudge-narrative passed down three generations. By V2-V3, some question whether vendetta is worth the cost, creating fractures Theron must suppress. Views their doubt as betrayal of ancestral honor, isolating him within his own power structure.
 
-**Neutral Clans/Dragon Council**: Initially receptive to his challenges about crown authenticity (political opportunity), but grow wary as his volatility becomes undeniable; see him as dangerous destabilizer who could trigger broader conflict; some try to broker peace, but Theron interprets negotiation attempts as weakness
+**Neutral Clans/Dragon Council**: Initially receptive to crown-authenticity challenges but grow wary as volatility becomes undeniable; see him as dangerous destabilizer; peace brokering attempts interpreted as weakness
 
 **Plot Function:**
-- **External pressure/ticking clock**: His escalating threats force Draven and Isla to confront their bond faster than they otherwise would; creates life-or-death situations that trigger emotional breakthroughs
-- **Thematic embodiment**: Living demonstration of what happens when you surrender to grudges/bitterness instead of releasing them — cautionary tale in antagonist form
-- **Stakes escalation**: Each phase of his plan (political → territorial → direct violence) raises external danger, preventing protagonists from avoiding internal work
-- **Catalyst for Draven's transformation**: Forces Draven to choose between control (his default) and protecting Isla (requires vulnerability and trust); Theron's attacks prove that isolation and emotional armor aren't enough
-- **Mirror for protagonist's shadow**: Embodies Draven's fear of what he could become — consumed by inherited trauma, unable to transform
+- External pressure/ticking clock forcing Draven and Isla to confront bond through life-or-death situations
+- Thematic embodiment of surrendering to grudges instead of releasing them
+- Stakes escalation (political → territorial → direct violence) preventing protagonists from avoiding internal work
+- Catalyst for Draven's transformation — forces choice between control and protecting Isla
+- Mirror for protagonist's shadow — embodies Draven's fear of what he could become
 
 **Thematic Function:**
-Theron is the nightmare answer to the story's central question: **"Can you surrender without losing yourself?"** He surrendered completely — to inherited hatred, to ancestral grudge, to rage and bitterness — and it annihilated who he might have been. He has no identity beyond the grudge; remove it and nothing remains. He proves that surrender without consciousness, without choice, without integration is not transformation but obliteration. While Draven must learn to surrender to vulnerability and the mating bond, Theron shows what happens when you surrender to your worst self. The secondary theme **"Can you choose freely what fate has already decided?"** is inverted in him: he was born into the grudge, raised to carry it, and never questioned whether he could choose differently — he let fate (family narrative) decide everything and called it honor. The tertiary theme **"What is the cost of being truly seen?"** manifests as: Theron cannot afford to be truly seen because underneath the rage is void; his volatility is armor against the terror that without the grudge, he doesn't exist.
+Nightmare answer to **"Can you surrender without losing yourself?"** He surrendered completely to inherited hatred and it annihilated who he might have been. No identity beyond grudge; remove it and nothing remains. Proves surrender without consciousness, choice, or integration is obliteration, not transformation. For **"Can you choose freely what fate has already decided?"** — born into grudge, never questioned choosing differently; let family narrative decide everything and called it honor. For **"What is the cost of being truly seen?"** — cannot afford to be seen because underneath rage is void; volatility is armor against terror that without grudge, he doesn't exist.
 
 **When/How They Appear:**
-- **Inter-clan political gatherings**: Challenges crown legitimacy, makes public provocations, builds coalition against Draven
-- **Territorial confrontations**: Border raids, violence that escalates across acts, demonstrates Crimson Talon's superior fire intensity
-- **Direct threats to Isla**: Attempts at abduction, messages proving he's watching her, "offers" to claim her as his own
-- **Climactic assault**: Blood moon or other moment of maximum vulnerability — all-out attack that forces final confrontation
-- **Between-scene pressure**: Even when not physically present, his threat looms; intelligence reports of his movements, evidence of his spies, aftermath of his raids
+- Inter-clan gatherings: challenges crown, public provocations, builds coalition
+- Territorial confrontations: border raids, escalating violence, demonstrates Crimson Talon's superior fire intensity
+- Direct threats to Isla: abduction attempts, surveillance messages, "offers" to claim her
+- Climactic assault: all-out attack at moment of maximum vulnerability
+- Between-scene pressure: threat looms through intelligence reports, spy evidence, raid aftermath
 
 ---
 
 # **6. AI IMPLEMENTATION NOTES**
 
 **Consistency Anchors:**
-- **Temperature/fire manifestations**: Every scene he appears, there should be heat — air shimmers when he's angry, objects too hot to touch, spontaneous combustion when enraged
-- **Grudge-history references**: Cannot go more than a few exchanges without mentioning what "they" (Obsidian Flame) did to his family; collapses three generations into present tense
+- **Temperature/fire manifestations**: Every scene — air shimmers when angry, objects too hot to touch, spontaneous combustion when enraged
+- **Grudge-history references**: Cannot go more than few exchanges without mentioning what Obsidian Flame did to his family; collapses three generations into present tense
 
 **What should NEVER change:**
 - Three-generation grudge against Obsidian Flame as core identity
@@ -136,54 +136,54 @@ Theron is the nightmare answer to the story's central question: **"Can you surre
 - Ambiguity about whether crown-challenge is genuine belief or pretext
 
 **Variation Guidance:**
-- **Control vs. volatility**: Early scenes can show more strategic patience; later scenes show control deteriorating as obsession intensifies; climax is pure rage with strategy abandoned
-- **Objectification of Isla**: Can range from calculated political references ("Ashford's Seer") to sexually aggressive innuendo to outright abduction attempts; intensity escalates with desperation
-- **Self-deception level**: Sometimes he clearly knows he's using crown-challenge as pretext; other times genuinely seems to believe his own justifications; this ambiguity should remain unresolved even to him
-- **Fire intensity**: Minor annoyance = warm air; serious anger = metal heats; rage = combustion; final battle = inferno he can't control
+- **Control vs. volatility**: Early scenes show strategic patience; later scenes show deteriorating control; climax is pure rage with strategy abandoned
+- **Objectification of Isla**: Ranges from calculated political references to sexually aggressive innuendo to abduction attempts; intensity escalates with desperation
+- **Self-deception level**: Sometimes clearly using crown-challenge as pretext; other times genuinely believes his justifications; ambiguity remains unresolved
+- **Fire intensity**: Minor annoyance = warm air; serious anger = metal heats; rage = combustion; final battle = uncontrollable inferno
 
 **Scene Usage:**
 
 **When to deploy:**
-- When external pressure needs to spike and force protagonist choices
-- When thematic cautionary tale needs embodiment (what happens when grudges consume you)
-- When Draven needs to choose between control and protecting Isla
-- When plot needs ticking clock or life-or-death stakes
-- When demonstrating costs of inherited trauma left unexamined
+- External pressure needs to spike and force protagonist choices
+- Thematic cautionary tale needs embodiment
+- Draven must choose between control and protecting Isla
+- Plot needs ticking clock or life-or-death stakes
+- Demonstrating costs of unexamined inherited trauma
 
-**What he typically DOES when present:**
+**What he typically DOES:**
 - Challenges, provokes, threatens — never de-escalates
-- Makes everything about the grudge and clan rivalry
+- Makes everything about grudge and clan rivalry
 - Objectifies Isla through political/strategic/sexual lens
-- Demonstrates volatility through fire manifestations
+- Demonstrates volatility through fire
 - References ancestral history as current offense
 - Forces Draven into impossible choices
 
 **What he should NOT be used for:**
-- Comic relief (he's dangerous, not buffoonish)
-- Redemption arc or growth (he's cautionary tale of stagnation)
-- Sympathetic villain moments (understanding his psychology doesn't mean redeeming him)
-- Deus ex machina to rescue protagonists from other problems
-- Softening to make romance easier (he escalates, never retreats)
+- Comic relief (dangerous, not buffoonish)
+- Redemption arc or growth (cautionary tale of stagnation)
+- Sympathetic villain moments (understanding ≠ redeeming)
+- Deus ex machina to rescue protagonists
+- Softening to ease romance (escalates, never retreats)
 
 **Relationship Dynamics to Maintain:**
 
 **With Draven:**
-- Dark mirror — same alpha intensity, opposite choices about how to handle inherited trauma
-- Ideological conflict as much as territorial (control vs. volatility, integration vs. consumption)
+- Dark mirror — same alpha intensity, opposite choices about inherited trauma
+- Ideological conflict (control vs. volatility, integration vs. consumption)
 - Theron sees Draven's measured approach as weakness; Draven sees Theron's rage as pathetic
-- Every interaction should highlight what Draven could become if he surrenders to bitterness instead of love
+- Every interaction highlights what Draven becomes if surrendering to bitterness instead of love
 
 **With Isla:**
-- Complete objectification that he frames as "offering choice"
-- Three simultaneous lenses: leverage, asset, trophy
+- Complete objectification framed as "offering choice"
+- Three lenses: leverage, asset, trophy
 - Never sees her as person with agency
-- His "courtship" is threats + power displays + promises to "free" her from Draven's control
+- "Courtship" is threats + power displays + promises to "free" her from Draven's control
 - She should be repulsed and possibly afraid, never tempted
 
 **With his own clan:**
-- Early: They reinforce his grudge-narrative
-- Later: Some question whether vendetta is worth the cost
+- Early: reinforce grudge-narrative
+- Later: question vendetta's worth
 - He views internal doubt as betrayal
-- Isolates himself even within his own power structure as obsession intensifies
+- Isolates himself within power structure as obsession intensifies
 
 ---
