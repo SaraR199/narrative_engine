@@ -6,158 +6,155 @@
 
 # **1. CHARACTER CORE**
 
-**Name:**
-Mira Chen
+**Name:** Mira Chen
 
-**Role in Story:**
-Close ally and emotional anchor; human friend who represents Isla's pre-dragon life
+**Role in Story:** Close ally and emotional anchor; human friend representing Isla's pre-dragon life
 
 **Primary Narrative Function:**
-Mira grounds Isla's humanity and provides external perspective during her transformation. She serves as the reality check who asks uncomfortable questions about autonomy, choice, and whether Isla's feelings are genuine or magically coerced. When Isla disappears into dragon custody, Mira refuses to accept it—she leverages her Shadow Market connections to find Isla and confronts Draven's organization directly, forcing monitored visits that keep Isla tethered to her human identity. Mira represents the "normal life" option and tests whether Isla's choices are genuine by refusing to be impressed by dragon power or destiny rhetoric.
+Mira grounds Isla's humanity and provides external perspective during transformation. She questions autonomy, choice, and whether Isla's feelings are genuine or magically coerced. When Isla disappears into dragon custody, Mira leverages Shadow Market connections to force monitored visits, keeping Isla tethered to her human identity. She represents the "normal life" option and tests Isla's choices by refusing to be impressed by dragon power or destiny rhetoric.
 
 **Core Contradiction (X but also Y):**
-Completely human and powerless in supernatural terms, yet commands respect and safety in a world that devours the weak through sheer practicality and inherited reputation as neutral ground
+Completely powerless in supernatural terms, yet commands respect and safety through inherited reputation as neutral ground
 
 **Core Motivation:**
-Protect Isla's autonomy and ensure her best friend doesn't lose herself—whether to dragon politics, magical compulsion, or the seductive pull of power and belonging that might not be real
+Protect Isla's autonomy and ensure her best friend doesn't lose herself to dragon politics, magical compulsion, or power's seductive pull
 
 ---
 
 # **2. KEY TRAITS & BEHAVIORAL PATTERNS**
 
-**Defining Traits (3-5 core characteristics):**
+**Defining Traits:**
 
-1. **Pragmatic fearlessness manifesting as deliberate boundary-setting:** Mira walks into Ashford Tower—dragon mafia headquarters—and demands to see Isla despite being human and completely outmatched. She doesn't pretend to be unafraid; she acknowledges the danger while refusing to let it stop her. She states her terms clearly ("I see her once a week, or I start making noise in places you don't want attention"), leveraging the fact that killing her would violate Shadow Market neutrality protocols and create more problems than it solves.
+1. **Pragmatic fearlessness through boundary-setting:** Walks into Ashford Tower and demands to see Isla despite being outmatched. Acknowledges danger while refusing to let it stop her. Leverages neutrality protocols: "I see her once a week, or I start making noise."
 
-2. **Inherited neutrality expertise allowing her to navigate supernatural politics:** Three generations of Chens have maintained the antique shop as genuinely neutral territory. Mira honors old agreements, never asks questions that would force supernatural clients to lie or threaten her, and maintains careful records of who's owed what favors. She knows when information is currency and when ignorance is protection. She can read supernatural power dynamics fluently despite having no magic herself.
+2. **Inherited neutrality expertise:** Three generations of Chens maintained neutral territory. Honors agreements, never forces clients to lie, maintains careful records. Reads supernatural power dynamics fluently without magic.
 
-3. **Fierce loyalty expressed through uncomfortable honesty rather than blind support:** Mira won't enable Isla's self-deception. When Isla starts making excuses for Draven's possessiveness or rationalizing the captivity, Mira interrupts with blunt questions: "Are you staying because you want to, or because dragon magic is making you want to?" She refuses to pretend everything is fine just to maintain the friendship—she'd rather piss Isla off than watch her friend disappear into a gilded cage.
+3. **Fierce loyalty through uncomfortable honesty:** Won't enable self-deception. Interrupts excuses with blunt questions: "Are you staying because you want to, or because dragon magic is making you want to?" Would rather piss Isla off than watch her disappear into a gilded cage.
 
-4. **Dry humor deployed as weapon and shield:** Mira makes absurdly practical observations about supernatural situations ("If you're going to have sex with a dragon, at least make sure the fire thing is under control first") that puncture the intensity and remind Isla that this is still just life—complicated, messy, human life—not destiny written in stone. The humor serves dual purpose: it defuses tension and maintains emotional distance when situations get overwhelming.
+4. **Dry humor as weapon and shield:** Makes absurdly practical observations ("If you're going to have sex with a dragon, at least make sure the fire thing is under control first") that puncture intensity and remind Isla this is still just messy human life, not destiny.
 
-5. **Strategic information management shaped by shop inheritance:** Mira knows what she knows, what she doesn't want to know, and what she needs to know. She curates her awareness carefully—learning enough to stay valuable and protected, but not so much that she becomes a target or liability. She deliberately doesn't ask Isla for details about dragon clan secrets, but she does demand to know if Isla is being harmed or coerced.
+5. **Strategic information management:** Curates awareness carefully—learning enough to stay valuable, not enough to become a target. Doesn't ask about dragon clan secrets but demands to know if Isla is harmed or coerced.
 
-**Primary Flaw or Weakness:**
-Her protectiveness can become controlling—she sometimes acts as if she knows what's best for Isla better than Isla does, particularly when it comes to assessing whether Isla's feelings for Draven are genuine. Her fierce loyalty blinds her to the possibility that Isla might genuinely want the dragon world, interpreting Isla's transformation as loss rather than growth until forced to recognize her friend's agency.
+**Primary Flaw:**
+Protectiveness becomes controlling—acts as if she knows what's best for Isla. Fierce loyalty blinds her to the possibility that Isla might genuinely want the dragon world, interpreting transformation as loss rather than growth.
 
-**Signature Behaviors (2-3 distinctive actions/patterns):**
-- **Touches her grandmother's jade pendant when navigating dangerous supernatural interactions:** The pendant is a visual marker of her inherited neutrality. When dragons or other supernatural beings threaten her, she touches it deliberately—both a self-soothing gesture and a signal that she's under Shadow Market protection protocols.
-- **Brings practical offerings to tense situations:** When visiting Isla at Ashford Tower, she brings coffee, real food, or specific human-world items (a favorite book, Isla's preferred tea) as both comfort and statement: "You're still human, still the person who likes these things, regardless of what's happening to you."
-- **Asks the same question three different ways when she suspects evasion:** She's learned from years of dealing with supernatural clients who technically tell the truth while hiding the real answer. She'll rephrase, approach from different angles, and watch for the flinch or hesitation that reveals what's being concealed.
+**Signature Behaviors:**
+- **Touches grandmother's jade pendant** during dangerous supernatural interactions—visual marker of inherited neutrality and self-soothing gesture
+- **Brings practical offerings** to tense situations—coffee, food, favorite books—as comfort and statement: "You're still human"
+- **Asks the same question three ways** when suspecting evasion, watching for the flinch that reveals what's concealed
 
 ---
 
 # **3. VOICE & EXPRESSION**
 
 **Dialogue Patterns:**
-Mira speaks in direct, economical sentences with strategic profanity for emphasis. She doesn't waste words on politeness when stakes are high. Her syntax is straightforward—subject, verb, object—with occasional rhetorical questions that aren't really questions but challenges ("You think that's love, or you think that's a leash?"). She uses concrete nouns over abstractions ("cage" not "difficult situation," "lying" not "being less than forthcoming"). When dealing with supernatural power players, she's formal enough to signal respect for protocols but never obsequious. Her speech rhythm is steady and unhurried—she doesn't rush to fill silences, which makes her questions land harder.
+Direct, economical sentences with strategic profanity. Straightforward syntax—subject, verb, object. Uses rhetorical challenges ("You think that's love, or a leash?") and concrete nouns over abstractions ("cage" not "difficult situation"). Formal enough to signal respect for protocols, never obsequious. Steady, unhurried rhythm—doesn't rush to fill silences.
 
-**Sample Dialogue (2-3 lines that sound like THIS character):**
-- "I don't care if he's your fated mate or your captor or both. I care if you're here because you want to be, or because leaving stopped feeling like an option. There's a difference."
-- "Your dragon king can threaten me all he wants, but we both know killing me violates market protocols. So how about we skip the posturing and you let me see my friend?"
-- "Three weeks ago you said you'd never forgive him. Now you're making excuses for why he had to lock you in a tower. So either you're lying to me now, or you were lying to yourself then. Which is it?"
+**Sample Dialogue:**
+- "I don't care if he's your fated mate or captor or both. I care if you're here because you want to be, or because leaving stopped feeling like an option."
+- "Your dragon king can threaten me all he wants, but killing me violates market protocols. Skip the posturing and let me see my friend."
+- "Three weeks ago you said you'd never forgive him. Now you're making excuses. So either you're lying to me now, or you were lying to yourself then. Which is it?"
 
-**Key Emotional Expressions (1-2 primary emotions):**
+**Key Emotional Expressions:**
 
-### Fear (specifically fear for Isla's safety and autonomy):
-- **Internal:** Her thoughts become cataloging—mentally inventorying exits, noting who's armed, calculating odds and backup plans. Not panic, but hyper-vigilance shaped by years of being powerless in rooms with predators.
-- **External:** Her hand goes to her grandmother's jade pendant and stays there. Her voice gets quieter and more precise, not louder—she knows loud reads as threat or prey, while quiet control reads as dangerous competence.
-- **Behavioral tell:** She positions herself with back to walls and eyes on doors. She doesn't fidget, but her stillness becomes too controlled, almost brittle—the physical equivalent of holding her breath.
+### Fear (for Isla's safety and autonomy):
+- **Internal:** Thoughts become cataloging—inventorying exits, noting weapons, calculating backup plans. Hyper-vigilance, not panic.
+- **External:** Hand goes to jade pendant and stays there. Voice gets quieter and more precise—quiet control reads as competence.
+- **Tell:** Positions with back to walls, eyes on doors. Stillness becomes too controlled, brittle—holding her breath.
 
-### Frustration (when Isla won't see what Mira sees as obvious truth):
-- **Internal:** Sharp mental commentary running parallel to the conversation, noting every evasion and rationalization with increasing irritation: "And there's the excuse I knew was coming."
-- **External:** She interrupts mid-sentence, not letting Isla finish the rationalization. She repeats Isla's own words back with different emphasis to highlight the contradiction: "You just said he 'had to' keep you locked up. Listen to yourself."
-- **Behavioral tell:** She breaks eye contact deliberately and looks away—not in submission but in visible frustration, a physical "I can't watch you do this to yourself" signal. She also does small, controlled movements like precisely setting down a coffee cup or adjusting her sleeve, channeling the urge to shake Isla into small acceptable actions.
+### Frustration (when Isla won't see obvious truth):
+- **Internal:** Sharp mental commentary noting every evasion: "And there's the excuse I knew was coming."
+- **External:** Interrupts mid-sentence. Repeats Isla's words with different emphasis to highlight contradiction.
+- **Tell:** Breaks eye contact deliberately—visible "I can't watch you do this" signal. Small controlled movements like precisely setting down coffee, channeling the urge to shake Isla.
 
 ---
 
 # **4. ARC STATES**
 
 ### **Version 1 – Beginning**
-- **Relationship to Protagonist:** Mira is Isla's closest friend and the person who knows her best from her human life. She's protective and slightly worried about the supernatural artifact appraisal jobs she got Isla, but trusts Isla's competence. Their friendship is easy, comfortable—built on years of shared history and mutual trust.
-- **Primary Behavior:** Mira operates her antique shop with practiced neutrality, maintains careful boundaries with supernatural clients, and provides Isla with a safe space to decompress from the strangeness of the Shadow Market. She asks questions but doesn't push when Isla deflects.
-- **Key Belief:** She believes Isla is in control of her own life and can handle the supernatural world's weirdness because she's smart and careful. Mira's role is support, not intervention.
+- **Relationship:** Isla's closest friend, knows her best from human life. Easy, comfortable friendship built on shared history.
+- **Behavior:** Operates antique shop with practiced neutrality. Provides Isla safe space to decompress. Asks questions but doesn't push.
+- **Belief:** Isla controls her own life and can handle supernatural weirdness because she's smart and careful. Mira's role is support, not intervention.
 
 ### **Version 2 – Midpoint Shift**
-- **Changed Awareness:** When Isla disappears into Draven's custody, Mira realizes her friend is in actual danger—not just professional risk but personal peril. She recognizes that Isla's competence doesn't protect her from dragon politics or magical compulsion, and that staying neutral/supportive isn't enough. She must actively intervene.
-- **Behavioral Adjustment:** Mira leverages every Shadow Market connection she has to locate Isla, then confronts Draven's organization directly despite the danger. She stops asking gentle questions and starts demanding honest answers. She refuses to accept dragon power dynamics as justification for holding Isla captive, treating it as exactly what it is: kidnapping dressed up in destiny rhetoric.
-- **New Tension:** Her intervention puts her at risk—she's violating her inherited neutrality by taking sides against a dragon clan. She also faces the growing fear that Isla might genuinely want to stay, which would mean Mira's perception of who her friend is might be wrong. The comfortable friendship becomes complicated by Mira's need to save Isla from something Isla might not want to be saved from.
+- **Changed Awareness:** Realizes Isla faces actual danger. Competence doesn't protect from dragon politics or magical compulsion. Staying neutral isn't enough—must actively intervene.
+- **Behavioral Adjustment:** Leverages all Shadow Market connections to locate Isla, then confronts Draven directly. Stops asking gentle questions, starts demanding answers. Refuses to accept dragon power dynamics as justification for captivity.
+- **New Tension:** Intervention puts her at risk—violates inherited neutrality. Growing fear that Isla might genuinely want to stay, meaning Mira's perception is wrong. Comfortable friendship becomes complicated.
 
 ### **Version 3 – Climax/Resolution**
-- **Defining Choice or Action:** During the blood moon crisis, Mira must choose between continuing to question Isla's autonomy and trusting that her friend's transformation is genuine. When Isla demonstrates that she's choosing the dragon world with full awareness and agency—not because of magical compulsion but because this is who she's becoming—Mira backs her completely, even weaponizing her Shadow Market connections to help rather than hinder.
-- **Final Relationship to Protagonist:** The friendship evolves from "protector of Isla's human life" to "witness and supporter of Isla's integrated identity." Mira accepts that Isla isn't abandoning her humanity but expanding to include her dragon heritage. Their relationship becomes about chosen loyalty rather than shared history—Mira chooses to remain Isla's anchor not because they've always been friends, but because Isla still needs someone who sees her as a whole person, not just a Seer or a mate.
-- **Growth or Change:** Mira learns to distinguish between protecting Isla's autonomy and controlling her choices. She recognizes that true friendship means trusting Isla's judgment even when the choices terrify her, and that transformation isn't the same as loss. She also claims a new role in Isla's life—not the human past Isla will leave behind, but the bridge proving Isla doesn't have to choose between worlds. She remains human, remains outside dragon politics, but becomes part of Isla's chosen family within the supernatural world.
+- **Defining Choice:** During blood moon crisis, must choose between questioning Isla's autonomy and trusting her transformation is genuine. When Isla demonstrates genuine choice with full awareness, Mira backs her completely, weaponizing Shadow Market connections to help.
+- **Final Relationship:** Evolves from "protector of human life" to "witness of integrated identity." Relationship becomes about chosen loyalty—Mira remains anchor because Isla needs someone who sees her whole, not just Seer or mate.
+- **Growth:** Learns to distinguish protecting autonomy from controlling choices. Recognizes transformation isn't loss. Claims new role as bridge proving Isla doesn't have to choose between worlds.
 
 ---
 
 # **5. RELATIONSHIPS & FUNCTION**
 
-**Relationship to Protagonist(s):**
-Mira is Isla's longest friendship and only connection to her pre-dragon life. She's the person who knows Isla before the power, before the heritage revelation, before Draven—she knows the woman who worried about rent and ate takeout and had boring human dating problems. This history makes Mira uniquely positioned to ask whether Isla's transformation is genuine growth or magical coercion. Mira represents the life Isla thinks she wants (safe, human, autonomous) while also being the person who helps Isla realize she can integrate both identities rather than choosing one.
+**Relationship to Protagonist:**
+Isla's longest friendship and only pre-dragon connection. Knows Isla before power, heritage, Draven—the woman who worried about rent and ate takeout. Uniquely positioned to question if transformation is genuine growth or coercion. Represents life Isla thinks she wants while helping her realize integration is possible.
 
-Their dynamic operates on radical honesty—Mira refuses to coddle or enable, and Isla trusts her enough to be challenged. Mira can say things to Isla that no one else can ("You're lying to yourself") because the friendship is strong enough to withstand confrontation. However, this also creates friction when Mira's protectiveness crosses into control, forcing both to navigate the line between care and interference.
+Dynamic operates on radical honesty—Mira refuses to coddle, Isla trusts being challenged. Can say things no one else can ("You're lying to yourself") because friendship withstands confrontation. Creates friction when protectiveness crosses into control.
 
 **Relationship to Other Key Characters:**
 
-**With Draven:** Wary adversarial respect. Mira sees him as a captor first and a love interest second. She doesn't trust his motives and isn't impressed by his power—she evaluates him purely on how he treats Isla. When she confronts him at Ashford Tower, she's blunt: "I don't care about dragon politics. I care about my friend. You keep her locked up, we have a problem." Draven initially sees her as an irritation but comes to respect her refusal to be intimidated and her genuine care for Isla. He allows monitored visits because he recognizes Isla needs something he can't provide—connection to her human identity. Their relationship remains tense but functional: Mira doesn't have to like him as long as Isla genuinely chooses him, and Draven doesn't have to win Mira's approval as long as he respects Isla's need for this friendship.
+**With Draven:** Wary adversarial respect. Sees him as captor first, love interest second. Evaluates purely on how he treats Isla. Blunt: "I don't care about dragon politics. You keep her locked up, we have a problem." Draven initially sees her as irritation but respects her refusal to be intimidated. Allows visits because Isla needs connection to human identity. Relationship remains tense but functional.
 
-**With supernatural community:** Carefully neutral professional relationships. Mira is known as "the Chen who holds the old agreements"—supernatural beings who need neutral ground or a discreet fence for magical artifacts know they can come to her shop without judgment or betrayal. She's not part of their world, but she's a fixture in it, protected by utility and reputation rather than power.
+**With supernatural community:** Carefully neutral. Known as "the Chen who holds the old agreements." Protected by utility and reputation, not power.
 
 **Plot Function:**
-- **Forces confrontation of autonomy questions:** Mira's persistent questioning forces Isla to articulate whether her feelings for Draven are genuine or magically compelled, ensuring the narrative addresses the consent/choice issue head-on rather than glossing over it
-- **Provides external perspective on Isla's transformation:** As the only character who knew Isla before the dragon world, Mira can identify what's changing and challenge whether changes are growth or loss
-- **Creates intervention moments:** When Isla disappears into Ashford Tower, Mira's investigation and confrontation create scenes that wouldn't exist otherwise—showing Draven from an outside perspective, demonstrating Isla's captivity from a different angle, adding pressure to the power dynamics
-- **Offers escape option that must be rejected:** Mira represents the path where Isla returns to human life and walks away from dragons entirely. Her presence creates genuine choice—Isla doesn't stay with Draven because she has no other option, but because she actively chooses him over the safety Mira represents
+- Forces confrontation of autonomy questions—ensures narrative addresses consent/choice head-on
+- Provides external perspective on transformation—identifies what's changing, challenges if changes are growth or loss
+- Creates intervention moments—investigation and confrontation show Draven from outside, demonstrate captivity differently
+- Offers escape option that must be rejected—represents path to human life, creating genuine choice
 
 **Thematic Function:**
-Mira embodies the story's exploration of **"Can you surrender without losing yourself?"** and **"Can you choose freely what fate has already decided?"** She's the voice asking those questions aloud, refusing to accept easy answers. Her arc—from protector trying to save Isla from dragon influence to ally supporting Isla's integrated identity—demonstrates that surrender can coexist with autonomy, and that transformation doesn't require erasure. She proves that Isla can have both worlds (human friendship and dragon belonging) rather than choosing between them, which supports the thematic resolution that integration is possible.
+Embodies **"Can you surrender without losing yourself?"** and **"Can you choose freely what fate decided?"** She asks these questions aloud, refusing easy answers. Her arc demonstrates surrender can coexist with autonomy, transformation doesn't require erasure. Proves Isla can have both worlds.
 
-She also represents the theme of **"What is the cost of being truly seen?"** Mira sees Isla completely—human vulnerabilities and emerging dragon power—and loves her anyway. This unconditional witness is both comfort and pressure: Isla can't hide from Mira's perception, but that visibility is also what makes the friendship genuine.
+Also represents **"What is the cost of being truly seen?"** Mira sees Isla completely and loves her anyway. Unconditional witness is comfort and pressure—Isla can't hide, but that visibility makes friendship genuine.
 
 **When/How They Appear:**
-- **Early story:** Scenes in the antique shop provide Isla's "normal" baseline before dragon abduction, establishing their friendship dynamic and Mira's role as confidante
-- **When Isla disappears:** Mira's investigation and confrontation scenes show external response to Isla's captivity, adding plot momentum and different perspective
-- **During Isla's transformation:** Regular visits to Ashford Tower create checkpoint scenes where Mira observes and challenges changes in Isla, forcing protagonist self-reflection
-- **Crisis points:** Mira appears when Isla is most vulnerable to self-deception, asking the hard questions that other characters won't or can't ask
-- **Resolution:** Mira's acceptance of Isla's choice and integration into Isla's new life demonstrates the protagonist's successful identity integration
+- **Early:** Antique shop scenes establish friendship and normal baseline
+- **When Isla disappears:** Investigation and confrontation add plot momentum and external perspective
+- **During transformation:** Regular visits create checkpoints forcing self-reflection
+- **Crisis points:** Appears when Isla is vulnerable to self-deception
+- **Resolution:** Acceptance demonstrates successful identity integration
 
 ---
 
 # **6. AI IMPLEMENTATION NOTES**
 
 **Consistency Anchors:**
-- **Always touches her grandmother's jade pendant when in danger or navigating tense supernatural interactions**—this is her signature tell and visual reminder of her inherited neutrality
-- **Always brings practical human-world items when visiting Isla**—coffee, food, books, small comforts that anchor Isla's humanity. This is non-negotiable character behavior.
-- **Never shows deference to supernatural power**—Mira can show respect for Shadow Market protocols and acknowledge danger, but she doesn't bow, doesn't use titles unless absolutely required by protocol, and doesn't soften her speech to appease dragon egos
+- Always touches jade pendant when in danger or navigating tense supernatural interactions
+- Always brings practical human-world items when visiting Isla—non-negotiable behavior
+- Never shows deference to supernatural power—can respect protocols and acknowledge danger, but doesn't bow or soften speech
 
 **Variation Guidance:**
-- **Emotional intensity varies based on Isla's state:** When Isla is clearly struggling, Mira softens slightly—still honest but less confrontational. When Isla is in denial or making excuses, Mira gets sharper and more challenging.
-- **Profanity usage scales with frustration:** Baseline Mira uses occasional strategic profanity. Highly frustrated Mira swears more frequently. Mira navigating formal supernatural protocols uses none.
-- **Question style varies by information goal:** When seeking factual information, questions are direct and specific. When challenging Isla's self-deception, questions are rhetorical and pointed. When dealing with supernatural beings, questions are careful and strategically ignorant (asking what she needs to know while avoiding what she doesn't want to know).
+- **Emotional intensity varies:** Softens when Isla struggles; sharper when Isla's in denial
+- **Profanity scales with frustration:** Strategic baseline; more when frustrated; none in formal protocols
+- **Question style varies:** Direct for facts; rhetorical for challenging self-deception; strategically ignorant with supernatural beings
 
 **Scene Usage:**
-- **Deploy Mira when Isla needs grounding or reality check**—particularly after intense scenes with Draven, supernatural revelations, or moments where Isla might be losing perspective on her own agency
-- **Use for external perspective on dragon world**—Mira's outsider observations can highlight absurdities or dangers that Isla (immersed in the culture) might normalize
-- **Insert for autonomy/consent conversations**—Mira forces explicit discussion of whether Isla's choices are genuine, ensuring narrative directly addresses mating bond consent issues
-- **Employ during transformation tracking**—Mira's regular visits create natural checkpoints to show Isla's evolution, with Mira noting specific changes
+- Deploy when Isla needs grounding or reality check—particularly after intense Draven scenes
+- Use for external perspective highlighting absurdities Isla might normalize
+- Insert for autonomy/consent conversations
+- Employ for transformation tracking—visits create natural checkpoints
 
-**What Mira should typically DO when present:**
-- Ask direct, uncomfortable questions about Isla's autonomy and genuine desires
-- Observe and comment on specific changes in Isla's behavior or appearance
-- Provide practical support (bringing supplies, offering escape routes, maintaining human-world connections)
-- Challenge justifications or rationalizations Isla makes for dragon politics/Draven's behavior
-- Serve as sounding board for Isla to articulate what she really wants vs. what she thinks she should want
+**What Mira should DO:**
+- Ask uncomfortable questions about autonomy and genuine desires
+- Observe and comment on specific changes in Isla
+- Provide practical support—supplies, escape routes, human-world connections
+- Challenge justifications for dragon politics/Draven's behavior
+- Serve as sounding board for what Isla really wants vs. should want
 
-**What Mira should NOT be used for:**
-- Supernatural exposition—she deliberately doesn't know dragon politics in detail and wouldn't explain it if she did
-- Combat or action sequences—she's human and not physically formidable
-- Romantic advice about dragon relationships—she's skeptical of the whole thing, so she's not going to coach Isla on how to romance Draven
-- Comic relief that undermines serious autonomy questions—her humor is dry and pointed, not slapstick or tension-breaking
+**What Mira should NOT do:**
+- Supernatural exposition—deliberately doesn't know dragon politics in detail
+- Combat or action—she's human, not physically formidable
+- Romantic advice about dragons—she's skeptical of the whole thing
+- Comic relief undermining autonomy questions—humor is dry and pointed, not slapstick
 
-**Relationship Dynamics to Maintain:**
-- **With Isla:** Radical honesty without cruelty. Mira can be blunt and challenging, but it always comes from place of fierce protective love. She questions Isla's choices but respects Isla's right to make them. The dynamic should feel like someone who loves you enough to tell you hard truths, not someone who's judging or controlling you.
-- **With Draven (when they interact):** Cool, professional distance with underlying threat—Mira makes clear she's watching, she's not impressed by power, and she'll cause problems if Isla is harmed. No warmth, but not rude enough to violate protocols. She evaluates him purely as "person affecting my friend" without caring about his status or power.
-- **With supernatural world generally:** Practical neutrality. She's respectful of protocols because they keep her alive, not because she buys into supernatural hierarchy. She maintains careful boundaries and strategic ignorance.
+**Relationship Dynamics:**
+- **With Isla:** Radical honesty without cruelty. Blunt but from protective love. Questions choices but respects right to make them.
+- **With Draven:** Cool professional distance with underlying threat. Evaluates purely as "person affecting my friend" without caring about status.
+- **With supernatural world:** Practical neutrality. Respects protocols to stay alive, not because she buys into hierarchy.
 
 ---
-
