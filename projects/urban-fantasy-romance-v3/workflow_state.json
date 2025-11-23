@@ -1,8 +1,8 @@
 {
 	"workflow_version": "1.0.0",
 	"project_name": "urban-fantasy-romance-v3",
-	"current_step": "3",
-	"last_updated": "2025-11-23T02:30:00Z",
+	"current_step": "5",
+	"last_updated": "2025-11-23T02:15:00Z",
 	"steps": {
 		"1": {
 			"name": "NPE Extraction",
@@ -18,11 +18,22 @@
 		},
 		"3": {
 			"name": "Theme Extraction",
-			"status": "pending"
+			"status": "completed",
+			"started_at": "2025-11-23T02:45:00Z",
+			"completed_at": "2025-11-23T02:03:46Z",
+			"outputs_generated": [
+				"outputs/themes.md"
+			]
 		},
 		"4": {
 			"name": "Character Development",
-			"status": "pending"
+			"status": "completed",
+			"started_at": "2025-11-23T02:10:00Z",
+			"completed_at": "2025-11-23T02:15:00Z",
+			"outputs_generated": [
+				"outputs/character_Mara_Chen.md",
+				"outputs/character_Kieran_Thorn.md"
+			]
 		},
 		"5": {
 			"name": "World Constraints Extraction",
