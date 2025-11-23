@@ -99,78 +99,13 @@ Ensure the rewritten outline fulfills:
 
 ## Output Format
 
-**WORD COUNT LIMIT: 8,000 words maximum**
+**WORD COUNT LIMIT: 10,000 words maximum**
 
 **Be concise and avoid redundancy:**
 - Focus on structural changes, not reiterating what stayed the same
 - Keep scene descriptions focused and purposeful
 - Eliminate repetitive phrasing across acts
 - Avoid verbose explanations of why changes were made—show through the structure
-
-Your rewritten outline should follow this structure:
-
-```markdown
-# Story Outline (NPE-Aligned Revision)
-
-## Structural Changes Summary
-[Brief overview of major changes made to achieve NPE compliance]
-
----
-
-## ACT 1: [Title]
-
-### Act 1 Overview
-- **Story Function**: [What this act accomplishes]
-- **Dramatic Movement**: [Character/plot progression]
-- **NPE Alignment Notes**: [How this act follows key NPE rules]
-
-### Scene 1: [Title/Description]
-**Story Function**: [What this scene accomplishes - plot, character, theme, relationship]
-**POV**: [Character]
-**Setting**: [Where/when]
-
-**Scene Structure**:
-[Beat-by-beat breakdown]
-
-**NPE Compliance**:
-- Causality: [How this scene emerges from character choice/prior setup]
-- Character Logic: [How decisions align with psychology]
-- Information Economy: [What's revealed and why now]
-- Pacing: [How scene ends with altered stakes/options/emotion]
-
-**Scene Outcome**: [What changes - stakes, relationships, options, knowledge]
-
-### Scene 2: [Title/Description]
-[Continue pattern...]
-
----
-
-## ACT 2: [Title]
-[Same structure...]
-
----
-
-## ACT 3: [Title]
-[Same structure...]
-
----
-
-## Major Revisions Summary
-
-### Critical Violations Addressed
-1. **[Violation type]**: [Original issue] → [How rewrite fixes it]
-2. **[Violation type]**: [Original issue] → [How rewrite fixes it]
-
-### Scenes Rebuilt from Scratch
-- **[Scene name]**: [Why it needed rebuilding] → [New approach]
-- **[Scene name]**: [Why it needed rebuilding] → [New approach]
-
-### Structural Changes
-- **[Change type]**: [Description and rationale]
-
-### Preserved Strengths
-- **[Strength area]**: [What was kept and why it works]
-```
 
 ## Remember
 
