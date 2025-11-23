@@ -99,6 +99,14 @@ Ensure the rewritten outline fulfills:
 
 ## Output Format
 
+**WORD COUNT LIMIT: 8,000 words maximum**
+
+**Be concise and avoid redundancy:**
+- Focus on structural changes, not reiterating what stayed the same
+- Keep scene descriptions focused and purposeful
+- Eliminate repetitive phrasing across acts
+- Avoid verbose explanations of why changes were made—show through the structure
+
 Your rewritten outline should follow this structure:
 
 ```markdown

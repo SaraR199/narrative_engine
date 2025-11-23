@@ -113,6 +113,14 @@ Create the 5-step emotional progression for THIS story based on the concepts pro
 
 ## Output Format
 
+**WORD COUNT LIMIT: 1,200 words maximum**
+
+**Be concise and avoid redundancy:**
+- Keep descriptions focused and specific
+- No repetitive explanations across sections
+- Eliminate verbose elaborations
+- Use clear, direct language
+
 Structure your response as follows:
 
 ```markdown
@@ -170,10 +178,6 @@ Structure your response as follows:
 - **C (Midpoint shift):** [Emotional state] — [Brief description]
 - **D (Deepening):** [Emotional state] — [Brief description]
 - **E (Resolution):** [Emotional state] — [Brief description]
-
-## Integration Notes
-
-[2-3 sentences on how these elements work together to create a cohesive dramatic experience. How does the dominant energy serve the tension axes? How does the emotional progression map to the dramatic questions? For dual-genre: how do the two primary axes balance and support each other?]
 ```
 
 ## Important Guidelines

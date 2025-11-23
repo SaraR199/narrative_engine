@@ -71,6 +71,14 @@ If you find yourself referencing specific character names, plot events, or world
 
 ## Output Format
 
+**WORD COUNT LIMIT: 2,500 words maximum**
+
+**Be concise and avoid redundancy:**
+- No repetitive explanations or examples
+- No verbose elaborations—state rules clearly and move on
+- Eliminate unnecessary adjectives and qualifiers
+- Keep rule descriptions focused and actionable
+
 Produce a complete **Narrative Physics Engine v1.0** in clean markdown with:
 
 - Clear section headers (use the template's structure)

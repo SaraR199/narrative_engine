@@ -171,6 +171,16 @@ Define the communication dynamics between these two characters:
 
 ## Output Format
 
+**WORD COUNT LIMITS:**
+- **Main romance relationship: 2,000 words maximum**
+- **Other relationships: 1,000 words maximum**
+
+**Be concise and avoid redundancy:**
+- No repetitive phrasing across friction/connection patterns
+- Keep tension axis descriptions focused
+- Eliminate verbose explanations of relationship dynamics
+- Avoid over-elaborating on act-by-act evolution—be specific but brief
+
 Structure your relationship architecture document as follows:
 
 ```markdown
@@ -328,13 +338,6 @@ Structure your relationship architecture document as follows:
 
 **Character B misreads Character A:**
 [Specific blind spots or false assumptions]
-
----
-
-## Usage Notes for Scene Writing
-
-[1-2 paragraphs explaining how to use this architecture when writing scenes between these characters. Include guidance on how to signal which act phase the scene is in and what patterns should be active.]
-
 ```
 
 ---

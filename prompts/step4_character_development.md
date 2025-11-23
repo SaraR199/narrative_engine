@@ -109,6 +109,16 @@ This character must align with the established dramatic and thematic architectur
 
 ## Output Format
 
+**WORD COUNT LIMITS:**
+- **Main characters: 2,000 words maximum**
+- **Secondary characters: 800 words maximum**
+
+**Be concise and avoid redundancy:**
+- No repetitive phrasing across sections
+- Eliminate verbose explanations—show through specific examples
+- Keep emotional palette variations distinct, not repetitive
+- Avoid over-explaining psychological connections—trust the reader
+
 Produce a complete character profile document with:
 
 **For MAIN CHARACTERS:**
@@ -117,7 +127,6 @@ Produce a complete character profile document with:
 3. **All emotional palettes with 4-5 distinct variations**
 4. **Arc versions showing behavioral evolution (V1-V4)**
 5. **Voice samples that capture unique speech patterns**
-6. **NPE compliance notes showing how this character follows the physics engine**
 
 **For SECONDARY CHARACTERS:**
 1. **Every bracket filled with specific content**
@@ -137,7 +146,6 @@ Before submitting, verify:
 - [ ] All emotions have 4-5 behaviorally distinct expressions
 - [ ] Version 1 and Version 4 show clear behavioral contrast
 - [ ] Dialogue samples sound like a specific person, not generic speech
-- [ ] All elements comply with NPE rules
 - [ ] Flaw, wound, and arc are causally connected
 - [ ] Want and need are in meaningful conflict
 - [ ] Character connects to dramatic spine and themes
@@ -148,7 +156,6 @@ Before submitting, verify:
 - [ ] Key emotions have 2-3 behaviorally distinct expressions
 - [ ] Arc states included if character warrants them (antagonist, mentor, ally, etc.)
 - [ ] Dialogue samples sound like a specific person
-- [ ] All elements comply with NPE rules
 - [ ] Character's function in plot and theme is explicit
 - [ ] Relationship dynamics with protagonist are clear
 
