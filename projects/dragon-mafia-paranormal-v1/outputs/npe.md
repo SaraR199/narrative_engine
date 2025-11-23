@@ -7,23 +7,23 @@
 
 ### Primary Rules
 
-**1. All plot movement must arise from character investigation, confrontation, or the consequences of prior deceptions—never from coincidence or convenient revelation.**
+**1. Plot advances through character investigation, confrontation, or consequences of prior deceptions—never coincidence or convenient revelation.**
 
-**2. Supernatural abilities that provide information must extract a proportional physical or psychological cost. The more crucial the information, the more severe the toll.**
+**2. Supernatural abilities that provide information extract proportional physical or psychological cost. Crucial information demands severe toll.**
 
-**3. Every major revelation must emerge from:
+**3. Major revelations emerge from:
    - Physical evidence discovered through investigation
-   - Character mistakes that expose hidden truths
-   - Direct confrontation that forces admission
-   - Supernatural experiences that leave verifiable traces**
+   - Character mistakes exposing hidden truths
+   - Direct confrontation forcing admission
+   - Supernatural experiences leaving verifiable traces**
 
-**4. Deceptions and lies must have clear motivations rooted in character wounds, fears, or goals. No character withholds information "just because."**
+**4. Deceptions require clear motivations rooted in character wounds, fears, or goals. No withholding information "just because."**
 
-**5. External magical obstacles (curses, compulsions, memory blocks) must create internal psychological conflict. Characters cannot simply "break" supernatural constraints—they must navigate around them or pay severe costs to breach them.**
+**5. External magical obstacles create internal psychological conflict. Characters cannot simply "break" supernatural constraints—they must navigate around them or pay severe costs.**
 
-**6. Information revealed in one scene must generate new urgent questions that drive the next investigation or confrontation. Each answer creates pressure to seek the next truth.**
+**6. Information revealed in one scene generates urgent questions driving the next investigation or confrontation.**
 
-**7. No supernatural solution may resolve emotional conflicts. Magic can complicate or reveal, but never repair trust, grief, or broken relationships.**
+**7. Supernatural solutions cannot resolve emotional conflicts. Magic complicates or reveals, never repairs trust, grief, or broken relationships.**
 
 ---
 
@@ -31,34 +31,34 @@
 
 ### Primary Rules
 
-**1. Characters make decisions based on incomplete information filtered through their emotional wounds and biases, not objective assessment of situations.**
+**1. Characters decide based on incomplete information filtered through emotional wounds and biases, not objective assessment.**
 
-**2. Characters who "protect" others by withholding information must face escalating consequences that prove their choice made things worse.**
+**2. Characters "protecting" others by withholding information face escalating consequences proving their choice worsened things.**
 
-**3. Every major character decision must be driven by one of these forces:
-   - Desperate need to know/understand truth
-   - Attempt to protect someone from painful knowledge
+**3. Major decisions driven by:
+   - Desperate need to know truth
+   - Attempt to protect from painful knowledge
    - Response to perceived betrayal or abandonment
    - Compulsion from unhealed emotional wound
    - Conflicting loyalties creating impossible choices**
 
-**4. Characters must misinterpret events through their specific psychological lens:
-   - The abandoned interpret caution as rejection
-   - The obsessed interpret boundaries as temporary obstacles
-   - The traumatized interpret normalcy as threat
-   - The guilty interpret consequences as punishment**
+**4. Characters misinterpret events through their psychological lens:
+   - Abandoned interpret caution as rejection
+   - Obsessed interpret boundaries as temporary obstacles
+   - Traumatized interpret normalcy as threat
+   - Guilty interpret consequences as punishment**
 
-**5. When characters choose between competing loyalties (duty vs. love, truth vs. protection, past vs. present), the choice must create immediate negative consequences regardless of which option they select.**
+**5. Choosing between competing loyalties creates immediate negative consequences regardless of selection.**
 
-**6. Characters cannot "choose better" until they confront the wound driving their harmful pattern. Rational awareness alone never changes behavior.**
+**6. Characters cannot "choose better" until confronting the wound driving their harmful pattern. Rational awareness alone never changes behavior.**
 
 ### Secondary Rules
 
-**1. Investigative protagonists must pursue truth even when warned it will destroy them. Their need to know overrides survival instinct.**
+**1. Investigative protagonists pursue truth even when warned it will destroy them. Need to know overrides survival instinct.**
 
-**2. Characters who manipulate "for love" must genuinely believe they're protecting or saving the target, never acknowledge they're violating autonomy until confronted with undeniable proof.**
+**2. Characters manipulating "for love" genuinely believe they're protecting the target, never acknowledging autonomy violation until confronted with undeniable proof.**
 
-**3. Supporting characters must hold crucial information that could prevent tragedy, but withhold it for reasons that seem protective or prudent from their perspective.**
+**3. Supporting characters hold crucial information that could prevent tragedy but withhold it for protective or prudent reasons.**
 
 ---
 
@@ -67,40 +67,40 @@
 ### Primary Rules
 
 **1. Characters evade direct questions through:
-   - Answering a different question than asked
-   - Providing technically true but deliberately incomplete information
-   - Redirecting to emotional/physical intimacy to derail interrogation
-   - Claiming protective motivations when pressed**
+   - Answering different questions
+   - Providing technically true but incomplete information
+   - Redirecting to emotional/physical intimacy
+   - Claiming protective motivations**
 
-**2. Crucial information must be revealed through:
-   - Accidental slips when character is emotionally compromised (drunk, furious, grief-stricken, lustful)
-   - Direct persistent interrogation that corners the liar
-   - Character mistakes that reveal knowledge they shouldn't possess
+**2. Crucial information revealed through:
+   - Accidental slips when emotionally compromised (drunk, furious, grief-stricken, lustful)
+   - Persistent interrogation cornering the liar
+   - Mistakes revealing knowledge they shouldn't possess
    - Third-party witnesses providing contradictory information**
 
-**3. Every conversation about withheld truth must escalate through these stages:
+**3. Conversations about withheld truth escalate through:
    - Deflection/charm offensive
-   - Partial admission ("half-truth")
+   - Partial admission
    - Defensive justification
    - Silence or retreat when cornered
    - Full reveal only under undeniable pressure**
 
-**4. Characters cannot articulate their deepest fears or needs directly. These must emerge through:
+**4. Deepest fears or needs emerge through:
    - What they demand from others
    - What they cannot tolerate losing
-   - The specific lies they tell themselves
-   - Actions that contradict their stated motivations**
+   - Lies they tell themselves
+   - Actions contradicting stated motivations**
 
 ### Conditional Rules
 
-**1. Romantic/sexual dialogue must layer physical desire with emotional manipulation, neither character fully honest about their true vulnerability.**
+**1. Romantic/sexual dialogue layers physical desire with emotional manipulation, neither character fully honest about vulnerability.**
 
-**2. Interrogation scenes must reveal as much about the questioner (through what they ask and how) as about the person being questioned.**
+**2. Interrogation scenes reveal as much about the questioner as the questioned.**
 
-**3. Exposition delivered through dialogue must be:
-   - Actively resisted by the listener who doesn't want it to be true
-   - Incomplete, requiring further investigation to verify
-   - Motivated by the speaker's need to justify, warn, or manipulate**
+**3. Exposition through dialogue must be:
+   - Actively resisted by listener who doesn't want it true
+   - Incomplete, requiring further investigation
+   - Motivated by speaker's need to justify, warn, or manipulate**
 
 ---
 
@@ -109,39 +109,39 @@
 ### Primary Rules
 
 **1. Expand time for:
-   - Physical experiences of supernatural phenomena (visions, transformations, magical pain)
-   - Confrontations where lies are exposed
-   - Intimate moments interrupted by revelations or external threats
-   - Investigative discoveries that change protagonist's understanding of identity
-   - Moments where character must choose between competing loyalties**
+   - Physical experiences of supernatural phenomena
+   - Confrontations exposing lies
+   - Intimate moments interrupted by revelations or threats
+   - Investigative discoveries changing protagonist's identity understanding
+   - Choices between competing loyalties**
 
 **2. Compress time for:
    - Travel between locations
-   - Routine investigation that yields no new emotional stakes
-   - Explanations of supernatural systems (convey through action/discovery, not lecture)
+   - Routine investigation yielding no emotional stakes
+   - Explanations of supernatural systems
    - Recovery periods between crisis points**
 
-**3. Chapter endings must shift one of these elements:
-   - New revelation that recontextualizes prior events
+**3. Chapter endings shift:
+   - Revelation recontextualizing prior events
    - Betrayal or trust violation
-   - Escalation of external threat (ticking clock)
-   - Character isolation (loss of ally or safe space)
-   - Discovery of physical evidence that contradicts established "truth"**
+   - External threat escalation
+   - Character isolation
+   - Discovery of evidence contradicting established "truth"**
 
-**4. POV switches must occur at moments of maximum dramatic irony:
-   - Reader learns antagonist's true motivation immediately after protagonist makes wrong assumption
-   - Reader sees betrayer's perspective immediately after protagonist extends trust
-   - Reader discovers hidden connection immediately after protagonist dismisses possibility**
+**4. POV switches occur at maximum dramatic irony moments:
+   - Reader learns antagonist's true motivation after protagonist makes wrong assumption
+   - Reader sees betrayer's perspective after protagonist extends trust
+   - Reader discovers hidden connection after protagonist dismisses possibility**
 
 ### Transition Rules
 
-**1. Scene transitions must carry emotional residue. Characters enter new scenes still processing previous trauma, grief, or revelation—never reset to neutral.**
+**1. Scene transitions carry emotional residue. Characters enter new scenes processing previous trauma, grief, or revelation—never reset to neutral.**
 
-**2. Time jumps must be marked by:
-   - Changed physical conditions (wounds healing/worsening, environments altered)
-   - References to off-stage actions through evidence of their occurrence
-   - Dialogue fragments that reference what happened during the gap
-   - Shifted power dynamics between characters**
+**2. Time jumps marked by:
+   - Changed physical conditions
+   - References to off-stage actions through evidence
+   - Dialogue fragments referencing the gap
+   - Shifted power dynamics**
 
 ---
 
@@ -149,49 +149,49 @@
 
 ### Primary Rules
 
-**1. Each POV must be colored by that character's specific emotional wound:
-   - The abandoned filter events through lens of rejection and worthlessness
-   - The obsessed filter events through lens of destiny and ownership
-   - The guilty filter events through lens of debt and punishment
-   - The traumatized filter events through lens of threat and survival**
+**1. Each POV colored by character's emotional wound:
+   - Abandoned filter through rejection and worthlessness
+   - Obsessed filter through destiny and ownership
+   - Guilty filter through debt and punishment
+   - Traumatized filter through threat and survival**
 
-**2. POV character's internal narration must contradict their external behavior when they're:
-   - Manipulating someone "for their own good"
+**2. POV character's internal narration contradicts external behavior when:
+   - Manipulating "for their own good"
    - Hiding pain behind competence or charm
-   - Denying their own desperate needs
+   - Denying desperate needs
    - Rationalizing harmful choices through noble motivations**
 
-**3. Physical sensations must convey emotional states:
+**3. Physical sensations convey emotional states:
    - Unwanted attraction = body betraying rational mind
    - Supernatural connection = invasive physical compulsion
    - Memory recovery = violent physical trauma
-   - Lies/deception detected = visceral wrongness (cold, nausea, tension)**
+   - Lies/deception detected = visceral wrongness**
 
-**4. Characters must experience conflicting simultaneous emotions without resolving them:
-   - Love and rage toward the same person
+**4. Characters experience conflicting simultaneous emotions without resolution:
+   - Love and rage toward same person
    - Desperate need for truth and terror of learning it
    - Physical desire and emotional revulsion
    - Gratitude and resentment for protection/interference**
 
 ### Secondary Rules
 
-**1. Investigator POVs must show:
-   - Cataloging physical evidence even during emotional crisis
+**1. Investigator POVs show:
+   - Cataloging evidence during emotional crisis
    - Professional instincts competing with personal feelings
    - Guilt over objectivity failing when case becomes personal
-   - Pattern recognition that bypasses conscious thought**
+   - Pattern recognition bypassing conscious thought**
 
-**2. Supernatural POVs must show:
+**2. Supernatural POVs show:
    - Casual acceptance of impossible as normal
-   - Centuries of time creating different emotional scale
-   - Predatory instincts in conflict with chosen ethics
+   - Centuries creating different emotional scale
+   - Predatory instincts conflicting with chosen ethics
    - Power as default solution requiring conscious restraint**
 
-**3. Possessed/influenced POVs must show:
+**3. Possessed/influenced POVs show:
    - Time loss and disorientation
-   - Actions performed with skill they don't consciously possess
+   - Actions performed with skills they don't consciously possess
    - Fragmented awareness of compulsion
-   - Post-influence horror at what they did**
+   - Post-influence horror**
 
 ---
 
@@ -199,42 +199,42 @@
 
 ### Primary Rules
 
-**1. Supernatural revelations must arrive through investigation of physical evidence, never through explanatory conversation unless:
-   - The explainer is lying or providing incomplete information
-   - The listener actively resists/challenges the explanation
-   - The explanation creates new urgent questions**
+**1. Supernatural revelations arrive through investigating physical evidence, never explanatory conversation unless:
+   - Explainer is lying or providing incomplete information
+   - Listener actively resists/challenges
+   - Explanation creates new urgent questions**
 
 **2. Memory recovery must be:
    - Triggered by physical objects, locations, or sensory experiences
-   - Fragmentary and incomplete, requiring assembly of pieces
+   - Fragmentary and incomplete
    - Violently traumatic, deterring repeated attempts
    - Contradictory to protagonist's assumed identity**
 
-**3. Each character must hold specific pieces of truth they hide for different reasons:
+**3. Each character holds specific truth pieces hidden for different reasons:
    - Antagonist hides methods and full plan
    - Love interest hides prior knowledge of protagonist's past
    - Ally hides information they think would break protagonist
-   - Protagonist's own mind hides memories that threaten survival**
+   - Protagonist's mind hides memories threatening survival**
 
-**4. Lies must be revealed through:
-   - Liar possessing knowledge they shouldn't have
+**4. Lies revealed through:
+   - Liar possessing impossible knowledge
    - Physical evidence contradicting stated facts
-   - Third party providing different version of events
-   - Liar's behavior inconsistent with their claimed ignorance**
+   - Third party providing different version
+   - Behavior inconsistent with claimed ignorance**
 
-**5. No information may be revealed through:
+**5. No information revealed through:
    - Overheard conversations intended to inform reader
-   - Antagonist monologuing their entire plan
-   - Convenient prophesy or vision showing exactly what to do
-   - Character suddenly "remembering" crucial detail at perfect moment**
+   - Antagonist monologuing their plan
+   - Convenient prophesy showing exactly what to do
+   - Character "remembering" crucial detail at perfect moment**
 
 ### Forbidden-by-Constraint
 
-**No character may learn crucial information without:
+**No character learns crucial information without:
    - Actively investigating despite warnings
    - Paying severe physical or psychological cost
-   - Confronting someone who has reason to withhold it
-   - Discovering physical evidence that proves the truth**
+   - Confronting someone with reason to withhold it
+   - Discovering physical evidence proving truth**
 
 ---
 
@@ -243,79 +243,79 @@
 ### Required Elements
 
 **1. Supernatural Connection Must Complicate, Not Solve:**
-   - Fated bonds, mate marks, or magical connections must create ethical dilemmas about autonomy and genuine choice
-   - Supernatural attraction must conflict with emotional trust and rational assessment
-   - Physical pull must be acknowledged as potentially violating consent if not questioned
-   - Characters must actively wonder whether their feelings are genuine or magically compelled**
+   - Fated bonds create ethical dilemmas about autonomy and genuine choice
+   - Supernatural attraction conflicts with emotional trust and rational assessment
+   - Physical pull must be questioned as potentially violating consent
+   - Characters actively wonder if feelings are genuine or magically compelled**
 
 **2. Hidden Supernatural World Rules:**
-   - Supernatural beings live concealed among humans through glamour, misdirection, or political structures
-   - Human characters discovering the supernatural must doubt their sanity before accepting truth
-   - Revelation of supernatural to humans carries severe consequences (death, memory wipe, or forced recruitment)
-   - Supernatural politics operate by different moral codes than human society**
+   - Supernatural beings live concealed through glamour, misdirection, or political structures
+   - Human characters discovering supernatural doubt their sanity first
+   - Revealing supernatural to humans carries severe consequences
+   - Supernatural politics operate by different moral codes**
 
 **3. Magic System Constraints:**
-   - Every supernatural ability must have clear, consistent cost (physical pain, life force, sanity, time, etc.)
-   - Power levels must have established hierarchy with political implications
+   - Every supernatural ability has clear, consistent cost
+   - Power levels have established hierarchy with political implications
    - Magic cannot solve emotional conflicts or create genuine love/trust
    - Magical compulsion exists but characters must recognize it as violation**
 
 **4. Romance Structure:**
-   - Physical attraction must precede emotional trust
-   - Intimate moments must be interrupted, complicated, or followed by revelations that reframe them
-   - Love triangle (or appearance of one) must involve genuine ethical dilemmas, not arbitrary obstacles
-   - Past relationships must create present complications (forgotten spouse, rejected mate, etc.)
+   - Physical attraction precedes emotional trust
+   - Intimate moments interrupted, complicated, or followed by reframing revelations
+   - Love triangle involves genuine ethical dilemmas, not arbitrary obstacles
+   - Past relationships create present complications
    - Character growth required before functional relationship possible**
 
 **5. Urban Fantasy Investigation:**
-   - Mundane investigation techniques (evidence collection, interrogation, surveillance) applied to supernatural crimes
-   - Protagonist must be professional investigator (detective, FBI, etc.) or obsessive amateur
-   - Each clue must be physical evidence that survives supernatural scrutiny
-   - Case files, photographs, and forensic evidence serve as touchstones of reality**
+   - Mundane investigation techniques applied to supernatural crimes
+   - Protagonist is professional investigator or obsessive amateur
+   - Each clue is physical evidence surviving supernatural scrutiny
+   - Case files, photographs, forensic evidence serve as reality touchstones**
 
 **6. Mystery Plot Integration:**
-   - External plot (murder investigation, political conspiracy, apocalyptic threat) must parallel internal arc (identity, trust, belonging)
-   - Solving external mystery must require confronting internal wounds
-   - Red herrings must emerge from character deception, not arbitrary misdirection
-   - Final revelation must recontextualize earlier "clues" protagonist dismissed**
+   - External plot parallels internal arc
+   - Solving external mystery requires confronting internal wounds
+   - Red herrings emerge from character deception
+   - Final revelation recontextualizes dismissed "clues"**
 
 ### Allowed When Justified
 
 **1. Mate Bonds / Fated Connections:**
-   - Allowed only when protagonist actively questions whether bond violates free will
-   - Must create conflict between physical compulsion and emotional autonomy
-   - Protagonist must consider walking away despite supernatural pull
-   - Bond must be revealed to contain hidden costs or complications**
+   - Only when protagonist questions whether bond violates free will
+   - Creates conflict between physical compulsion and emotional autonomy
+   - Protagonist considers walking away despite supernatural pull
+   - Bond contains hidden costs or complications**
 
 **2. Memory Loss / Amnesia:**
-   - Allowed only when memory suppression is active magical constraint, not passive injury
-   - Attempting to remember must cause escalating physical trauma
-   - Other characters must have known protagonist before, creating asymmetric knowledge
-   - Recovery must be fragmentary and unreliable, requiring verification**
+   - Only when memory suppression is active magical constraint
+   - Attempting to remember causes escalating physical trauma
+   - Other characters knew protagonist before, creating asymmetric knowledge
+   - Recovery is fragmentary and unreliable**
 
 **3. Possession / Magical Compulsion:**
-   - Allowed when victim experiences time loss, not conscious puppetry
-   - Must be revealed through victim's impossible knowledge/skills, not obvious personality change
-   - Controller must have established magical connection through prior contact
-   - Breaking compulsion must require external intervention, not willpower**
+   - Victim experiences time loss, not conscious puppetry
+   - Revealed through victim's impossible knowledge/skills
+   - Controller has established magical connection through prior contact
+   - Breaking compulsion requires external intervention**
 
 **4. Love Triangle:**
-   - Allowed only when both "options" represent genuine but incompatible values or identities
-   - Neither option can be obviously wrong/right
-   - Protagonist must have genuine emotional connection to both, not arbitrary attraction
-   - Resolution must require protagonist choosing identity/values, not just "picking a boy"**
+   - Only when both "options" represent genuine but incompatible values/identities
+   - Neither option obviously wrong/right
+   - Protagonist has genuine emotional connection to both
+   - Resolution requires choosing identity/values, not "picking a boy"**
 
 **5. Centuries-Old Love Interest:**
-   - Allowed when age gap creates genuine ethical complications protagonist recognizes
-   - Ancient being must have relationship patterns shaped by inhuman timescale
-   - Protagonist must question why immortal being wants mortal/amnesiac partner with power imbalance
-   - Age must create different emotional priorities, not just exotic backstory**
+   - When age gap creates genuine ethical complications protagonist recognizes
+   - Ancient being has relationship patterns shaped by inhuman timescale
+   - Protagonist questions why immortal wants mortal/amnesiac partner with power imbalance
+   - Age creates different emotional priorities**
 
 **6. Chosen One / Special Destiny:**
-   - Allowed only when "destiny" is burden or curse protagonist wants to escape
-   - Special status must isolate protagonist, not empower them
-   - Protagonist must actively resist their "role"
-   - Being "special" must extract ongoing cost that makes protagonist question if it's worth it**
+   - Only when "destiny" is burden or curse protagonist wants to escape
+   - Special status isolates, not empowers
+   - Protagonist actively resists their "role"
+   - Being "special" extracts ongoing cost**
 
 ### Forbidden-by-Constraint
 
@@ -323,26 +323,26 @@
    - Protagonist's identity remains unknown to themselves
    - Major deception remains unconfessed between romantic parties
    - External threat to protagonist's life remains active
-   - Protagonist has not confronted the wound driving their destructive patterns**
+   - Protagonist hasn't confronted wound driving destructive patterns**
 
 **2. Supernatural elements cannot:**
-   - Provide convenient solution to emotional conflicts
+   - Provide convenient solutions to emotional conflicts
    - Create instant love without ethical complication
    - Erase consequences of character choices
-   - Resolve plot through deus ex machina intervention
+   - Resolve plot through deus ex machina
    - Override consent without characters recognizing violation**
 
 **3. Investigation plot cannot:**
    - Rely on prophetic visions showing exactly what to do
    - Use coincidental discoveries protagonist didn't work to find
-   - Introduce evidence in final act that wasn't seeded earlier
+   - Introduce evidence in final act not seeded earlier
    - Resolve through antagonist's unprompted confession**
 
 **4. Mystery structure cannot:**
-   - Introduce crucial new character in final quarter of story
-   - Reveal antagonist's identity through exposition rather than protagonist's deduction
+   - Introduce crucial new character in final quarter
+   - Reveal antagonist's identity through exposition rather than deduction
    - Use red herrings unrelated to character motivations
-   - Solve case through information protagonist didn't have access to**
+   - Solve case through information protagonist lacked access to**
 
 ---
 
@@ -350,57 +350,56 @@
 
 ### Primary Rules
 
-**1. Personal stakes must parallel external stakes:
+**1. Personal stakes parallel external stakes:
    - Solving murder mystery = recovering lost identity
    - Preventing apocalypse = reclaiming stolen agency
    - Protecting innocents = forgiving self for past failures
    - Destroying corrupt system = choosing authentic self over false destiny**
 
-**2. Stakes must escalate through loss of safety, not just increased danger:**
-
+**2. Stakes escalate through loss of safety:**
    - **Stage 1:** Professional case becomes personally significant
-   - **Stage 2:** Safe spaces violated (home invasion, sanctuary compromised)
+   - **Stage 2:** Safe spaces violated
    - **Stage 3:** Trusted allies revealed as compromised or hostile
-   - **Stage 4:** Protagonist's own mind/memories proven unreliable
+   - **Stage 4:** Protagonist's mind/memories proven unreliable
    - **Stage 5:** Core identity revealed as constructed lie**
 
-**3. Ticking clock must have multiple simultaneous countdowns:**
-   - External: antagonist systematically eliminating targets
+**3. Ticking clock has multiple simultaneous countdowns:**
+   - External: antagonist eliminating targets
    - Physical: protagonist's body deteriorating from supernatural strain
-   - Emotional: relationships fracturing under weight of revealed lies
-   - Cosmic: supernatural deadline (eclipse, tithe, seasonal change) approaching**
+   - Emotional: relationships fracturing under revealed lies
+   - Cosmic: supernatural deadline approaching**
 
-**4. Each revelation must force protagonist to question a previous certainty:
+**4. Each revelation forces protagonist to question previous certainty:
    - "I'm losing my mind" → "I have supernatural abilities"
    - "He's helping me" → "He knew truth all along"
    - "She's my only ally" → "She's been controlled by enemy"
    - "I'm the victim" → "I might be the weapon"**
 
-**5. Power escalation must create new vulnerabilities:
-   - Gaining supernatural abilities = becoming target for those who fear them
+**5. Power escalation creates new vulnerabilities:
+   - Gaining abilities = becoming target
    - Learning truth about past = destabilizing present identity
-   - Recovering memories = experiencing trauma fresh again
-   - Accepting magical heritage = losing claim to human life/relationships**
+   - Recovering memories = experiencing trauma fresh
+   - Accepting magical heritage = losing claim to human life**
 
 ### Secondary Rules
 
-**1. No safe harbor can remain safe. Each location must be:**
-   - Violated by antagonist's intrusion
+**1. No safe harbor remains safe. Each location must be:**
+   - Violated by antagonist
    - Revealed as surveillance location
    - Compromised by ally's betrayal
    - Abandoned due to protagonist's transformation**
 
-**2. Every alliance must be tested by:**
+**2. Every alliance tested by:**
    - Revelation of prior deception
-   - Conflicting loyalties (duty vs. personal connection)
+   - Conflicting loyalties
    - Moral disagreement about acceptable costs
-   - Discovery that ally has been compromised**
+   - Discovery that ally is compromised**
 
-**3. Antagonist pressure must be psychological before physical:**
-   - First: messages proving they know protagonist's secrets
-   - Second: violations of private space
-   - Third: harm to people protagonist cares about
-   - Fourth: direct confrontation only after psychological dominance established**
+**3. Antagonist pressure is psychological before physical:**
+   - Messages proving they know protagonist's secrets
+   - Violations of private space
+   - Harm to people protagonist cares about
+   - Direct confrontation only after psychological dominance established**
 
 ---
 
@@ -408,49 +407,49 @@
 
 ### Primary Rules
 
-**1. Antagonist's off-stage actions must be revealed through:**
-   - Physical evidence protagonist discovers (placement of objects, surveillance equipment, altered environments)
-   - Victims' testimony about what happened during lost time
-   - Third-party observations of events protagonist didn't witness
+**1. Antagonist's off-stage actions revealed through:**
+   - Physical evidence protagonist discovers
+   - Victims' testimony about lost time
+   - Third-party observations of unwitnessed events
    - Body language and behavior changes in compromised characters**
 
-**2. Time protagonist doesn't witness (blackouts, separations, off-page events) must be:**
-   - Reconstructed through investigation of what changed
-   - Revealed through other POV chapters showing what actually occurred
-   - Source of horror when true events contradict protagonist's assumptions
-   - Key to solving mystery when protagonist discovers what happened during gaps**
+**2. Time protagonist doesn't witness must be:**
+   - Reconstructed through investigating what changed
+   - Revealed through other POV chapters
+   - Source of horror when true events contradict assumptions
+   - Key to solving mystery**
 
-**3. Characters' pasts must be revealed through:**
-   - Physical artifacts (photographs, journals, documents)
+**3. Characters' pasts revealed through:**
+   - Physical artifacts
    - Conflicting accounts from different witnesses
    - Protagonist's fragmented memories contradicting official story
-   - Locations that trigger sense memory**
+   - Locations triggering sense memory**
 
-**4. Supernatural world-building must emerge through:**
-   - Characters' casual references revealing their assumptions
+**4. Supernatural world-building emerges through:**
+   - Characters' casual references revealing assumptions
    - Protagonist's confusion about normal supernatural practices
    - Political conflicts demonstrating power structures
    - Magical costs demonstrating system constraints**
 
 ### Secondary Rules
 
-**1. Antagonist's preparation must be shown through:**
+**1. Antagonist's preparation shown through:**
    - Evidence of long-term surveillance
-   - Resources they shouldn't have access to
-   - Knowledge they couldn't have obtained normally
-   - Manipulation of events protagonist thought were coincidence**
+   - Resources they shouldn't have
+   - Knowledge they couldn't obtain normally
+   - Manipulation of events protagonist thought coincidental**
 
-**2. Protagonist's lost memories must be revealed through:**
-   - Other characters' reactions to protagonist not remembering shared experiences
-   - Protagonist's inexplicable skills/knowledge they don't remember learning
-   - Locations/objects that feel familiar for unknown reasons
-   - Protagonist's instinctive responses that contradict their conscious identity**
+**2. Protagonist's lost memories revealed through:**
+   - Others' reactions to protagonist not remembering shared experiences
+   - Inexplicable skills/knowledge
+   - Familiar locations/objects for unknown reasons
+   - Instinctive responses contradicting conscious identity**
 
-**3. Political maneuvering in supernatural community must be shown through:**
+**3. Political maneuvering shown through:**
    - Messengers delivering summons or warnings
-   - Characters carefully avoiding forbidden topics
+   - Characters avoiding forbidden topics
    - References to past conflicts shaping current fears
-   - Consequences of breaking supernatural laws/customs**
+   - Consequences of breaking supernatural laws**
 
 ---
 
@@ -458,47 +457,47 @@
 
 ### Primary Rules
 
-**1. Every major reveal must reframe previous scenes when reader re-examines them:**
-   - "Helpful" advice revealed as manipulation toward planned outcome
+**1. Every major reveal reframes previous scenes:**
+   - "Helpful" advice revealed as manipulation
    - "Protective" behavior revealed as possessive control
    - "Coincidental" meetings revealed as stalking/surveillance
    - "Mysterious" reactions revealed as recognition protagonist didn't share**
 
-**2. Protagonist must be positioned to notice clues but dismiss them through:**
+**2. Protagonist positioned to notice clues but dismiss them through:**
    - Unreliable narrator believing they're mentally ill
    - Trauma-brain prioritizing survival over pattern recognition
    - Emotional investment in believing ally's lies
    - Professional skepticism rejecting supernatural explanations**
 
-**3. The truth must be worse than protagonist's darkest suspicion in unexpected ways:**
+**3. Truth worse than protagonist's darkest suspicion:**
    - Not just "he lied" but "he knew everything from the beginning"
    - Not just "she's compromised" but "she's been controlled for months/years"
    - Not just "I have powers" but "I'm the weapon/anchor/prison"
    - Not just "he loves me" but "he's killed to possess me"**
 
-**4. Clues must be planted through:**
+**4. Clues planted through:**
    - Character possessing knowledge they claim not to have
    - Impossibly perfect timing of "coincidental" events
-   - Objects appearing/disappearing with no explanation
-   - Other characters' confused reactions to protagonist's false assumptions**
+   - Objects appearing/disappearing unexplained
+   - Others' confused reactions to protagonist's false assumptions**
 
 ### Pattern Recognition Rules
 
-**1. Protagonist's professional skills must provide tools for truth-seeking:**
+**1. Protagonist's professional skills provide truth-seeking tools:**
    - Evidence collection habits applied to personal life
    - Interrogation techniques used on allies
-   - Pattern recognition that operates despite emotional investment
-   - Documentation creating record that survives magical interference**
+   - Pattern recognition operating despite emotional investment
+   - Documentation surviving magical interference**
 
-**2. Physical evidence must survive magical manipulation:**
-   - Photographs retain truth even when human memory is altered
-   - Digital records preserve what glamour changes in physical objects
-   - Scars/wounds contradict claimed timeline of events
+**2. Physical evidence survives magical manipulation:**
+   - Photographs retain truth when memory is altered
+   - Digital records preserve what glamour changes
+   - Scars/wounds contradict claimed timeline
    - Locations contain residue of magical working**
 
-**3. Each revelation must create urgent new question:**
-   - "If he lied about this, what else?" → drives investigation of ally
-   - "If she's controlled, since when?" → drives timeline reconstruction
+**3. Each revelation creates urgent new question:**
+   - "If he lied about this, what else?" → investigates ally
+   - "If she's controlled, since when?" → reconstructs timeline
    - "If I'm this, what am I capable of?" → drives self-discovery
    - "If past is false, what is true?" → drives identity quest**
 
@@ -506,19 +505,19 @@
 
 ## USAGE NOTES FOR IMPLEMENTATION
 
-This NPE is designed for **paranormal romance / urban fantasy** novels featuring:
+This NPE is designed for **paranormal romance / urban fantasy** featuring:
 - Amnesiac or identity-uncertain protagonists
 - Romantic relationships complicated by deception, supernatural compulsion, or past obligations
 - Murder mystery or conspiracy investigation as external plot
 - Hidden supernatural world revealed to protagonist
 - Morally complex antagonists driven by love/obsession
-- Progressive isolation as allies are revealed as compromised
+- Progressive isolation as allies revealed as compromised
 
 ### Core Tension Formula:
 **Physical Attraction × Emotional Distrust × Supernatural Compulsion × Identity Uncertainty = Maximum Romantic Conflict**
 
 ### Investigation Structure:
-**Physical Evidence → Confrontation → Partial Admission → New Evidence Contradicting Admission → Full Truth → Recontextualization of All Prior Events**
+**Physical Evidence → Confrontation → Partial Admission → New Evidence Contradicting Admission → Full Truth → Recontextualization**
 
 ### Betrayal Revelation Pattern:
 **Trust Extended → Suspicious Detail Dismissed → Accumulating Contradictions → Undeniable Proof → Confrontation → Relationship Fracture**
