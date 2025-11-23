@@ -1,8 +1,8 @@
 {
 	"workflow_version": "1.0.0",
 	"project_name": "urban-fantasy-romance-v3",
-	"current_step": "2",
-	"last_updated": "2025-11-23T01:04:26Z",
+	"current_step": "3",
+	"last_updated": "2025-11-23T02:30:00Z",
 	"steps": {
 		"1": {
 			"name": "NPE Extraction",
@@ -12,7 +12,9 @@
 		},
 		"2": {
 			"name": "Dramatic Spine Extraction",
-			"status": "pending"
+			"status": "completed",
+			"started_at": "2025-11-23T02:20:00Z",
+			"completed_at": "2025-11-23T02:30:00Z"
 		},
 		"3": {
 			"name": "Theme Extraction",
