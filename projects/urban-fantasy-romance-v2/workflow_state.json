@@ -1,8 +1,8 @@
 {
 	"workflow_version": "1.0.0",
 	"project_name": "urban-fantasy-romance-v2",
-	"current_step": "8",
-	"last_updated": "2025-11-23T05:00:00Z",
+	"current_step": "9",
+	"last_updated": "2025-11-23T05:15:00Z",
 	"steps": {
 		"1": {
 			"name": "NPE Extraction",
@@ -55,7 +55,10 @@
 		},
 		"8": {
 			"name": "Premise Refinement",
-			"status": "pending"
+			"status": "completed",
+			"started_at": "2025-11-23T05:05:00Z",
+			"completed_at": "2025-11-23T05:15:00Z",
+			"outputs_generated": ["outputs/refined_premise.md"]
 		},
 		"9": {
 			"name": "Story Outline",
