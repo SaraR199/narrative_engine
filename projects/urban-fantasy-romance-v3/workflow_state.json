@@ -2,19 +2,25 @@
 	"workflow_version": "1.0.0",
 	"project_name": "urban-fantasy-romance-v3",
 	"current_step": "5",
-	"last_updated": "2025-11-23T02:15:00Z",
+	"last_updated": "2025-11-23T02:20:00Z",
 	"steps": {
 		"1": {
 			"name": "NPE Extraction",
 			"status": "completed",
 			"started_at": "2025-11-23T02:00:00Z",
-			"completed_at": "2025-11-23T02:15:00Z"
+			"completed_at": "2025-11-23T02:15:00Z",
+			"outputs_generated": [
+				"outputs/npe.md"
+			]
 		},
 		"2": {
 			"name": "Dramatic Spine Extraction",
 			"status": "completed",
 			"started_at": "2025-11-23T02:20:00Z",
-			"completed_at": "2025-11-23T02:30:00Z"
+			"completed_at": "2025-11-23T02:30:00Z",
+			"outputs_generated": [
+				"outputs/dramatic_spine.md"
+			]
 		},
 		"3": {
 			"name": "Theme Extraction",
@@ -29,10 +35,13 @@
 			"name": "Character Development",
 			"status": "completed",
 			"started_at": "2025-11-23T02:10:00Z",
-			"completed_at": "2025-11-23T02:15:00Z",
+			"completed_at": "2025-11-23T02:20:00Z",
 			"outputs_generated": [
 				"outputs/character_Mara_Chen.md",
-				"outputs/character_Kieran_Thorn.md"
+				"outputs/character_Kieran_Thorn.md",
+				"outputs/character_Riley_Park.md",
+				"outputs/character_Lena_Corvus.md",
+				"outputs/character_Tobias_Flint.md"
 			]
 		},
 		"5": {
