@@ -240,35 +240,6 @@ Structure your outline as follows:
 **Thematic Resonance:** [How the ending explores (not answers) the thematic questions]
 
 **Emotional Landing:** [The final emotional note the reader experiences]
-
----
-
-## Integration Map
-
-### Dual-Genre Balance (if applicable)
-[How the two primary tension axes (e.g., romance + fantasy stakes) maintain equal weight throughout the structure. Where does each axis peak? How do they support each other?]
-
-### Character Arc Alignment
-[How the protagonist's 4-stage arc maps to the 3-act structure. Which acts contain which arc versions? Where are the transformation moments?]
-
-### Relationship Evolution
-[How the key relationships (from relationship architectures) evolve across the acts. What's the progression for each major relationship?]
-
-### Thematic Threading
-[How the thematic questions are explored (not answered) across the acts. Which sequences interrogate which themes?]
-
-### World Constraint Impact
-[How the world constraints (geography, culture, power structures, resources, vibes) functionally limit choices and create plot pressure throughout the outline]
-
----
-
-## Causality Check
-
-[For each major turning point, explicitly state the prior setup that makes it possible. If you cannot point to specific character psychology, relationship dynamics, or world rules that make a turn inevitable, revise until you can.]
-
-**Example:**
-- **Turn:** Protagonist betrays their mentor
-- **Setup:** Character profile shows fear of abandonment (flaw) + relationship architecture shows mentor withholds approval → when antagonist offers unconditional acceptance, betrayal becomes psychologically inevitable
 ```
 
 ## Important Guidelines

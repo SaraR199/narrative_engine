@@ -176,33 +176,6 @@ Structure your refined premise as follows:
 
 ## Tonal Feel
 [Brief note on the premise's intended tonal energy, aligned with the dramatic spine's dominant energy]
-
----
-
-## Alignment Check
-
-### NPE Compliance
-[1-2 sentences confirming the premise respects key NPE rules, especially around causality, character agency, and plot mechanics]
-
-### Character Arc Integration
-[1-2 sentences showing how the premise sets up the protagonist's transformation from Version 1 to Version 4]
-
-### Relationship Dynamics
-[1-2 sentences showing how key relationships (from relationship architectures) are activated by this premise]
-
-### World Constraint Impact
-[1-2 sentences showing how world rules functionally shape the story's possibilities and obstacles]
-
----
-
-## Changes from Original Concept
-
-[3-5 bullet points highlighting key refinements made to align the original story concept with the new structural foundations. What shifted? What got sharper? What complications were added based on character/world/relationship development?]
-
-**Example:**
-- Original concept had protagonist motivated by revenge; refined to ground this in character profile's fear of powerlessness (Version 1 flaw)
-- Added complication based on relationship architecture: mentor relationship creates moral dilemma when revenge target is mentor's ally
-- Sharpened stakes to reflect world constraint: magic system's cost makes the vengeful path physically unsustainable
 ```
 
 ## Important Guidelines

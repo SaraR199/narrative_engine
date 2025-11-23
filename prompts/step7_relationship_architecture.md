@@ -328,13 +328,6 @@ Structure your relationship architecture document as follows:
 
 **Character B misreads Character A:**
 [Specific blind spots or false assumptions]
-
----
-
-## Usage Notes for Scene Writing
-
-[1-2 paragraphs explaining how to use this architecture when writing scenes between these characters. Include guidance on how to signal which act phase the scene is in and what patterns should be active.]
-
 ```
 
 ---
