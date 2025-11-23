@@ -71,7 +71,7 @@ If you find yourself referencing specific character names, plot events, or world
 
 ## Output Format
 
-**WORD COUNT LIMIT: 2,500 words maximum**
+**WORD COUNT LIMIT: 3,500 words maximum**
 
 **Be concise and avoid redundancy:**
 - No repetitive explanations or examples
