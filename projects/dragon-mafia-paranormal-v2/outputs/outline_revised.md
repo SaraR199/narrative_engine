@@ -1,19 +1,5 @@
 # Story Outline (NPE-Aligned Revision)
 
-## Structural Changes Summary
-
-This revision addresses all critical and moderate NPE violations while preserving the outline's strong causality chains, supernatural cost systems, and romance structure. Major changes:
-
-**Critical Fix**: Theron killed definitively in Chapter 25 (pre-bond completion) rather than "driven off." His death removes immediate external threat per NPE Section 7 forbidden constraint. His ideology persists through Crimson Talon remnants for sequel potential without violating active threat prohibition.
-
-**Misinterpretation Integration**: Added psychological wound filtering throughout Acts 1-2. Isla now actively misinterprets Draven's protection as control/rejection (abandonment lens). Draven misinterprets Isla's boundaries as temporary obstacles (obsessive lens). These appear as scene beats, not just arc summaries.
-
-**Dramatic Irony POV Switches**: Restructured 4 key POV switches to create reader knowledge/protagonist ignorance gaps (Chapters 12, 17, 21, 23). Reader now learns antagonist plans immediately after protagonist dismisses threats.
-
-**Earlier Cassia Evidence**: Physical evidence planted in Chapters 12, 15, 17 that Isla notices but dismisses through emotional investment in believing ally. Chapter 19 revelation becomes culmination rather than sudden discovery.
-
-**POV Emotional Filtering**: Added filtering guidance showing how abandonment wound (Isla) and father's death wound (Draven) color scene-level narration, creating biased interpretation of neutral events.
-
 ---
 
 ## ACT 1: CAPTIVITY & COLLISION (Chapters 1-7, Days 1-5)
