@@ -1,8 +1,8 @@
 {
 	"workflow_version": "1.0.0",
 	"project_name": "urban-fantasy-romance-v2",
-	"current_step": "3",
-	"last_updated": "2025-11-23T03:00:00Z",
+	"current_step": "4",
+	"last_updated": "2025-11-23T03:30:00Z",
 	"steps": {
 		"1": {
 			"name": "NPE Extraction",
@@ -18,7 +18,10 @@
 		},
 		"3": {
 			"name": "Theme Extraction",
-			"status": "pending"
+			"status": "completed",
+			"started_at": "2025-11-23T03:15:00Z",
+			"completed_at": "2025-11-23T03:30:00Z",
+			"outputs_generated": ["outputs/themes.md"]
 		},
 		"4": {
 			"name": "Character Development",
