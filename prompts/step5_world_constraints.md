@@ -151,7 +151,7 @@ The aesthetic and tonal rules that create genre consistency.
 
 ## Output Format
 
-**WORD COUNT LIMIT: 2,000 words maximum**
+**WORD COUNT LIMIT: 3,000 words maximum**
 
 **Be concise and avoid redundancy:**
 - No lengthy descriptions—focus on functional limits
