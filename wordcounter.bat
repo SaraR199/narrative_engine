@@ -6,6 +6,10 @@ set /p folder=Enter the full folder path containing .md files:
 
 set totalWords=0
 
+echo.
+echo Word count for each .md file:
+echo ======================================
+
 :: Loop through all .md files in the given folder
 for %%f in ("%folder%\*.md") do (
     set /a words=0
@@ -17,9 +21,13 @@ for %%f in ("%folder%\*.md") do (
             set /a words+=1
         )
     )
+    echo %%~nxf: !words! words
     set /a totalWords+=words
 )
 
+echo ======================================
+echo.
 echo Total word count in .md files: %totalWords%
+echo.
 
 pause
