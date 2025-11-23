@@ -4,13 +4,15 @@ This document explains how Claude Code should execute the book design workflow s
 
 ## ⚠️ CRITICAL: Placeholder Injection Required
 
-**BEFORE spawning any subagent, you MUST replace ALL `{{PLACEHOLDER}}` tokens in the prompt template with actual file contents.**
+**BEFORE spawning any subagent, you MUST replace ALL `{{PLACEHOLDER}}` tokens in the prompt template with file path instructions.**
 
-**WHY:** Subagents should receive complete, ready-to-use prompts with all content embedded. This prevents:
-- Duplicate file reads (orchestrator + subagent reading the same files)
-- Context bloat in subagents
-- Slower execution
-- Confusion about which files to read
+**WHY:** Subagents should receive prompts with clear file paths to read. This prevents:
+- Duplicate file reads (orchestrator reading content just to inject it)
+- Context bloat (massive file contents embedded in prompts)
+- Token waste (orchestrator reading files it doesn't need)
+- Slower execution (bloated prompts cost more)
+
+**HOW:** Replace placeholders with instructions like: "Read the NPE from outputs/npe.md"
 
 **VALIDATION:** Before spawning, verify that the final prompt contains NO `{{` or `}}` tokens.
 
@@ -303,11 +305,11 @@ Load and parse `workflow_config.json` to get the step definition:
 - Check that all required output files from previous steps exist
 - If dependencies are missing, inform the user and stop
 
-#### 3. Load Input Files
+#### 3. Verify Input Files Exist
 
 For each entry in `inputs`:
-- Read the file from the specified path
-- Store the content with its placeholder name
+- Check that the file exists at the specified path
+- Do NOT read the file content
 - If a file doesn't exist, inform the user and stop
 
 Example:
@@ -317,18 +319,18 @@ inputs: {
   "CHARACTER_CONCEPT": "input/character-concept.md"
 }
 ```
-Load both files into memory.
+Verify both files exist (but don't read their contents).
 
 #### 4. Load the Prompt Template
 
 - Read the file from `prompts/[prompt_template]`
 - This is the base prompt for the step
 
-#### 5. Inject Inputs into Prompt Template ⚠️ CRITICAL STEP
+#### 5. Inject File Path Instructions ⚠️ CRITICAL STEP
 
 **This step is MANDATORY. Do NOT skip this step.**
 
-Replace ALL `{{PLACEHOLDER_NAME}}` tokens in the prompt template with the actual loaded file contents:
+Replace ALL `{{PLACEHOLDER_NAME}}` tokens in the prompt template with instructions to read the file:
 
 **Before injection:**
 ```markdown
@@ -339,52 +341,48 @@ Here is the story concept: {{STORY_CONCEPT}}
 
 **After injection:**
 ```markdown
-Here is the NPE: # Narrative Physics Engine v1.0
+Here is the NPE: Read the NPE from outputs/npe.md
 
-## 1. Plot Mechanics & Causality
-[... full 5000+ character contents of outputs/npe.md ...]
-
-Here is the story concept: # Story Concept: The Dragon Mafia
-
-In a world where dragons run organized crime...
-[... full contents of input/story-concept.md ...]
+Here is the story concept: Read the story concept from input/story-concept.md
 ```
 
 **Implementation:**
 ```python
-# Load all input files first
-inputs_data = {}
-for placeholder_name, file_path in step_config['inputs'].items():
-    inputs_data[placeholder_name] = read_file(file_path)
-
 # Load prompt template
 prompt_template = read_file(f"prompts/{step_config['prompt_template']}")
 
-# INJECT: Replace all placeholders
+# INJECT: Replace all placeholders with file path instructions
 final_prompt = prompt_template
-for placeholder_name, file_content in inputs_data.items():
+for placeholder_name, file_path in step_config['inputs'].items():
     placeholder_token = f"{{{{{placeholder_name}}}}}"  # e.g., "{{NPE}}"
-    final_prompt = final_prompt.replace(placeholder_token, file_content)
+
+    # Handle wildcards (e.g., outputs/character_*.md)
+    if '*' in file_path:
+        instruction = f"Read all files matching {file_path}"
+    else:
+        instruction = f"Read the {placeholder_name.lower().replace('_', ' ')} from {file_path}"
+
+    final_prompt = final_prompt.replace(placeholder_token, instruction)
 
 # VALIDATE: Ensure no placeholders remain
 if "{{" in final_prompt or "}}" in final_prompt:
     raise Error("Placeholder injection failed! Remaining tokens found in prompt.")
 
-# Now spawn subagent with fully-injected prompt
+# Now spawn subagent with path-injected prompt
 ```
 
-**Common Placeholders:**
-- `{{NPE}}` → Full contents of `outputs/npe.md`
-- `{{STORY_CONCEPT}}` → Full contents of `input/story-concept.md`
-- `{{CHARACTERS_CONCEPT}}` → Full contents of `input/characters-concept.md`
-- `{{WORLD_CONCEPT}}` → Full contents of `input/world-concept.md`
-- `{{DRAMATIC_SPINE}}` → Full contents of `outputs/dramatic_spine.md`
-- `{{THEMES}}` → Full contents of `outputs/themes.md`
-- `{{CHARACTER_PROFILES}}` → All `outputs/character_*.md` files concatenated
-- `{{OUTLINE_CONTENT}}` → Full contents of `input/existing_outline.md`
-- `{{NPE_TEMPLATE}}` → Full contents of `templates/npe_template`
-- `{{MAIN_CHARACTER_TEMPLATE}}` → Full contents of `templates/main_character_template_v1.1.md`
-- `{{SECONDARY_CHARACTER_TEMPLATE}}` → Full contents of `templates/secondary_character_template_v1.0.md`
+**Common Placeholder Injections:**
+- `{{NPE}}` → "Read the npe from outputs/npe.md"
+- `{{STORY_CONCEPT}}` → "Read the story concept from input/story-concept.md"
+- `{{CHARACTERS_CONCEPT}}` → "Read the characters concept from input/characters-concept.md"
+- `{{WORLD_CONCEPT}}` → "Read the world concept from input/world-concept.md"
+- `{{DRAMATIC_SPINE}}` → "Read the dramatic spine from outputs/dramatic_spine.md"
+- `{{THEMES}}` → "Read the themes from outputs/themes.md"
+- `{{CHARACTER_PROFILES}}` → "Read all files matching outputs/character_*.md"
+- `{{OUTLINE_CONTENT}}` → "Read the outline content from input/existing_outline.md"
+- `{{NPE_TEMPLATE}}` → "Read the npe template from templates/npe_template"
+- `{{MAIN_CHARACTER_TEMPLATE}}` → "Read the main character template from templates/main_character_template_v1.1.md"
+- `{{SECONDARY_CHARACTER_TEMPLATE}}` → "Read the secondary character template from templates/secondary_character_template_v1.0.md"
 
 #### 6. Build the Complete Agent Prompt
 
@@ -392,11 +390,12 @@ The final prompt sent to the subagent consists of:
 
 **The agent is already loaded via the agent_type field** - Claude Code's Task tool will automatically load the agent definition from `.claude/agents/[agent_type].md` when you specify the subagent_type parameter.
 
-You just need to pass the **fully-injected prompt** (from step 5) as the task prompt.
+You just need to pass the **path-injected prompt** (from step 5) as the task prompt.
 
 **IMPORTANT:** The prompt parameter must contain:
-- ✅ The fully-injected prompt with all file contents embedded
+- ✅ The path-injected prompt with file path instructions replacing all placeholders
 - ❌ NOT the raw template with `{{PLACEHOLDERS}}` still in it
+- ❌ NOT file contents embedded in the prompt
 
 #### 7. Update State: Mark Step as In Progress
 
@@ -417,19 +416,19 @@ write('projects/{project-name}/workflow_state.json', state)
 
 #### 8. Spawn the Subagent
 
-Use the Task tool to spawn the specialized agent with the **fully-injected prompt**:
+Use the Task tool to spawn the specialized agent with the **path-injected prompt**:
 
 ```
 Task tool parameters:
 - subagent_type: [agent_type from config]
-- prompt: [final_prompt from step 5 - all placeholders replaced]
+- prompt: [final_prompt from step 5 - all placeholders replaced with file paths]
 - description: [brief description of what this step does]
 - model: [model from config, or default to sonnet]
 ```
 
 **Correct Example:**
 ```python
-# After placeholder injection in step 5
+# After path injection in step 5
 final_prompt = """# Task: Extract High-Level Dramatic Spine
 
 You are analyzing three foundational documents...
@@ -437,36 +436,24 @@ You are analyzing three foundational documents...
 ## Input Documents
 
 ### Story Concept
-# Story Concept: The Dragon Mafia
-
-In a world where dragons run organized crime...
-[... full 2000+ characters ...]
+Read the story concept from input/story-concept.md
 
 ### Characters Concept
-# Main Characters
-
-Sarah Chen: A human detective who...
-[... full 1500+ characters ...]
+Read the characters concept from input/characters-concept.md
 
 ### World Concept
-# World: Neo-Tokyo 2145
+Read the world concept from input/world-concept.md
 
-The city is divided into...
-[... full 3000+ characters ...]
-
-### Narrative Physics Engine
-# Narrative Physics Engine v1.0
-
-## 1. Plot Mechanics
-[... full 5000+ characters ...]
+### Narrative Physics Engine (Your Writing Constraints)
+Read the npe from outputs/npe.md
 
 ## Your Task
 Analyze the three concept documents..."""
 
-# Now spawn with the COMPLETE prompt
+# Now spawn with the path-injected prompt
 Task(
   subagent_type="story-architect",
-  prompt=final_prompt,  # ✅ All content embedded, NO placeholders
+  prompt=final_prompt,  # ✅ File paths injected, NO placeholders
   description="Extract dramatic spine",
   model="sonnet"
 )
@@ -486,7 +473,7 @@ Task(
   description="Extract dramatic spine",
   model="sonnet"
 )
-# This will cause the subagent to read files again!
+# This will fail validation!
 ```
 
 #### 9. Save the Output
@@ -565,12 +552,13 @@ User says: **"Run step 2"**
 
 2. **Check dependencies**: Verify Step 1 completed by checking `outputs/npe.md` exists
 
-3. **Load inputs**:
+3. **Verify inputs exist**:
    ```python
-   story_concept = read('input/story-concept.md')        # 2000 chars
-   characters_concept = read('input/characters-concept.md')  # 1500 chars
-   world_concept = read('input/world-concept.md')        # 3000 chars
-   npe = read('outputs/npe.md')                          # 5000 chars
+   # Check that all required files exist (but don't read them)
+   verify_exists('input/story-concept.md')
+   verify_exists('input/characters-concept.md')
+   verify_exists('input/world-concept.md')
+   verify_exists('outputs/npe.md')
    ```
 
 4. **Load prompt template**: Read `prompts/step2_dramatic_spine.md`
@@ -578,22 +566,22 @@ User says: **"Run step 2"**
    prompt_template = read('prompts/step2_dramatic_spine.md')  # 7654 chars with {{PLACEHOLDERS}}
    ```
 
-5. **⚠️ INJECT INPUTS (CRITICAL STEP)**:
+5. **⚠️ INJECT FILE PATHS (CRITICAL STEP)**:
    ```python
    # Start with the template
    final_prompt = prompt_template  # Contains {{PLACEHOLDERS}}
 
-   # Replace ALL placeholders with actual content
-   final_prompt = final_prompt.replace('{{STORY_CONCEPT}}', story_concept)
-   final_prompt = final_prompt.replace('{{CHARACTERS_CONCEPT}}', characters_concept)
-   final_prompt = final_prompt.replace('{{WORLD_CONCEPT}}', world_concept)
-   final_prompt = final_prompt.replace('{{NPE}}', npe)
+   # Replace ALL placeholders with file path instructions
+   final_prompt = final_prompt.replace('{{STORY_CONCEPT}}', 'Read the story concept from input/story-concept.md')
+   final_prompt = final_prompt.replace('{{CHARACTERS_CONCEPT}}', 'Read the characters concept from input/characters-concept.md')
+   final_prompt = final_prompt.replace('{{WORLD_CONCEPT}}', 'Read the world concept from input/world-concept.md')
+   final_prompt = final_prompt.replace('{{NPE}}', 'Read the npe from outputs/npe.md')
 
    # VALIDATE: No placeholders remain
    if '{{' in final_prompt or '}}' in final_prompt:
        raise Error("Placeholder injection incomplete!")
 
-   # final_prompt is now ~19,000 chars (7654 + 2000 + 1500 + 3000 + 5000)
+   # final_prompt is now ~7800 chars (7654 + short instructions)
    ```
 
 6. **Update state - mark as in_progress**:
@@ -605,17 +593,17 @@ User says: **"Run step 2"**
    write('projects/{project-name}/workflow_state.json', state)
    ```
 
-7. **Spawn subagent with fully-injected prompt**:
+7. **Spawn subagent with path-injected prompt**:
    ```python
    Task(
      subagent_type="story-architect",
-     prompt=final_prompt,  # ✅ ALL content embedded, NO {{PLACEHOLDERS}}
+     prompt=final_prompt,  # ✅ File paths injected, NO {{PLACEHOLDERS}}
      description="Extract dramatic spine from concepts",
      model="sonnet"
    )
    ```
 
-   **The subagent receives a complete prompt with all file contents already embedded. It does NOT need to read any files.**
+   **The subagent receives a prompt with file paths and will read the files itself.**
 
 8. **Save output**: When agent completes, save response to `outputs/dramatic_spine.md`
 
@@ -671,17 +659,17 @@ Both steps require:
 
 Check that all these files exist before proceeding.
 
-#### 2. Load Shared Inputs
+#### 2. Verify Shared Inputs Exist
 
-Load inputs that both steps need:
+Verify inputs that both steps need (but don't read them):
 ```
-NPE = read('outputs/npe.md')
-DRAMATIC_SPINE = read('outputs/dramatic_spine.md')
-THEMES = read('outputs/themes.md')
-CHARACTER_PROFILES = read_all('outputs/character_*.md')
+verify_exists('outputs/npe.md')
+verify_exists('outputs/dramatic_spine.md')
+verify_exists('outputs/themes.md')
+verify_exists('outputs/character_*.md')  # Check at least one exists
 ```
 
-#### 3. Load Step-Specific Inputs
+#### 3. Verify Step-Specific Inputs Exist
 
 **Step 5 needs:**
 - `input/world-concept.md`
@@ -690,31 +678,31 @@ CHARACTER_PROFILES = read_all('outputs/character_*.md')
 - `input/story-concept.md`
 - `input/characters-concept.md`
 
-#### 4. Prepare Both Prompts with Placeholder Injection
+#### 4. Prepare Both Prompts with Path Injection
 
-**⚠️ CRITICAL: Inject placeholders for BOTH steps before spawning**
+**⚠️ CRITICAL: Inject file paths for BOTH steps before spawning**
 
 ```python
 # Load prompt templates
 step5_template = read('prompts/step5_world_constraints.md')
 step6_template = read('prompts/step6_relationship_mapping.md')
 
-# Step 5: Inject placeholders
+# Step 5: Inject file paths
 step5_prompt = step5_template
-step5_prompt = step5_prompt.replace('{{WORLD_CONCEPT}}', world_concept)
-step5_prompt = step5_prompt.replace('{{NPE}}', npe)
-step5_prompt = step5_prompt.replace('{{DRAMATIC_SPINE}}', dramatic_spine)
-step5_prompt = step5_prompt.replace('{{THEMES}}', themes)
-step5_prompt = step5_prompt.replace('{{CHARACTER_PROFILES}}', all_character_files)
+step5_prompt = step5_prompt.replace('{{WORLD_CONCEPT}}', 'Read the world concept from input/world-concept.md')
+step5_prompt = step5_prompt.replace('{{NPE}}', 'Read the npe from outputs/npe.md')
+step5_prompt = step5_prompt.replace('{{DRAMATIC_SPINE}}', 'Read the dramatic spine from outputs/dramatic_spine.md')
+step5_prompt = step5_prompt.replace('{{THEMES}}', 'Read the themes from outputs/themes.md')
+step5_prompt = step5_prompt.replace('{{CHARACTER_PROFILES}}', 'Read all files matching outputs/character_*.md')
 
-# Step 6: Inject placeholders
+# Step 6: Inject file paths
 step6_prompt = step6_template
-step6_prompt = step6_prompt.replace('{{STORY_CONCEPT}}', story_concept)
-step6_prompt = step6_prompt.replace('{{CHARACTERS_CONCEPT}}', characters_concept)
-step6_prompt = step6_prompt.replace('{{CHARACTER_PROFILES}}', all_character_files)
-step6_prompt = step6_prompt.replace('{{NPE}}', npe)
-step6_prompt = step6_prompt.replace('{{DRAMATIC_SPINE}}', dramatic_spine)
-step6_prompt = step6_prompt.replace('{{THEMES}}', themes)
+step6_prompt = step6_prompt.replace('{{STORY_CONCEPT}}', 'Read the story concept from input/story-concept.md')
+step6_prompt = step6_prompt.replace('{{CHARACTERS_CONCEPT}}', 'Read the characters concept from input/characters-concept.md')
+step6_prompt = step6_prompt.replace('{{CHARACTER_PROFILES}}', 'Read all files matching outputs/character_*.md')
+step6_prompt = step6_prompt.replace('{{NPE}}', 'Read the npe from outputs/npe.md')
+step6_prompt = step6_prompt.replace('{{DRAMATIC_SPINE}}', 'Read the dramatic spine from outputs/dramatic_spine.md')
+step6_prompt = step6_prompt.replace('{{THEMES}}', 'Read the themes from outputs/themes.md')
 
 # VALIDATE both prompts
 assert '{{' not in step5_prompt and '}}' not in step5_prompt
@@ -726,17 +714,17 @@ assert '{{' not in step6_prompt and '}}' not in step6_prompt
 **Critical:** Send both Task tool calls in **one message** to run them in parallel:
 
 ```python
-# Message with TWO Task tool calls - BOTH with fully injected prompts
+# Message with TWO Task tool calls - BOTH with path-injected prompts
 Task(
     subagent_type="story-architect",
-    prompt=step5_prompt,  # ✅ Fully injected, NO placeholders
+    prompt=step5_prompt,  # ✅ File paths injected, NO placeholders
     description="Extract world constraints",
     model="sonnet"
 )
 
 Task(
     subagent_type="character-architect",
-    prompt=step6_prompt,  # ✅ Fully injected, NO placeholders
+    prompt=step6_prompt,  # ✅ File paths injected, NO placeholders
     description="Map key relationships",
     model="sonnet"
 )
@@ -777,134 +765,230 @@ Step 4 is special because `input/characters-concept.md` can contain **multiple c
 
 ### Character File Format
 
-The characters-concept file uses markers to distinguish main characters from secondary characters:
+The characters-concept file can use various formats to organize characters. Common patterns include:
 
+**Pattern 1: Explicit markers**
 ```markdown
 # MAIN CHARACTER: Sarah Chen
-[detailed concept for Sarah - protagonist]
-
+[detailed concept]
 ---
-
-# MAIN CHARACTER: Marcus Reed
-[detailed concept for Marcus - romantic lead]
-
+# SECONDARY CHARACTER: Dr. Elena
+[lighter concept]
 ---
+```
 
-# SECONDARY CHARACTER: Dr. Elena Vasquez
-[lighter concept for Elena - mentor]
+**Pattern 2: Section headers**
+```markdown
+## Main Characters
 
+### Sarah Chen
+[detailed concept]
+
+### Marcus Reed
+[detailed concept]
+
+## Key Supporting Characters
+
+### Dr. Elena Vasquez
+[lighter concept]
+
+### Detective Morrison
+[lighter concept]
+```
+
+**Pattern 3: Role-based headers**
+```markdown
+# Protagonist: Sarah Chen
+[detailed concept]
 ---
-
-# SECONDARY CHARACTER: Detective Morrison
-[lighter concept for Morrison - antagonist]
-
+# Love Interest: Marcus Reed
+[detailed concept]
+---
+# Mentor: Dr. Elena Vasquez
+[lighter concept]
 ---
 ```
 
 **Important:**
-- Characters marked with `# MAIN CHARACTER:` use the comprehensive Main Character Template (8 sections)
-- Characters marked with `# SECONDARY CHARACTER:` use the streamlined Secondary Character Template (6 sections)
-- The prompt template includes BOTH templates and instructs the subagent to use the appropriate one
-- The orchestrator doesn't need to parse character type - just split by character and inject both templates
+- Main characters (protagonists, major POV characters, co-leads) use the comprehensive Main Character Template (8 sections)
+- Secondary/supporting characters use the streamlined Secondary Character Template (6 sections)
+- The prompt template includes BOTH templates and instructs the subagent to select the appropriate one
+- The orchestrator must intelligently parse the file to identify individual characters
 
 ### Parallel Processing
 
 When executing Step 4:
 
-#### 1. Parse Character File
+#### 1. Parse Character File - Intelligent Detection
 
-Read `input/characters-concept.md` and split it into individual characters:
+**CRITICAL:** Instead of rigid parsing, use the **Explore agent** to intelligently identify characters:
 
 ```python
-# Pseudocode
+# Use Task tool with Explore agent to parse the character file
+explore_prompt = """Analyze the file at input/characters-concept.md and extract individual character information.
+
+For each character you find, provide:
+1. Character name
+2. Character type (MAIN or SECONDARY) - infer from context:
+   - MAIN: protagonist, major POV character, co-lead, primary romantic lead
+   - SECONDARY: supporting character, mentor, sidekick, antagonist (unless they're a co-protagonist)
+3. The full text of their character concept (everything related to that character)
+
+Return the information in this exact format:
+
+---CHARACTER---
+NAME: [character name]
+TYPE: [MAIN or SECONDARY]
+CONCEPT:
+[full character concept text]
+---END CHARACTER---
+
+Look for various indicators:
+- Section headers like "## Main Characters", "## Supporting Cast", "## Key Supporting Characters"
+- Explicit markers like "# MAIN CHARACTER:", "# SECONDARY CHARACTER:"
+- Role indicators like "Protagonist:", "Love Interest:", "Mentor:", "Sidekick:"
+- Character importance in the narrative description
+- Level of detail (more detailed = likely main character)
+
+Be thorough - extract ALL characters from the file."""
+
+# Spawn Explore agent to parse characters
+parsed_result = Task(
+    subagent_type="Explore",
+    prompt=explore_prompt,
+    description="Parse characters from concept file",
+    model="haiku"  # Fast model for parsing
+)
+
+# Parse the structured output
 characters = []
-# Split on both MAIN CHARACTER and SECONDARY CHARACTER markers
-sections = character_file.split('# MAIN CHARACTER:') + character_file.split('# SECONDARY CHARACTER:')
+character_blocks = parsed_result.split('---CHARACTER---')
+for block in character_blocks[1:]:  # Skip first empty section
+    lines = block.split('---END CHARACTER---')[0].strip().split('\n')
 
-# Alternative: Use regex to split on either marker
-import re
-sections = re.split(r'# (?:MAIN|SECONDARY) CHARACTER:', character_file)
+    name = None
+    char_type = None
+    concept_lines = []
+    in_concept = False
 
-for section in sections[1:]:  # Skip first empty section
-    lines = section.strip().split('\n')
-    name = lines[0].strip()  # First line is the name
-    concept = '\n'.join(lines[1:]).split('---')[0].strip()  # Content until ---
+    for line in lines:
+        if line.startswith('NAME:'):
+            name = line.replace('NAME:', '').strip()
+        elif line.startswith('TYPE:'):
+            char_type = line.replace('TYPE:', '').strip()
+        elif line.startswith('CONCEPT:'):
+            in_concept = True
+        elif in_concept:
+            concept_lines.append(line)
 
-    # Determine character type from original marker (for filename purposes)
-    # But the subagent will auto-detect from the concept content
-    characters.append({'name': name, 'concept': section.strip()})
+    if name and char_type:
+        characters.append({
+            'name': name,
+            'type': char_type,  # MAIN or SECONDARY
+            'concept': '\n'.join(concept_lines).strip()
+        })
 ```
 
-Example result:
+**Alternative: Direct Parsing (if file format is predictable)**
+
+If you can reliably detect character boundaries (e.g., consistent use of `---` separators or `###` headers), you can parse directly:
+
+```python
+# Read the file
+character_file = read('input/characters-concept.md')
+
+# Try to detect format and parse accordingly
+characters = []
+
+# Look for common patterns
+if '# MAIN CHARACTER:' in character_file or '# SECONDARY CHARACTER:' in character_file:
+    # Pattern 1: Explicit markers
+    sections = re.split(r'# (MAIN|SECONDARY) CHARACTER:', character_file)
+    # Parse sections...
+elif '## Main Characters' in character_file or '## Supporting' in character_file:
+    # Pattern 2: Section headers
+    # Parse by sections...
+else:
+    # Fallback: Use Explore agent (shown above)
+    pass
+```
+
+**Recommendation:** For maximum flexibility and reliability, **always use the Explore agent** to parse characters. This handles:
+- Any file format variation
+- Inconsistent formatting
+- Edge cases (characters without clear markers)
+- Intelligent inference of character type from context
+
+Example result after parsing:
 ```python
 [
-  {'name': 'Sarah Chen', 'concept': 'Sarah Chen\n[Role:]...[detailed concept]'},
-  {'name': 'Marcus Reed', 'concept': 'Marcus Reed\n[Role:]...[detailed concept]'},
-  {'name': 'Dr. Elena Vasquez', 'concept': 'Dr. Elena Vasquez\n[Role:]...[lighter concept]'}
+  {'name': 'Sarah Chen', 'type': 'MAIN', 'concept': 'Sarah is a...[detailed concept]'},
+  {'name': 'Marcus Reed', 'type': 'MAIN', 'concept': 'Marcus is a...[detailed concept]'},
+  {'name': 'Dr. Elena Vasquez', 'type': 'SECONDARY', 'concept': 'Dr. Elena is a...[lighter concept]'}
 ]
 ```
 
-**Note:** The orchestrator doesn't need to determine character type - just extract each character's full concept block. The subagent prompt includes both templates and will select the appropriate one based on the `# MAIN CHARACTER:` or `# SECONDARY CHARACTER:` marker in the concept.
+**Note:** The character type (MAIN vs SECONDARY) helps the orchestrator understand the character's importance, but the subagent will ultimately read both templates and select the appropriate one based on the character concept details.
 
-#### 2. Load Shared Inputs
+#### 2. Verify Shared Inputs Exist
 
-Load inputs that ALL characters will need:
+Verify inputs that ALL characters will need (but don't read them):
 ```python
-# Load BOTH templates - the prompt includes both and the subagent selects the right one
-main_template_content = read('templates/main_character_template_v1.1.md')
-secondary_template_content = read('templates/secondary_character_template_v1.0.md')
+# Verify BOTH templates exist
+verify_exists('templates/main_character_template_v1.1.md')
+verify_exists('templates/secondary_character_template_v1.0.md')
 
-# Load shared workflow outputs
-npe_content = read('outputs/npe.md')
-dramatic_spine = read('outputs/dramatic_spine.md')
-themes = read('outputs/themes.md')
+# Verify shared workflow outputs exist
+verify_exists('outputs/npe.md')
+verify_exists('outputs/dramatic_spine.md')
+verify_exists('outputs/themes.md')
 ```
 
-#### 3. Spawn Parallel Subagents with Placeholder Injection
+#### 3. Spawn Parallel Subagents with Path Injection
 
-For each character, **inject placeholders** (including BOTH templates) then spawn a separate character-architect agent **in parallel**:
+For each character, **inject file paths** then spawn a separate character-architect agent **in parallel**:
 
 ```python
-# Prepare ALL prompts with placeholder injection BEFORE spawning
+# Prepare ALL prompts with path injection BEFORE spawning
 character_prompts = []
 
 for character in characters:
     # Load prompt template
     prompt_template = read('prompts/step4_character_development.md')
 
-    # ⚠️ INJECT PLACEHOLDERS for this character
+    # ⚠️ INJECT FILE PATHS for this character
     char_prompt = prompt_template
-    char_prompt = char_prompt.replace('{{CHARACTER_CONCEPT}}', character['concept'])
+    char_prompt = char_prompt.replace('{{CHARACTER_CONCEPT}}', character['concept'])  # This is embedded since it's parsed
 
-    # Inject BOTH templates - the subagent will select the appropriate one
-    char_prompt = char_prompt.replace('{{MAIN_CHARACTER_TEMPLATE}}', main_template_content)
-    char_prompt = char_prompt.replace('{{SECONDARY_CHARACTER_TEMPLATE}}', secondary_template_content)
+    # Inject template file paths - the subagent will read and select the appropriate one
+    char_prompt = char_prompt.replace('{{MAIN_CHARACTER_TEMPLATE}}', 'Read the main character template from templates/main_character_template_v1.1.md')
+    char_prompt = char_prompt.replace('{{SECONDARY_CHARACTER_TEMPLATE}}', 'Read the secondary character template from templates/secondary_character_template_v1.0.md')
 
-    # Inject shared workflow outputs
-    char_prompt = char_prompt.replace('{{NPE}}', npe_content)
-    char_prompt = char_prompt.replace('{{DRAMATIC_SPINE}}', dramatic_spine)
-    char_prompt = char_prompt.replace('{{THEMES}}', themes)
+    # Inject shared workflow output file paths
+    char_prompt = char_prompt.replace('{{NPE}}', 'Read the npe from outputs/npe.md')
+    char_prompt = char_prompt.replace('{{DRAMATIC_SPINE}}', 'Read the dramatic spine from outputs/dramatic_spine.md')
+    char_prompt = char_prompt.replace('{{THEMES}}', 'Read the themes from outputs/themes.md')
 
     # VALIDATE: No placeholders remain
     assert '{{' not in char_prompt and '}}' not in char_prompt
 
     character_prompts.append({
         'name': character['name'],
-        'prompt': char_prompt  # Fully injected
+        'prompt': char_prompt  # Path-injected
     })
 
 # Now spawn ALL characters in a SINGLE message (parallel execution)
 for char_data in character_prompts:
     Task(
         subagent_type="character-architect",
-        prompt=char_data['prompt'],  # ✅ Fully injected, NO placeholders
+        prompt=char_data['prompt'],  # ✅ File paths injected, NO placeholders
         description=f"Develop character profile for {char_data['name']}",
         model="sonnet"
     )
 ```
 
 **Critical:**
-1. **Inject ALL placeholders** before spawning any agents
+1. **Inject ALL file paths** before spawning any agents
 2. **Validate** each prompt has no remaining `{{PLACEHOLDERS}}`
 3. Send all Task tool calls in a **single message** to run them in parallel
 4. Don't wait for one to complete before spawning the next
@@ -1030,49 +1114,55 @@ Example result:
 ]
 ```
 
-#### 2. Load Character Profiles and Shared Inputs
+#### 2. Build Character Profile File Paths
 
-For each relationship, you'll need both character profiles plus shared inputs:
+For each relationship, build the file paths to both character profiles:
 
 ```python
-# Load shared inputs (used by all relationships)
-npe_content = read('outputs/npe.md')
-dramatic_spine_content = read('outputs/dramatic_spine.md')
-themes_content = read('outputs/themes.md')
-world_constraints_content = read('outputs/world_constraints.md')
-
-# Load all character profiles into a dictionary
-char_profiles = {}
+# Build file paths for character profiles
+char_profile_paths = {}
 for relationship in relationships:
-    if relationship['char_a'] not in char_profiles:
-        char_profiles[relationship['char_a']] = read(f"outputs/character_{clean_name(relationship['char_a'])}.md")
-    if relationship['char_b'] not in char_profiles:
-        char_profiles[relationship['char_b']] = read(f"outputs/character_{clean_name(relationship['char_b'])}.md")
+    char_a_name = relationship['char_a']
+    char_b_name = relationship['char_b']
+
+    # Build file paths (spaces become underscores)
+    char_profile_paths[char_a_name] = f"outputs/character_{char_a_name.replace(' ', '_')}.md"
+    char_profile_paths[char_b_name] = f"outputs/character_{char_b_name.replace(' ', '_')}.md"
+
+    # Verify files exist
+    verify_exists(char_profile_paths[char_a_name])
+    verify_exists(char_profile_paths[char_b_name])
+
+# Verify shared inputs exist
+verify_exists('outputs/npe.md')
+verify_exists('outputs/dramatic_spine.md')
+verify_exists('outputs/themes.md')
+verify_exists('outputs/world_constraints.md')
 ```
 
 Note: Character filenames use underscores for spaces (e.g., `character_Sarah_Chen.md`)
 
-#### 3. Spawn Parallel Subagents with Placeholder Injection
+#### 3. Spawn Parallel Subagents with Path Injection
 
-For each relationship, **inject placeholders** then spawn a separate character-architect agent **in parallel**:
+For each relationship, **inject file paths** then spawn a separate character-architect agent **in parallel**:
 
 ```python
-# Prepare ALL prompts with placeholder injection BEFORE spawning
+# Prepare ALL prompts with path injection BEFORE spawning
 relationship_prompts = []
 
 for relationship in relationships:
     # Load template
     prompt_template = read('prompts/step7_relationship_architecture.md')
 
-    # ⚠️ INJECT PLACEHOLDERS for this relationship
+    # ⚠️ INJECT FILE PATHS for this relationship
     rel_prompt = prompt_template
-    rel_prompt = rel_prompt.replace('{{RELATIONSHIP_MAPPING}}', relationship['content'])
-    rel_prompt = rel_prompt.replace('{{CHARACTER_A_PROFILE}}', char_profiles[relationship['char_a']])
-    rel_prompt = rel_prompt.replace('{{CHARACTER_B_PROFILE}}', char_profiles[relationship['char_b']])
-    rel_prompt = rel_prompt.replace('{{NPE}}', npe_content)
-    rel_prompt = rel_prompt.replace('{{DRAMATIC_SPINE}}', dramatic_spine_content)
-    rel_prompt = rel_prompt.replace('{{THEMES}}', themes_content)
-    rel_prompt = rel_prompt.replace('{{WORLD_CONSTRAINTS}}', world_constraints_content)
+    rel_prompt = rel_prompt.replace('{{RELATIONSHIP_MAPPING}}', relationship['content'])  # This is embedded since it's parsed
+    rel_prompt = rel_prompt.replace('{{CHARACTER_A_PROFILE}}', f"Read the character profile from {char_profile_paths[relationship['char_a']]}")
+    rel_prompt = rel_prompt.replace('{{CHARACTER_B_PROFILE}}', f"Read the character profile from {char_profile_paths[relationship['char_b']]}")
+    rel_prompt = rel_prompt.replace('{{NPE}}', 'Read the npe from outputs/npe.md')
+    rel_prompt = rel_prompt.replace('{{DRAMATIC_SPINE}}', 'Read the dramatic spine from outputs/dramatic_spine.md')
+    rel_prompt = rel_prompt.replace('{{THEMES}}', 'Read the themes from outputs/themes.md')
+    rel_prompt = rel_prompt.replace('{{WORLD_CONSTRAINTS}}', 'Read the world constraints from outputs/world_constraints.md')
 
     # VALIDATE: No placeholders remain
     assert '{{' not in rel_prompt and '}}' not in rel_prompt
@@ -1080,21 +1170,21 @@ for relationship in relationships:
     relationship_prompts.append({
         'char_a': relationship['char_a'],
         'char_b': relationship['char_b'],
-        'prompt': rel_prompt  # Fully injected
+        'prompt': rel_prompt  # Path-injected
     })
 
 # Now spawn ALL relationships in a SINGLE message (parallel execution)
 for rel_data in relationship_prompts:
     Task(
         subagent_type="character-architect",
-        prompt=rel_data['prompt'],  # ✅ Fully injected, NO placeholders
+        prompt=rel_data['prompt'],  # ✅ File paths injected, NO placeholders
         description=f"Architect relationship: {rel_data['char_a']} & {rel_data['char_b']}",
         model="sonnet"
     )
 ```
 
 **Critical:**
-1. **Inject ALL placeholders** before spawning any agents
+1. **Inject ALL file paths** before spawning any agents
 2. **Validate** each prompt has no remaining `{{PLACEHOLDERS}}`
 3. Send all Task tool calls in a **single message** to run them in parallel
 4. Don't wait for one to complete before spawning the next
@@ -1170,29 +1260,30 @@ You may want to review the inputs and try again."
 
 ## Key Principles
 
-1. **Placeholder Injection is MANDATORY**: Always replace `{{PLACEHOLDERS}}` before spawning subagents
-2. **Minimal Context**: Only load files specified in `inputs` - don't load the entire codebase
-3. **Sequential Dependencies**: Respect `depends_on` - never skip required steps
-4. **Clear Communication**: Tell the user what you're doing at each stage
-5. **Error Recovery**: Provide helpful error messages with clear next actions
-6. **Agent Trust**: Trust the specialized agents' outputs - they're designed for their tasks
+1. **Path Injection is MANDATORY**: Always replace `{{PLACEHOLDERS}}` with file path instructions before spawning subagents
+2. **Minimal Orchestrator Work**: Only verify files exist - don't read file contents
+3. **Let Subagents Read**: Subagents read their own files - orchestrator provides paths only
+4. **Sequential Dependencies**: Respect `depends_on` - never skip required steps
+5. **Clear Communication**: Tell the user what you're doing at each stage
+6. **Error Recovery**: Provide helpful error messages with clear next actions
+7. **Agent Trust**: Trust the specialized agents' outputs - they're designed for their tasks
 
 ## Troubleshooting
 
-### Problem: Subagent is reading input files again
+### Problem: Placeholder tokens still in prompt
 
-**Symptom:** You notice the orchestrator reads files, then the subagent ALSO reads the same files.
+**Symptom:** You see `{{PLACEHOLDER}}` tokens in the spawned subagent's prompt.
 
-**Root Cause:** Placeholder injection was skipped. The subagent received a prompt with `{{PLACEHOLDERS}}` still in it.
+**Root Cause:** Path injection was skipped. The subagent received a prompt with `{{PLACEHOLDERS}}` still in it.
 
 **Solution:**
-1. **Verify step 5 was executed** - Check that you performed placeholder replacement
+1. **Verify step 5 was executed** - Check that you performed path injection
 2. **Validate the final prompt** - Before spawning, check: `if "{{" in final_prompt: raise Error()`
 3. **Check the Task call** - Ensure you're passing `final_prompt`, not `prompt_template`
 
 **Example of the bug:**
 ```python
-# ❌ BUG: Skipping placeholder injection
+# ❌ BUG: Skipping path injection
 prompt_template = read('prompts/step2_dramatic_spine.md')
 Task(
   subagent_type="story-architect",
@@ -1203,21 +1294,19 @@ Task(
 
 **Correct implementation:**
 ```python
-# ✅ CORRECT: Full placeholder injection
+# ✅ CORRECT: Path injection
 prompt_template = read('prompts/step2_dramatic_spine.md')
-npe_content = read('outputs/npe.md')
-story_content = read('input/story-concept.md')
 
 final_prompt = prompt_template
-final_prompt = final_prompt.replace('{{NPE}}', npe_content)
-final_prompt = final_prompt.replace('{{STORY_CONCEPT}}', story_content)
+final_prompt = final_prompt.replace('{{NPE}}', 'Read the npe from outputs/npe.md')
+final_prompt = final_prompt.replace('{{STORY_CONCEPT}}', 'Read the story concept from input/story-concept.md')
 
 # Validate
 assert '{{' not in final_prompt, "Placeholders still present!"
 
 Task(
   subagent_type="story-architect",
-  prompt=final_prompt,  # ✅ All content injected
+  prompt=final_prompt,  # ✅ File paths injected
   ...
 )
 ```
@@ -1226,20 +1315,24 @@ Task(
 
 **Symptom:** Subagent tries to read a file but can't find it.
 
-**Root Cause:** Placeholder not replaced, subagent tries to read the file path literally.
+**Root Cause:** File path is incorrect (absolute instead of relative, or file doesn't exist).
 
-**Solution:** Ensure placeholder injection happened. The subagent should NEVER need to read files.
+**Solution:**
+1. Verify the file exists before spawning the subagent
+2. Use relative paths from the project root (e.g., `outputs/npe.md` not `/absolute/path/to/outputs/npe.md`)
+3. Check for typos in the file path
 
 ### Validation Checklist
 
 Before spawning ANY subagent, verify:
 
-- [ ] All input files loaded from `step_config['inputs']`
+- [ ] All input files exist (verified, not read) from `step_config['inputs']`
 - [ ] Prompt template loaded from `prompts/[step_config['prompt_template']]`
-- [ ] All `{{PLACEHOLDER}}` tokens replaced with actual file contents
+- [ ] All `{{PLACEHOLDER}}` tokens replaced with file path instructions
 - [ ] Final prompt contains NO `{{` or `}}` characters
-- [ ] Final prompt is significantly longer than template (because file contents are embedded)
+- [ ] File paths are relative (e.g., `outputs/npe.md` not absolute paths)
 - [ ] Using `final_prompt` variable, NOT `prompt_template` in Task call
+- [ ] Wildcards handled properly (e.g., `outputs/character_*.md` becomes "Read all files matching...")
 
 ## Notes for Future Steps
 
