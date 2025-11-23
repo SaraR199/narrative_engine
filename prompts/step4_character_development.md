@@ -109,6 +109,16 @@ This character must align with the established dramatic and thematic architectur
 
 ## Output Format
 
+**WORD COUNT LIMITS:**
+- **Main characters: 2,000 words maximum**
+- **Secondary characters: 800 words maximum**
+
+**Be concise and avoid redundancy:**
+- No repetitive phrasing across sections
+- Eliminate verbose explanations—show through specific examples
+- Keep emotional palette variations distinct, not repetitive
+- Avoid over-explaining psychological connections—trust the reader
+
 Produce a complete character profile document with:
 
 **For MAIN CHARACTERS:**

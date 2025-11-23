@@ -83,6 +83,14 @@ For each violation, suggest **specific fixes**:
 
 ## Output Format
 
+**WORD COUNT LIMIT: 2,000 words maximum**
+
+**Be concise and avoid redundancy:**
+- Focus on critical violations—don't list every minor issue
+- Keep violation descriptions brief but specific
+- Group similar violations together
+- Prioritize actionable feedback over exhaustive analysis
+
 Your report should be structured markdown with these sections:
 
 ### 1. Executive Summary

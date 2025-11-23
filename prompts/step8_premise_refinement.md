@@ -140,6 +140,14 @@ A brief note on the premise's intended tonal feel.
 
 ## Output Format
 
+**WORD COUNT LIMIT: 1,200 words maximum**
+
+**Be concise and avoid redundancy:**
+- Keep each section focused and specific
+- No repetitive explanations across sections
+- Eliminate verbose elaborations on constraints
+- Be direct about stakes and complications
+
 Structure your refined premise as follows:
 
 ```markdown

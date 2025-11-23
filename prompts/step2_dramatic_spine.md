@@ -113,6 +113,14 @@ Create the 5-step emotional progression for THIS story based on the concepts pro
 
 ## Output Format
 
+**WORD COUNT LIMIT: 1,200 words maximum**
+
+**Be concise and avoid redundancy:**
+- Keep descriptions focused and specific
+- No repetitive explanations across sections
+- Eliminate verbose elaborations
+- Use clear, direct language
+
 Structure your response as follows:
 
 ```markdown

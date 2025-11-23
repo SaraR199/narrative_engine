@@ -70,6 +70,13 @@ You will receive:
 
 ## Output Format
 
+**WORD COUNT LIMIT: 1,000 words maximum**
+
+**Be concise and avoid redundancy:**
+- Keep rationales focused—2-3 sentences, not paragraphs
+- No verbose explanations of why themes matter
+- Be direct and specific to THIS story
+
 Provide your analysis in this structure:
 
 ### Main Theme Question

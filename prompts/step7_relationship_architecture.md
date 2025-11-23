@@ -171,6 +171,16 @@ Define the communication dynamics between these two characters:
 
 ## Output Format
 
+**WORD COUNT LIMITS:**
+- **Main romance relationship: 2,000 words maximum**
+- **Other relationships: 1,000 words maximum**
+
+**Be concise and avoid redundancy:**
+- No repetitive phrasing across friction/connection patterns
+- Keep tension axis descriptions focused
+- Eliminate verbose explanations of relationship dynamics
+- Avoid over-elaborating on act-by-act evolution—be specific but brief
+
 Structure your relationship architecture document as follows:
 
 ```markdown

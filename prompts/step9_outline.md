@@ -88,6 +88,14 @@ For each major sequence within the acts, specify:
 
 ## Output Format
 
+**WORD COUNT LIMIT: 8,000 words maximum**
+
+**Be concise and avoid redundancy:**
+- No repetitive phrasing across sequences or acts
+- Keep scene descriptions focused on causality and character psychology
+- Eliminate verbose explanations—trust the structure to speak for itself
+- Avoid over-elaborating on every detail—focus on turning points and key beats
+
 Structure your outline as follows:
 
 ```markdown

@@ -70,6 +70,13 @@ For a novel, expect to identify:
 
 ## Output Format
 
+**WORD COUNT LIMIT: 1,000 words maximum**
+
+**Be concise and avoid redundancy:**
+- Keep relationship descriptions focused on what matters for plot/theme
+- No verbose explanations—state why the relationship matters and move on
+- Eliminate repetitive phrasing across relationships
+
 For each identified relationship, provide:
 
 ```markdown
