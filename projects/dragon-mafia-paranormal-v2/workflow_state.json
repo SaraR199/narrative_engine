@@ -1,8 +1,8 @@
 {
   "workflow_version": "1.0.0",
   "project_name": "dragon-mafia-paranormal-v2",
-  "current_step": "11",
-  "last_updated": "2025-11-23T02:35:00Z",
+  "current_step": null,
+  "last_updated": "2025-11-23T02:50:00Z",
   "steps": {
     "1": {
       "name": "NPE Extraction",
@@ -91,7 +91,10 @@
     },
     "11": {
       "name": "Outline Rewrite",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2025-11-23T02:40:00Z",
+      "completed_at": "2025-11-23T02:50:00Z",
+      "outputs_generated": ["outputs/outline_revised.md"]
     }
   }
 }
