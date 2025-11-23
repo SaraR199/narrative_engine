@@ -3,27 +3,6 @@
 
 **Working Title:** Storm & Fire
 
----
-
-## Structural Changes Summary
-
-This revision addresses critical NPE violations while preserving the outline's structural strengths. **Major changes:**
-
-1. **Act 3 Bond Completion Restructured**: Bond ceremony now INTERRUPTED by Viktor's escape (Ch 22), completes DURING final battle through synchronized magical working (Ch 23)—making romance resolution integral to plot victory
-
-2. **Viktor's Escape Setup**: Added foreshadowing in Chapters 19-21 (Alexei's warning, Viktor's subtle signs, established blood magic cost)
-
-3. **Information Revelation Pacing**: Alexei's Chapter 10 revelation split across Chapters 10-12, each discovery generating next urgent question
-
-4. **Ability Constraints Demonstrated**: Misha's danger-sense shown functioning (Ch 7) before limitation revealed; truth-seeking "static" given visceral physical description
-
-5. **Earned Expertise**: Sera practices crowd truth-seeking across Chapters 13-15, establishing limitations before Chapter 21 success
-
-6. **Clue Specificity**: Added 5 concrete dismissed clues in Act 1 (Chapters 2-8) for stronger recontextualization
-
-**Strengths preserved:** Investigation-driven causality, character wound integration, supernatural costs, setup-payoff pairs, relationship evolution through action.
-
----
 
 # ACT 1: ENEMIES FORCED INTO PROXIMITY
 
