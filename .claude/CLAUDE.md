@@ -765,74 +765,170 @@ Step 4 is special because `input/characters-concept.md` can contain **multiple c
 
 ### Character File Format
 
-The characters-concept file uses markers to distinguish main characters from secondary characters:
+The characters-concept file can use various formats to organize characters. Common patterns include:
 
+**Pattern 1: Explicit markers**
 ```markdown
 # MAIN CHARACTER: Sarah Chen
-[detailed concept for Sarah - protagonist]
-
+[detailed concept]
 ---
-
-# MAIN CHARACTER: Marcus Reed
-[detailed concept for Marcus - romantic lead]
-
+# SECONDARY CHARACTER: Dr. Elena
+[lighter concept]
 ---
+```
 
-# SECONDARY CHARACTER: Dr. Elena Vasquez
-[lighter concept for Elena - mentor]
+**Pattern 2: Section headers**
+```markdown
+## Main Characters
 
+### Sarah Chen
+[detailed concept]
+
+### Marcus Reed
+[detailed concept]
+
+## Key Supporting Characters
+
+### Dr. Elena Vasquez
+[lighter concept]
+
+### Detective Morrison
+[lighter concept]
+```
+
+**Pattern 3: Role-based headers**
+```markdown
+# Protagonist: Sarah Chen
+[detailed concept]
 ---
-
-# SECONDARY CHARACTER: Detective Morrison
-[lighter concept for Morrison - antagonist]
-
+# Love Interest: Marcus Reed
+[detailed concept]
+---
+# Mentor: Dr. Elena Vasquez
+[lighter concept]
 ---
 ```
 
 **Important:**
-- Characters marked with `# MAIN CHARACTER:` use the comprehensive Main Character Template (8 sections)
-- Characters marked with `# SECONDARY CHARACTER:` use the streamlined Secondary Character Template (6 sections)
-- The prompt template includes BOTH templates and instructs the subagent to use the appropriate one
-- The orchestrator doesn't need to parse character type - just split by character and inject both templates
+- Main characters (protagonists, major POV characters, co-leads) use the comprehensive Main Character Template (8 sections)
+- Secondary/supporting characters use the streamlined Secondary Character Template (6 sections)
+- The prompt template includes BOTH templates and instructs the subagent to select the appropriate one
+- The orchestrator must intelligently parse the file to identify individual characters
 
 ### Parallel Processing
 
 When executing Step 4:
 
-#### 1. Parse Character File
+#### 1. Parse Character File - Intelligent Detection
 
-Read `input/characters-concept.md` and split it into individual characters:
+**CRITICAL:** Instead of rigid parsing, use the **Explore agent** to intelligently identify characters:
 
 ```python
-# Pseudocode
+# Use Task tool with Explore agent to parse the character file
+explore_prompt = """Analyze the file at input/characters-concept.md and extract individual character information.
+
+For each character you find, provide:
+1. Character name
+2. Character type (MAIN or SECONDARY) - infer from context:
+   - MAIN: protagonist, major POV character, co-lead, primary romantic lead
+   - SECONDARY: supporting character, mentor, sidekick, antagonist (unless they're a co-protagonist)
+3. The full text of their character concept (everything related to that character)
+
+Return the information in this exact format:
+
+---CHARACTER---
+NAME: [character name]
+TYPE: [MAIN or SECONDARY]
+CONCEPT:
+[full character concept text]
+---END CHARACTER---
+
+Look for various indicators:
+- Section headers like "## Main Characters", "## Supporting Cast", "## Key Supporting Characters"
+- Explicit markers like "# MAIN CHARACTER:", "# SECONDARY CHARACTER:"
+- Role indicators like "Protagonist:", "Love Interest:", "Mentor:", "Sidekick:"
+- Character importance in the narrative description
+- Level of detail (more detailed = likely main character)
+
+Be thorough - extract ALL characters from the file."""
+
+# Spawn Explore agent to parse characters
+parsed_result = Task(
+    subagent_type="Explore",
+    prompt=explore_prompt,
+    description="Parse characters from concept file",
+    model="haiku"  # Fast model for parsing
+)
+
+# Parse the structured output
 characters = []
-# Split on both MAIN CHARACTER and SECONDARY CHARACTER markers
-sections = character_file.split('# MAIN CHARACTER:') + character_file.split('# SECONDARY CHARACTER:')
+character_blocks = parsed_result.split('---CHARACTER---')
+for block in character_blocks[1:]:  # Skip first empty section
+    lines = block.split('---END CHARACTER---')[0].strip().split('\n')
 
-# Alternative: Use regex to split on either marker
-import re
-sections = re.split(r'# (?:MAIN|SECONDARY) CHARACTER:', character_file)
+    name = None
+    char_type = None
+    concept_lines = []
+    in_concept = False
 
-for section in sections[1:]:  # Skip first empty section
-    lines = section.strip().split('\n')
-    name = lines[0].strip()  # First line is the name
-    concept = '\n'.join(lines[1:]).split('---')[0].strip()  # Content until ---
+    for line in lines:
+        if line.startswith('NAME:'):
+            name = line.replace('NAME:', '').strip()
+        elif line.startswith('TYPE:'):
+            char_type = line.replace('TYPE:', '').strip()
+        elif line.startswith('CONCEPT:'):
+            in_concept = True
+        elif in_concept:
+            concept_lines.append(line)
 
-    # Determine character type from original marker (for filename purposes)
-    # But the subagent will auto-detect from the concept content
-    characters.append({'name': name, 'concept': section.strip()})
+    if name and char_type:
+        characters.append({
+            'name': name,
+            'type': char_type,  # MAIN or SECONDARY
+            'concept': '\n'.join(concept_lines).strip()
+        })
 ```
 
-Example result:
+**Alternative: Direct Parsing (if file format is predictable)**
+
+If you can reliably detect character boundaries (e.g., consistent use of `---` separators or `###` headers), you can parse directly:
+
+```python
+# Read the file
+character_file = read('input/characters-concept.md')
+
+# Try to detect format and parse accordingly
+characters = []
+
+# Look for common patterns
+if '# MAIN CHARACTER:' in character_file or '# SECONDARY CHARACTER:' in character_file:
+    # Pattern 1: Explicit markers
+    sections = re.split(r'# (MAIN|SECONDARY) CHARACTER:', character_file)
+    # Parse sections...
+elif '## Main Characters' in character_file or '## Supporting' in character_file:
+    # Pattern 2: Section headers
+    # Parse by sections...
+else:
+    # Fallback: Use Explore agent (shown above)
+    pass
+```
+
+**Recommendation:** For maximum flexibility and reliability, **always use the Explore agent** to parse characters. This handles:
+- Any file format variation
+- Inconsistent formatting
+- Edge cases (characters without clear markers)
+- Intelligent inference of character type from context
+
+Example result after parsing:
 ```python
 [
-  {'name': 'Sarah Chen', 'concept': 'Sarah Chen\n[Role:]...[detailed concept]'},
-  {'name': 'Marcus Reed', 'concept': 'Marcus Reed\n[Role:]...[detailed concept]'},
-  {'name': 'Dr. Elena Vasquez', 'concept': 'Dr. Elena Vasquez\n[Role:]...[lighter concept]'}
+  {'name': 'Sarah Chen', 'type': 'MAIN', 'concept': 'Sarah is a...[detailed concept]'},
+  {'name': 'Marcus Reed', 'type': 'MAIN', 'concept': 'Marcus is a...[detailed concept]'},
+  {'name': 'Dr. Elena Vasquez', 'type': 'SECONDARY', 'concept': 'Dr. Elena is a...[lighter concept]'}
 ]
 ```
 
-**Note:** The orchestrator doesn't need to determine character type - just extract each character's full concept block. The subagent prompt includes both templates and will select the appropriate one based on the `# MAIN CHARACTER:` or `# SECONDARY CHARACTER:` marker in the concept.
+**Note:** The character type (MAIN vs SECONDARY) helps the orchestrator understand the character's importance, but the subagent will ultimately read both templates and select the appropriate one based on the character concept details.
 
 #### 2. Verify Shared Inputs Exist
 
