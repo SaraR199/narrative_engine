@@ -1,8 +1,8 @@
 {
   "workflow_version": "1.0.0",
   "project_name": "urban-fantasy-romance-v3",
-  "current_step": "7",
-  "last_updated": "2025-11-23T07:30:00Z",
+  "current_step": "8",
+  "last_updated": "2025-11-23T08:30:00Z",
   "steps": {
     "1": {
       "name": "NPE Extraction",
@@ -64,7 +64,15 @@
     },
     "7": {
       "name": "Relationship Architecture",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2025-11-23T08:00:00Z",
+      "completed_at": "2025-11-23T08:30:00Z",
+      "outputs_generated": [
+        "outputs/relationship_Mara_Chen_Kieran_Thorn.md",
+        "outputs/relationship_Mara_Chen_Riley_Park.md",
+        "outputs/relationship_Kieran_Thorn_Lena_Corvus.md",
+        "outputs/relationship_Mara_Chen_Tobias_Flint.md"
+      ]
     },
     "8": {
       "name": "Premise Refinement",
