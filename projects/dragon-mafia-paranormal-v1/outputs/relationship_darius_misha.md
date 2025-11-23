@@ -4,15 +4,15 @@
 
 **What binds them together:**
 
-Decades of chosen brotherhood forged when Darius held his fractured clan together. Misha abandoned Rothko clan to serve Darius—proving loyalty transcends blood. He remembers "Darius before the armor" and treats him as fallible man, not unstoppable force. Their Fire/Earth opposition provides physical balance: Misha's presence cools Darius's overheating. Misha has earned exclusive brutal candor rights—the only voice challenging him with blunt truth. This is Darius's sole genuine connection.
+Decades of chosen brotherhood forged when Darius held his fractured clan together. Misha abandoned Rothko clan to serve Darius—loyalty transcending blood. He remembers "Darius before the armor" and treats him as fallible man, not unstoppable force. Their Fire/Earth opposition provides physical balance: Misha's presence cools Darius's overheating. Misha has earned exclusive brutal candor rights. This is Darius's sole genuine connection.
 
 **What pushes them apart:**
 
-Misha's protection means eliminating threats; Darius's evolution toward Sera requires calculated risk. Misha sees Sera as compromised infiltrator. Each trusting step feels like betrayal of Misha's sacrifice. Misha fears Darius's hope will destroy him.
+Misha's protection means eliminating threats; Darius's evolution toward Sera requires calculated risk. Misha sees Sera as compromised infiltrator. Each trusting step feels like betrayal of Misha's sacrifice.
 
 **Unresolved emotional truth:**
 
-Misha's choice to leave Rothko defined his life—Earth dragon in Fire territory, insider through loyalty. He fears replacement by someone who didn't pay that price, fears his decades matter less than Sera's three years. Darius needs belief in his capacity for genuine partnership. Neither articulates that Misha's role is expanding from exclusive to shared. Admitting need for connection beyond one person feels fatal.
+Misha's choice to leave Rothko defined his life—Earth dragon in Fire territory, insider through loyalty. He fears replacement by someone who didn't pay that price. Neither articulates that Misha's role is expanding from exclusive to shared.
 
 ---
 
@@ -22,18 +22,18 @@ Misha's choice to leave Rothko defined his life—Earth dragon in Fire territory
 
 **Misha's position:** Hyper-vigilant suspicion born from making the choice Sera now faces. His vibration-sensing catalogs her every stress response as threat evidence.
 
-**Darius's position:** Cautiously opening to Sera's transformation. Recognizes Misha's suspicion creates self-fulfilling prophecy. Needs Misha to trust his judgment.
+**Darius's position:** Cautiously opening to Sera's transformation. Recognizes Misha's suspicion creates self-fulfilling prophecy.
 
-**Scene manifestation:** Misha appears in doorways during private moments—silent presence mixing protection with surveillance. Delivers warnings as tactical facts. Darius defends Sera's choices, creating privacy boundaries. Temperature spikes requiring Foundation Stance cooling.
+**Scene manifestation:** Misha appears in doorways during private moments—silent presence mixing protection with surveillance. Darius defends Sera's choices, creating privacy boundaries. Temperature spikes requiring Foundation Stance cooling.
 
 **Arc progression:**
 - **Act I:** Misha at maximum suspicion; Darius defending.
-- **Act II:** Escalation as Darius's trust grows. Midpoint (Volkov ruins: Sera protecting Darius despite kill opportunity) forces Misha to reassess.
-- **Act III:** Misha defers to Sera's investigation. Shifts to protective observation.
+- **Act II:** Escalation as Darius's trust grows. Midpoint (Volkov ruins: Sera protects Darius despite kill opportunity) forces Misha to reassess.
+- **Act III:** Misha defers to Sera's investigation.
 
 ### Protection Philosophy: Threat Elimination ↔ Calculated Risk
 
-**Misha's position:** Protection means eliminating threats before they strike. Sera is a walking weakness—only elimination or exile is safe.
+**Misha's position:** Protection means eliminating threats before they strike. Sera is a walking weakness.
 
 **Darius's position:** Some risks are worth taking for transformation. Eliminating Sera removes both threat and possibility.
 
@@ -42,7 +42,7 @@ Misha's choice to leave Rothko defined his life—Earth dragon in Fire territory
 **Arc progression:**
 - **Act I:** Misha's elimination philosophy unchallenged.
 - **Act II:** Darius experiments with calculated risk, frustrating Misha.
-- **Act III:** Conspiracy reveals elimination was exploited. Darius's investigation identifies the real traitor, vindicating new philosophy.
+- **Act III:** Conspiracy reveals elimination was exploited. Investigation identifies the real traitor, vindicating new philosophy.
 
 ---
 
@@ -50,29 +50,29 @@ Misha's choice to leave Rothko defined his life—Earth dragon in Fire territory
 
 ### Pattern 1: The Candor Clash
 
-Misha witnesses emotionally compromised decisions and deploys brutal honesty: "She's got Volkov blood and three years of proximity to your throat. You're letting her in because she makes your fire burn hotter."
+Misha deploys brutal honesty: "She's got Volkov blood and three years of proximity to your throat. You're letting her in because she makes your fire burn hotter."
 
-Darius's temperature spikes. He responds with caustic retaliation: "You left Rothko because they couldn't see past your birth clan. Don't become what you escaped."
+Darius's temperature spikes. Caustic retaliation: "You left Rothko because they couldn't see past your birth clan. Don't become what you escaped."
 
-Usually ends in stalemate or Darius leaving. Neither apologizes. Sometimes Darius acknowledges validity while maintaining choice: "You're right about the risk. I'm taking it anyway." When wrong, Misha adjusts through action, not words.
+Ends in stalemate or Darius leaving. Neither apologizes. Sometimes Darius acknowledges validity while maintaining choice. When wrong, Misha adjusts through action, not words.
 
 ### Pattern 2: The Foundation Stance
 
-Triggered when Darius loses thermal control. Misha moves into position, close enough for Earth dragon grounding. Doesn't speak or challenge—simply becomes immovable foundation. His elemental steadiness creates temperature regulation through Fire/Earth opposition. Signals: "Alpha is contained—don't push further."
+Triggered when Darius loses thermal control. Misha moves into position for Earth dragon grounding. Doesn't speak—becomes immovable foundation. Elemental steadiness creates temperature regulation through Fire/Earth opposition. Signals: "Alpha is contained—don't push further."
 
-Once stabilized, Misha steps back. Public: Darius reasserts authority. Private: minimal acknowledgment—"I was about to burn the room down." "I know." Most intimate non-verbal communication until Sera.
+Once stabilized, Misha steps back. Public: Darius reasserts authority. Private: minimal acknowledgment—"I was about to burn the room down." "I know."
 
 ### Pattern 3: Surveillance and Reporting
 
-Triggered when Sera displays anomalous behavior. Misha appears without knocking, monitors via vibration-sensing, reports tactically: "She met with Shen contact yesterday. Seventeen minutes. Heart rate elevated. Didn't tell you."
+Misha appears without knocking, monitors via vibration-sensing, reports tactically: "She met with Shen contact yesterday. Seventeen minutes. Heart rate elevated. Didn't tell you."
 
-Sera resents it preventing connection. Darius caught between valuing intelligence and recognizing surveillance prevents trust.
+Darius caught between valuing intelligence and recognizing surveillance prevents trust.
 
 **Arc evolution:**
 - **Early:** Darius uses surveillance as control.
 - **Mid:** Darius creates privacy boundaries.
 - **Late:** Darius tells Misha to give Sera space.
-- **Final:** Misha stops routine reporting. Shifts to protective observation.
+- **Final:** Misha stops routine reporting.
 
 ---
 
@@ -80,31 +80,25 @@ Sera resents it preventing connection. Darius caught between valuing intelligenc
 
 ### Pattern 1: The Candor Door
 
-Late night, closed office. Misha sits without invitation, deploys blunt assessment: "That was fucking stupid. You nearly started war with Shen over your ego."
+Late night, closed office. Misha deploys blunt assessment: "That was fucking stupid. You nearly started war with Shen over your ego."
 
 Darius needs this—Misha is the only person seeing him as fallible. Responds with dark humor: "My ego didn't nearly start war. My fire control did. Be specific."
 
-Behind the Candor Door, Darius admits exhaustion, doubt, fear. "I don't know if I can actually unite them." Misha: "Probably can't. But you'll die trying, so I'll make sure you don't die stupid."
-
-Vulnerability is mutual. Misha reveals fears about replacement, about Darius changing. Neither offers reassurance; both offer presence.
+Behind the Candor Door, Darius admits exhaustion, doubt, fear. Misha reveals fears about replacement, about Darius changing. Neither offers reassurance; both offer presence.
 
 ### Pattern 2: Shared Understanding of Burden
 
-Comfortable silence after difficult decisions—sitting for hours without speaking. Two people carrying terrible knowledge understand each other's burden without articulation.
+Comfortable silence after difficult decisions. Shorthand communication: "How many this time?" "Three. Deserved it." "Did they?" "Does it matter?"
 
-When speaking, it's shorthand: "How many this time?" "Three. Deserved it." "Did they?" "Does it matter?"
-
-They've seen each other at lowest points—grief, rage, despair. This creates intimacy and cage: they can never pretend otherwise.
+They've seen each other at lowest points—grief, rage, despair. This creates intimacy and cage.
 
 Darius fears: if he transforms too much, will Misha recognize him? Misha fears: if Darius connects with Sera, will he still need Misha?
 
-### Pattern 3: Competence Recognition and Trust in Crisis
+### Pattern 3: Competence Recognition
 
-Perfect tactical synchronization from decades of partnership. Darius issues minimal commands; Misha executes flawlessly. All friction vanishes in crisis.
+Perfect tactical synchronization from decades of partnership. Minimal commands; flawless execution. All friction vanishes in crisis.
 
-This proves they're bonded beyond articulation. Makes Misha's Sera suspicion painful: Darius attempts building similar trust in compressed timeframe, looking like replacing proven partnership.
-
-But demonstrates to Sera: this level of trust is possible. Misha's reliability sets the standard.
+Makes Misha's Sera suspicion painful: Darius attempts building similar trust in compressed timeframe. But demonstrates to Sera: this level of trust is possible.
 
 ---
 
@@ -114,11 +108,9 @@ But demonstrates to Sera: this level of trust is possible. Misha's reliability s
 
 Decades-long brotherhood built on absolute loyalty and tactical synchronization. Misha is the only person seeing Darius as man, not monster.
 
-Sera enters as immediate threat. Misha knows she infiltrated to kill Darius. Maximum surveillance and warnings follow.
+Sera enters as immediate threat. Maximum surveillance and warnings follow.
 
 **Misalignment:** Both assess threat identically but diverge on response. Misha wants elimination; Darius wants conversion.
-
-**What prevents deeper connection:** Misha's protection has become controlling. Darius needs space to evolve.
 
 **Unspoken wants:**
 - **Darius:** Trust his judgment. Assurance their bond survives his change.
@@ -126,19 +118,17 @@ Sera enters as immediate threat. Misha knows she infiltrated to kill Darius. Max
 
 ### Midpoint: Shift
 
-**Catalyst:** Volkov ruins. Sera has perfect kill opportunity but protects Darius instead, absorbing electrical shock.
+**Catalyst:** Volkov ruins. Sera has perfect kill opportunity but protects Darius instead.
 
-Misha witnesses this. His vibration-sensing reads her terror, pain, determination. Forces reassessment from "waiting for betrayal" to "assessing capacity."
+Misha witnesses this. Vibration-sensing reads her terror, pain, determination. Forces reassessment from "waiting for betrayal" to "assessing capacity."
 
-New conflict: Misha fears his suspicion could drive her away and break Darius.
-
-Darius becomes assertive: "I need you to trust my judgment." Excludes Misha from certain conversations, creating privacy.
+Darius becomes assertive: "I need you to trust my judgment." Excludes Misha from certain conversations.
 
 **Tension axis shifts:**
-- **Trust/Caution:** Misha moves to assessment mode. Darius to confident assertion.
-- **Protection Philosophy:** Conspiracy reveals elimination was exploited. Darius experiments with calculated risk.
+- **Trust/Caution:** Misha moves to assessment mode.
+- **Protection Philosophy:** Darius experiments with calculated risk.
 
-**Now impossible:** Returning to Act I. Pretending Darius isn't changing.
+**Now impossible:** Returning to Act I.
 
 ### Act III: Convergence
 
@@ -146,17 +136,17 @@ Misha accepts Sera as genuine partner. Darius maintains Misha connection while b
 
 **Defining moment:** Conspiracy exposes traitor. Darius chooses between Misha's ruthless purge and Sera's investigation.
 
-Misha defers to Sera's approach—not from trust in her, but recognition that Darius needs her to be genuine. "I still don't trust her completely. Probably never will. But you do, and I trust you. We do it her way."
+Misha defers to Sera's approach—not from trust in her, but recognition that Darius needs her to be genuine. "I still don't trust her completely. Probably never will. But you do, and I trust you."
 
-Sera's investigation identifies the real traitor (someone Misha trusted), vindicating Darius's calculated risk. Paranoia wasn't baseless, but targeting was wrong.
+Sera's investigation identifies the real traitor (someone Misha trusted), vindicating Darius's calculated risk.
 
-**Thematic bridge:** Embodies "Can you escape what forged you?" Misha was forged into suspicious enforcer. Doesn't erase this nature but applies it differently—protective observation instead of elimination. Transformation means learning when to trust someone else's judgment.
+**Thematic bridge:** Misha was forged into suspicious enforcer. Doesn't erase this nature but applies it differently—protective observation instead of elimination.
 
 **Gains and losses:**
 - **Darius gains:** Proof oldest friendship survives evolution.
 - **Darius loses:** Simplicity of one all-knowing person.
-- **Misha gains:** Escapes sole-confidant isolation. Proves loyalty isn't contingent on static Darius.
-- **Misha loses:** Exclusive access. Must accept he can't protect Darius from chosen threats.
+- **Misha gains:** Escapes sole-confidant isolation.
+- **Misha loses:** Exclusive access.
 
 ---
 
@@ -164,25 +154,21 @@ Sera's investigation identifies the real traitor (someone Misha trusted), vindic
 
 ### 1. Sera Protecting Darius in Life-Threatening Situation
 
-**Why it hits:** Challenges Misha's assumption she's waiting to kill. Triggers replacement fear—she's performing his function.
+**Why it hits:** Challenges Misha's assumption she's waiting to kill. Triggers replacement fear.
 
-**Reactions:** Misha doesn't immediately accept this as proof. Darius uses it as evidence for trusting her.
-
-**Risk:** Deepens Darius-Sera trust while fracturing Misha relationship. Could crack Misha's certainty.
+**Risk:** Deepens Darius-Sera trust while fracturing Misha relationship.
 
 ### 2. Darius Showing Vulnerability That Makes Him Coup-Vulnerable
 
 **Why it hits:** Public vulnerability creates coup openings. Misha must watch Darius choose behaviors making protection harder.
 
-**Reactions:** Misha escalates protection. Darius frustrated growth is treated as weakness.
-
 **Risk:** Misha takes unilateral action undermining Darius's authority.
 
 ### 3. Internal Betrayal Validating Misha's Paranoia
 
-**Why it hits:** Conspiracy reveals actual traitor, validating Misha's warnings. Makes suspicion look like wisdom.
+**Why it hits:** Conspiracy reveals actual traitor, validating Misha's warnings.
 
-**Reactions:** Misha pushes ruthless purge. Darius shaken but needs Sera's truth-seeking to identify actual traitor.
+**Reactions:** Misha pushes ruthless purge. Darius needs Sera's truth-seeking to identify actual traitor.
 
 **Risk:** Misha's strongest position. Could permanently wedge Darius and Sera. Or proves Sera's value.
 
@@ -190,15 +176,11 @@ Sera's investigation identifies the real traitor (someone Misha trusted), vindic
 
 **Why it hits:** Misha's value has been exclusive access. When Sera accesses emotional parts Misha can't, his position loses uniqueness.
 
-**Reactions:** Misha withdraws or intensifies attempts proving necessity. Darius initially doesn't realize connections are competitive.
-
 **Risk:** Could push Misha toward sabotaging Sera relationship.
 
 ### 5. Misha Must Choose Between Darius's Safety and Happiness
 
 **Why it hits:** Binary choice: eliminate Sera (keep Darius safe but emotionally destroyed) or trust her (risk life but preserve connection capacity).
-
-**Reactions:** Misha faces agonizing choice. Safety is measurable; happiness requires trusting Darius's judgment. Darius might not realize until afterward. When he learns Misha chose trust, it's profound gift.
 
 **Risk:** Make-or-break moment. If Misha chooses safety, destroys transformation. If happiness, relationship transforms to partnership between equals.
 
@@ -209,13 +191,13 @@ Sera's investigation identifies the real traitor (someone Misha trusted), vindic
 ### How They Speak to Each Other
 
 **Darius → Misha:**
-- **Public:** Formal commands. "Dragunov, handle this." Last name, crisp directives. Minimal words.
-- **Private:** Drops formality. "Misha" or "M." Dry humor: "You're telling me I nearly died because I was thinking with my cock? Specific criticism, please." Admits uncertainty: "I don't know if this will work."
-- **Difference:** Everyone else gets performance. Misha gets exhale. Only person he admits exhaustion/doubt to.
+- **Public:** Formal commands. "Dragunov, handle this." Last name, crisp directives.
+- **Private:** Drops formality. "Misha" or "M." Dry humor. Admits uncertainty.
+- **Difference:** Everyone else gets performance. Misha gets exhale.
 
 **Misha → Darius:**
-- **Public:** Perfect deference. "Alpha." "Sir." Economical: "Understood." Never contradicts.
-- **Private:** Blunt without softening. "That was fucking stupid." "You're compromised." Uses "Darius" or "D." Crude language deliberately deployed.
+- **Public:** Perfect deference. "Alpha." "Sir." Never contradicts.
+- **Private:** Blunt without softening. "That was fucking stupid." Uses "Darius" or "D."
 - **Difference:** Everyone else gets silent observer. Darius gets argumentative philosopher.
 
 ### Unspoken Wants
@@ -232,9 +214,9 @@ Sera's investigation identifies the real traitor (someone Misha trusted), vindic
 
 ### Consistent Misreadings
 
-**Darius misreads Misha:** Assumes suspicion is purely tactical. Doesn't recognize it stems from replacement fear. Treats escalating aggression as overprotectiveness, not desperation. Doesn't realize Misha needs explicit reassurance role is evolving, not ending.
+**Darius misreads Misha:** Assumes suspicion is purely tactical. Doesn't recognize it stems from replacement fear. Doesn't realize Misha needs explicit reassurance role is evolving, not ending.
 
-**Misha misreads Darius:** Assumes Sera trust is emotion overriding strategy. Sees weakness where Darius sees calculated transformation. Sees vulnerability as liability, not testing whether strength and vulnerability coexist. Believes bond requires isolated, ruthless Darius. Interprets boundary-setting as rejection.
+**Misha misreads Darius:** Assumes Sera trust is emotion overriding strategy. Sees weakness where Darius sees calculated transformation. Believes bond requires isolated, ruthless Darius.
 
 ---
 
@@ -242,11 +224,11 @@ Sera's investigation identifies the real traitor (someone Misha trusted), vindic
 
 Brotherhood-under-transformation relationship defined by absolute loyalty tested by replacement fear and protection philosophy divergence.
 
-**Act I scenes:** Show Foundation Stance, Candor Door, tactical synchronization. Establish deepest bond. Introduce Sera as threat—Misha's warnings, Darius's defensive justification.
+**Act I scenes:** Show Foundation Stance, Candor Door, tactical synchronization. Establish deepest bond. Introduce Sera as threat.
 
-**Act II scenes:** Escalate friction. Darius excludes Misha, creates boundaries. Show replacement fear. Midpoint: Misha witnesses Sera protecting Darius—forces reassessment.
+**Act II scenes:** Escalate friction. Darius excludes Misha, creates boundaries. Midpoint: Misha witnesses Sera protecting Darius—forces reassessment.
 
-**Act III scenes:** Show transformation. Misha chooses Darius's judgment over threat assessment. Includes Sera in discussions. Final scene: "Wrong about intent, right to be suspicious. You were right—risk worth it."
+**Act III scenes:** Show transformation. Misha chooses Darius's judgment over threat assessment.
 
 **Key patterns:**
 1. **Foundation Stance:** When Darius loses temperature control—elemental bond needing no words
