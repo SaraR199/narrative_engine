@@ -1,0 +1,19 @@
+{
+  "workflow_version": "1.0.0",
+  "project_name": "urban-fantasy-romance-v3",
+  "current_step": "1",
+  "last_updated": "2025-11-23T01:04:26Z",
+  "steps": {
+    "1": {"name": "NPE Extraction", "status": "pending"},
+    "2": {"name": "Dramatic Spine Extraction", "status": "pending"},
+    "3": {"name": "Theme Extraction", "status": "pending"},
+    "4": {"name": "Character Development", "status": "pending"},
+    "5": {"name": "World Constraints Extraction", "status": "pending"},
+    "6": {"name": "Relationship Mapping", "status": "pending"},
+    "7": {"name": "Relationship Architecture", "status": "pending"},
+    "8": {"name": "Premise Refinement", "status": "pending"},
+    "9": {"name": "Story Outline", "status": "pending"},
+    "10": {"name": "NPE Inspection", "status": "pending"},
+    "11": {"name": "Outline Rewrite", "status": "pending"}
+  }
+}
