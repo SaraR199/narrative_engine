@@ -1,8 +1,8 @@
 {
 	"workflow_version": "1.0.0",
 	"project_name": "urban-fantasy-romance-v2",
-	"current_step": "7",
-	"last_updated": "2025-11-23T04:40:00Z",
+	"current_step": "8",
+	"last_updated": "2025-11-23T05:00:00Z",
 	"steps": {
 		"1": {
 			"name": "NPE Extraction",
@@ -48,7 +48,10 @@
 		},
 		"7": {
 			"name": "Relationship Architecture",
-			"status": "pending"
+			"status": "completed",
+			"started_at": "2025-11-23T04:45:00Z",
+			"completed_at": "2025-11-23T05:00:00Z",
+			"outputs_generated": ["outputs/relationship_Ryn_Ashford_Ash_Nakamura.md"]
 		},
 		"8": {
 			"name": "Premise Refinement",
