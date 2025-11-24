@@ -1,8 +1,8 @@
 {
   "workflow_version": "1.0.0",
   "project_name": "dragon-mafia-paranormal-v2",
-  "current_step": null,
-  "last_updated": "2025-11-23T02:50:00Z",
+  "current_step": "9",
+  "last_updated": "2025-11-24T00:00:00Z",
   "steps": {
     "1": {
       "name": "NPE Extraction",
@@ -77,10 +77,9 @@
     },
     "9": {
       "name": "Story Outline",
-      "status": "completed",
-      "started_at": "2025-11-22T22:30:00Z",
-      "completed_at": "2025-11-22T23:30:00Z",
-      "outputs_generated": ["outputs/story_outline.md"]
+      "status": "in_progress",
+      "started_at": "2025-11-24T00:00:00Z",
+      "outputs_generated": []
     },
     "10": {
       "name": "NPE Inspection",

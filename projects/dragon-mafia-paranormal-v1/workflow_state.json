@@ -1,8 +1,8 @@
 {
   "workflow_version": "1.0.0",
   "project_name": "dragon-mafia-paranormal-v1",
-  "current_step": null,
-  "last_updated": "2025-11-23T02:42:49.035670Z",
+  "current_step": "9",
+  "last_updated": "2025-11-24T00:00:00Z",
   "steps": {
     "1": {
       "name": "NPE Extraction",
@@ -87,30 +87,16 @@
     },
     "9": {
       "name": "Story Outline",
-      "status": "completed",
-      "started_at": "2025-11-23T01:58:44Z",
-      "completed_at": "2025-11-23T02:17:05Z",
-      "outputs_generated": [
-        "outputs/story_outline.md"
-      ]
+      "status": "in_progress",
+      "started_at": "2025-11-24T00:00:00Z"
     },
     "10": {
       "name": "NPE Inspection",
-      "status": "completed",
-      "started_at": "2025-11-23T02:24:22.691710Z",
-      "completed_at": "2025-11-23T02:29:38.797789Z",
-      "outputs_generated": [
-        "outputs/npe_inspection_report.md"
-      ]
+      "status": "pending"
     },
     "11": {
       "name": "Outline Rewrite",
-      "status": "completed",
-      "started_at": "2025-11-23T02:33:42.289227Z",
-      "completed_at": "2025-11-23T02:42:49.035631Z",
-      "outputs_generated": [
-        "outputs/outline_revised.md"
-      ]
+      "status": "pending"
     }
   }
 }
